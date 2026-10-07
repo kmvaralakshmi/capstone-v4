@@ -1,0 +1,1713 @@
+{
+  "project": "Multi-Agent ESG Risk Analysis System",
+  "description": "Run lineage metadata for reproducibility and audit",
+  "latest_run": {
+    "run_id": "run-20261004-165746",
+    "run_timestamp_utc": "2026-10-04T16:57:46.955294Z",
+    "python_version": "3.13.15 (tags/v3.13.15:4061bc4, Aug  5 2026, 13:05:39) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "git_commit": "23d9bc436aea18d6ecc5c800b3614676fc7752cb",
+    "inputs": {
+      "raw_air_quality_city_day": {
+        "path": "D:\\capstone-v4\\raw-datasets\\Air Quality Data in India (2015 - 2024)\\city_day.csv",
+        "exists": true,
+        "size_bytes": 1763937,
+        "modified_utc": "2026-09-23T18:31:56.505192Z",
+        "sha256": "986e944aab4920b01263c5feaaf514088ff2bce2b3c6f6be573c5a03854f12ff",
+        "row_count": 18265,
+        "column_count": 16,
+        "columns": [
+          "City",
+          "Datetime",
+          "PM2.5",
+          "PM10",
+          "NO",
+          "NO2",
+          "NOx",
+          "NH3",
+          "CO",
+          "SO2",
+          "O3",
+          "Benzene",
+          "Toluene",
+          "Xylene",
+          "AQI",
+          "AQI_Bucket"
+        ]
+      },
+      "raw_air_quality_realtime": {
+        "path": "D:\\capstone-v4\\raw-datasets\\Real-Time Air Quality Index (AQI) India 2023\u20132025\\AQI.csv",
+        "exists": false
+      },
+      "raw_stock_companies": {
+        "path": "D:\\capstone-v4\\raw-datasets\\Stock Market Sensex & Nifty All-time Dataset\\NIFTY_50_COMPANIES.csv",
+        "exists": true,
+        "size_bytes": 94989759,
+        "modified_utc": "2026-09-23T18:31:58.044836Z",
+        "sha256": "6a8e2b6c40522876b524d57bd69a5fa6bb22c580b63d7d7ece82e6af267cf5ae",
+        "row_count": 304543,
+        "column_count": 19,
+        "columns": [
+          "Date",
+          "Adj Close",
+          "Close",
+          "High",
+          "Low",
+          "Open",
+          "Volume",
+          "Ticker",
+          "SMA_20",
+          "SMA_50",
+          "EMA_12",
+          "EMA_26",
+          "MACD",
+          "Signal_Line",
+          "RSI_14",
+          "BB_Mid",
+          "BB_Upper",
+          "BB_Lower",
+          "Daily_Return_%"
+        ]
+      },
+      "raw_esg_news": {
+        "path": "D:\\capstone-v4\\raw-datasets\\Zenodo ESG News Dataset_Indian Stock Market News Dataset.csv",
+        "exists": true,
+        "size_bytes": 13067994,
+        "modified_utc": "2026-09-23T18:31:55.545798Z",
+        "sha256": "fa38c44557e7e7964ffc0c724dc5e2447c5f6ecca9ae2a23426f280da5e30535",
+        "row_count": 3348,
+        "column_count": 7,
+        "columns": [
+          "Title",
+          "Date",
+          "Description",
+          "Author",
+          "Content",
+          "Keywords",
+          "URL"
+        ]
+      },
+      "processed_brsr_metrics": {
+        "path": "D:\\capstone-v4\\processed-data\\brsr_extracted_metrics.csv",
+        "exists": true,
+        "size_bytes": 163472,
+        "modified_utc": "2026-10-04T16:56:43.854034Z",
+        "sha256": "ba11ada5c2dee54ec5648fd9c0aa5a79ebdaaa33b7468532ffb6966c8a48fd34",
+        "row_count": 900,
+        "column_count": 14,
+        "columns": [
+          "Company_Code",
+          "Company_Name",
+          "Metric_Category",
+          "Metric_Name",
+          "Metric_Value",
+          "Unit",
+          "Page_Number",
+          "Verified",
+          "Extraction_Method",
+          "Confidence_Score",
+          "Validation_Status",
+          "Needs_Manual_Review",
+          "Extraction_Date",
+          "Notes"
+        ]
+      },
+      "processed_environmental_risk": {
+        "path": "D:\\capstone-v4\\processed-data\\company_location_environmental_risk.csv",
+        "exists": true,
+        "size_bytes": 7575,
+        "modified_utc": "2026-10-04T16:56:46.220987Z",
+        "sha256": "51d8600dd0d5939c2c07c59e7945503547817af1785573e2836f646f86e38835",
+        "row_count": 83,
+        "column_count": 12,
+        "columns": [
+          "Company_Code",
+          "Company_Name",
+          "Location_Type",
+          "City",
+          "Area",
+          "Avg_AQI",
+          "Max_AQI",
+          "Min_AQI",
+          "Environmental_Risk_Score",
+          "Risk_Level",
+          "Data_Records",
+          "Analysis_Date"
+        ]
+      },
+      "processed_news_sentiment": {
+        "path": "D:\\capstone-v4\\processed-data\\esg_news_sentiment.csv",
+        "exists": true,
+        "size_bytes": 214550,
+        "modified_utc": "2026-10-04T16:57:38.039068Z",
+        "sha256": "dff73c0813fc4c943290f8ca0b46e3406c3974d84da787ab26655f0d9848215e",
+        "row_count": 677,
+        "column_count": 14,
+        "columns": [
+          "Company_Code",
+          "Company_Name",
+          "Article_Title",
+          "Article_Date",
+          "Sentiment_Score",
+          "Sentiment_Class",
+          "Positive_Score",
+          "Negative_Score",
+          "Neutral_Score",
+          "ESG_Relevance_Score",
+          "Is_ESG_Relevant",
+          "Matched_ESG_Keywords",
+          "Matched_Non_ESG_Keywords",
+          "Analysis_Date"
+        ]
+      },
+      "processed_stock_correlation": {
+        "path": "D:\\capstone-v4\\processed-data\\stock_esg_correlation.csv",
+        "exists": true,
+        "size_bytes": 13922,
+        "modified_utc": "2026-10-04T16:57:42.765425Z",
+        "sha256": "307411ee5b3d1d792d5dcccadffce2f2209c3a82e5df17d3c99b78715f1ed0f2",
+        "row_count": 91,
+        "column_count": 12,
+        "columns": [
+          "Company_Code",
+          "Company_Name",
+          "Stock_Ticker",
+          "Month",
+          "Current_Price",
+          "Month_High",
+          "Month_Low",
+          "Monthly_Return_Pct",
+          "Volatility_Pct",
+          "Stock_Performance_Score",
+          "ESG_Stock_Correlation",
+          "ESG_Influence_Score"
+        ]
+      },
+      "processed_greenwashing": {
+        "path": "D:\\capstone-v4\\processed-data\\greenwashing_detection.csv",
+        "exists": true,
+        "size_bytes": 131892,
+        "modified_utc": "2026-10-04T16:57:43.810456Z",
+        "sha256": "2fc4a3a57668eb10e22b954402baccf20899d6b3fa43d59c3992da47057df760",
+        "row_count": 900,
+        "column_count": 14,
+        "columns": [
+          "Company_Code",
+          "Company_Name",
+          "Metric_Category",
+          "Metric_Name",
+          "Claimed_Value",
+          "Metric_Unit",
+          "Claim_Verified",
+          "Verification_Details",
+          "Discrepancy_Detected",
+          "Discrepancy_Level",
+          "Trust_Score",
+          "Risk_Score",
+          "Actual_Environmental_Score",
+          "Analysis_Date"
+        ]
+      }
+    },
+    "input_directories": {
+      "brsr_pdfs": {
+        "path": "D:\\capstone-v4\\brsr-pdfs",
+        "exists": true,
+        "pattern": "*.pdf",
+        "file_count": 36,
+        "files": [
+          {
+            "path": "D:\\capstone-v4\\brsr-pdfs\\AFFLE_BR_24-25.pdf",
+            "exists": true,
+            "size_bytes": 589429,
+            "modified_utc": "2026-10-04T08:06:13.584586Z",
+            "sha256": "e16b460f4269c67ee5e23188e744824ac9e8de2a36dd7d8c5f5d15b664829520"
+          },
+          {
+            "path": "D:\\capstone-v4\\brsr-pdfs\\BHARTIARTL_BR_24-25.pdf",
+            "exists": true,
+            "size_bytes": 511800,
+            "modified_utc": "2026-10-04T08:07:05.461381Z",
+            "sha256": "3b57c244d1a17ef7ef02ca2c3dd45f877a0efee82c0fd29d2e3cd5895367475b"
+          },
+          {
+            "path": "D:\\capstone-v4\\brsr-pdfs\\BSOFT_BR_24-25.pdf",
+            "exists": true,
+            "size_bytes": 504006,
+            "modified_utc": "2026-09-23T18:31:54.341848Z",
+            "sha256": "adbb666c1c57530f6d1bed3f1bdccf60bbf1137e71c9ee1abc3ebe73bd2eba9a"
+          },
+          {
+            "path": "D:\\capstone-v4\\brsr-pdfs\\COFORGE_BR_24-25.pdf",
+            "exists": true,
+            "size_bytes": 881252,
+            "modified_utc": "2026-09-23T18:31:53.772172Z",
+            "sha256": "f81a765bb8a1682417a1eebe1dccacfb43b0a7ff41fd16e43114f68d3bd40a46"
+          },
+          {
+            "path": "D:\\capstone-v4\\brsr-pdfs\\CYIENT_BR_24-25.pdf",
+            "exists": true,
+            "size_bytes": 16426663,
+            "modified_utc": "2026-09-23T18:31:53.462837Z",
+            "sha256": "8bfb4ec2b5a88207e79f679d50d50514720d4c1189505bf81fccc0a982c2c2ff"
+          },
+          {
+            "path": "D:\\capstone-v4\\brsr-pdfs\\ECLERX_BR_24-25.pdf",
+            "exists": true,
+            "size_bytes": 677873,
+            "modified_utc": "2026-10-04T08:05:53.751432Z",
+            "sha256": "11f525f456338aaac9737ce3610b189034300405a805e113fd85a3a816d715be"
+          },
+          {
+            "path": "D:\\capstone-v4\\brsr-pdfs\\HAPPSTMNDS_BR_24-25.pdf",
+            "exists": true,
+            "size_bytes": 1721729,
+            "modified_utc": "2026-09-23T18:31:54.086195Z",
+            "sha256": "202270b86eabbb909bbaa401b71bbe30fea31441fc550e478b7681bea5612312"
+          },
+          {
+            "path": "D:\\capstone-v4\\brsr-pdfs\\HCLTECH_BR_24-25.pdf",
+            "exists": true,
+            "size_bytes": 5002632,
+            "modified_utc": "2026-09-23T18:31:52.292842Z",
+            "sha256": "f640844c703e63106e97d092ae4db4c49f4b1ebec6f2800cb4f2949c9a9339e9"
+          },
+          {
+            "path": "D:\\capstone-v4\\brsr-pdfs\\HEXAWARE_BR_24-25.pdf",
+            "exists": true,
+            "size_bytes": 9481938,
+            "modified_utc": "2026-09-23T18:31:52.750489Z",
+            "sha256": "ee29b57d4fcb150f7a0b7f55e13cd46c720c591370693315d13416664b946684"
+          },
+          {
+            "path": "D:\\capstone-v4\\brsr-pdfs\\INDUSTOWER_BR_24-25.pdf",
+            "exists": true,
+            "size_bytes": 19359033,
+            "modified_utc": "2026-10-04T08:06:58.371569Z",
+            "sha256": "24309cfef0efd18d452d4c67a74f7ca0f9277bbb4dfda9587477a7862fc2dfa2"
+          },
+          {
+            "path": "D:\\capstone-v4\\brsr-pdfs\\INFY_BR_24-25.pdf",
+            "exists": true,
+            "size_bytes": 7563360,
+            "modified_utc": "2026-09-23T18:31:52.593894Z",
+            "sha256": "236c06edb758b61b5379319d09ca3a1141cf495cb99fa0564372bdefd21caf41"
+          },
+          {
+            "path": "D:\\capstone-v4\\brsr-pdfs\\INTELLECT_BR_24-25.pdf",
+            "exists": true,
+            "size_bytes": 4316748,
+            "modified_utc": "2026-10-04T08:05:09.066709Z",
+            "sha256": "2c24323911783ee656d09d2c51b65d34a2e3e74fde5256660fb7481ec98a5206"
+          },
+          {
+            "path": "D:\\capstone-v4\\brsr-pdfs\\KPITTECH_BR_24-25.pdf",
+            "exists": true,
+            "size_bytes": 5444917,
+            "modified_utc": "2026-09-23T18:31:53.194309Z",
+            "sha256": "4684905154541fdd8a5ae17d5fcbeb0193ac0e8cd210cddcd172d14d9a316668"
+          },
+          {
+            "path": "D:\\capstone-v4\\brsr-pdfs\\LTIM_BR_24-25.pdf",
+            "exists": true,
+            "size_bytes": 16982179,
+            "modified_utc": "2026-09-23T18:31:53.079669Z",
+            "sha256": "3ee9cbeea005d86c0f92a7d4b1a160d6d8006d1ff21ca018d5304bb5b172bb3f"
+          },
+          {
+            "path": "D:\\capstone-v4\\brsr-pdfs\\LTTS_BR_24-25.pdf",
+            "exists": true,
+            "size_bytes": 20972462,
+            "modified_utc": "2026-09-23T18:31:54.047463Z",
+            "sha256": "357963470db86aff8c6744f61077129849c78533bc434baac2433b78b83eb562"
+          },
+          {
+            "path": "D:\\capstone-v4\\brsr-pdfs\\MPHASIS_BR_24-25.invalid.pdf",
+            "exists": true,
+            "size_bytes": 15113081,
+            "modified_utc": "2026-09-23T18:31:54.322532Z",
+            "sha256": "fd561603126e6f203e3e4f729217248a5550a071f9d09fbfabed3cbeb6554de2"
+          },
+          {
+            "path": "D:\\capstone-v4\\brsr-pdfs\\MPHASIS_BR_24-25.pdf",
+            "exists": true,
+            "size_bytes": 15113081,
+            "modified_utc": "2026-09-23T18:31:53.715737Z",
+            "sha256": "fd561603126e6f203e3e4f729217248a5550a071f9d09fbfabed3cbeb6554de2"
+          },
+          {
+            "path": "D:\\capstone-v4\\brsr-pdfs\\NEWGEN_BR_24-25.pdf",
+            "exists": true,
+            "size_bytes": 493898,
+            "modified_utc": "2026-10-04T08:04:56.290941Z",
+            "sha256": "4d7e90be0530d2c104069b342f6dfd0aa114d74a9f586dad28db287f4033425d"
+          },
+          {
+            "path": "D:\\capstone-v4\\brsr-pdfs\\OFSS_BR_24-25.pdf",
+            "exists": true,
+            "size_bytes": 410465,
+            "modified_utc": "2026-09-23T18:31:52.426435Z",
+            "sha256": "15c3b0074ed5ef5ee9d0987ecd6c526802a142993a7250cb64e156e718b78f48"
+          },
+          {
+            "path": "D:\\capstone-v4\\brsr-pdfs\\PAYTM_BR_24-25.pdf",
+            "exists": true,
+            "size_bytes": 776092,
+            "modified_utc": "2026-10-04T08:06:35.393485Z",
+            "sha256": "044e95887e00232d5cd34526bc74b0c50d134844f4e0a88f25c954cb30ce3cd8"
+          },
+          {
+            "path": "D:\\capstone-v4\\brsr-pdfs\\PERSISTENT_BR_24-25.pdf",
+            "exists": true,
+            "size_bytes": 3274778,
+            "modified_utc": "2026-09-23T18:31:52.797971Z",
+            "sha256": "d27c24daf9e35d8d6aaf5814ab7b9c596105626c2b588466bb9a7f8de5e34086"
+          },
+          {
+            "path": "D:\\capstone-v4\\brsr-pdfs\\RATEGAIN_BR_24-25.pdf",
+            "exists": true,
+            "size_bytes": 12136348,
+            "modified_utc": "2026-10-04T08:05:20.496310Z",
+            "sha256": "4e9ee27d6bd1486992314f33921479168a0b971695440d33a45449543275f5a5"
+          },
+          {
+            "path": "D:\\capstone-v4\\brsr-pdfs\\REDINGTON_BR_24-25.pdf",
+            "exists": true,
+            "size_bytes": 595288,
+            "modified_utc": "2026-10-04T08:07:20.469998Z",
+            "sha256": "ec13abaf52f3e3c6fa3d68e272a715b115eb3bf5293b29a3fe471ba33d1e0659"
+          },
+          {
+            "path": "D:\\capstone-v4\\brsr-pdfs\\ROUTE_BR_24-25.pdf",
+            "exists": true,
+            "size_bytes": 839898,
+            "modified_utc": "2026-10-04T08:19:18.721303Z",
+            "sha256": "5eb44f06bcc576af54ee39b56410c72462e4ec5c7d394e7280f5097c2b3a4612"
+          },
+          {
+            "path": "D:\\capstone-v4\\brsr-pdfs\\SIS_BR_24-25.pdf",
+            "exists": true,
+            "size_bytes": 734025,
+            "modified_utc": "2026-10-04T08:06:27.397618Z",
+            "sha256": "c20e68553a7ad1c0de05955a8b413f874c1defe3695e5c46ab3e39f5463ea423"
+          },
+          {
+            "path": "D:\\capstone-v4\\brsr-pdfs\\SONATSOFTW_BR_24-25.pdf",
+            "exists": true,
+            "size_bytes": 9364676,
+            "modified_utc": "2026-09-23T18:31:52.409109Z",
+            "sha256": "dc08e4644934726ff168f672a39c64be68dab31fbb79090a04f063f3302a52f3"
+          },
+          {
+            "path": "D:\\capstone-v4\\brsr-pdfs\\SUBEXLTD_BR_24-25.pdf",
+            "exists": true,
+            "size_bytes": 509546,
+            "modified_utc": "2026-10-04T08:06:21.898096Z",
+            "sha256": "501a9d2eee1148b867e376f089a442fcce622586104667a196a13f0a3ab05288"
+          },
+          {
+            "path": "D:\\capstone-v4\\brsr-pdfs\\TANLA_BR_24-25.pdf",
+            "exists": true,
+            "size_bytes": 1022034,
+            "modified_utc": "2026-10-04T08:05:02.021602Z",
+            "sha256": "7d850fb5a69a28a72cde56d055c4ad73075025f664ed894d28775f0be94b7908"
+          },
+          {
+            "path": "D:\\capstone-v4\\brsr-pdfs\\TATACOMM_BR_24-25.pdf",
+            "exists": true,
+            "size_bytes": 4297342,
+            "modified_utc": "2026-10-04T08:06:49.239675Z",
+            "sha256": "a1cb96d09aa71ca0ac330369ae0423c7f5991d8121c4c463d839b36b7c64a1c8"
+          },
+          {
+            "path": "D:\\capstone-v4\\brsr-pdfs\\TATAELXSI_BR_24-25.pdf",
+            "exists": true,
+            "size_bytes": 1330587,
+            "modified_utc": "2026-09-23T18:31:53.117124Z",
+            "sha256": "1b9e2dbe88505d7f4e5ada466389243e846abb122b28f17e8548f7c1e99b9ad5"
+          },
+          {
+            "path": "D:\\capstone-v4\\brsr-pdfs\\TATATECH_BR_24-25.pdf",
+            "exists": true,
+            "size_bytes": 716017,
+            "modified_utc": "2026-09-23T18:31:52.481195Z",
+            "sha256": "4ebfdca4b8df06e6965f8837dd46c93f054cf368e97de650c7a5fce34d6569e6"
+          },
+          {
+            "path": "D:\\capstone-v4\\brsr-pdfs\\TCS_BR_24-25.pdf",
+            "exists": true,
+            "size_bytes": 2373604,
+            "modified_utc": "2026-09-23T18:31:52.465146Z",
+            "sha256": "f5403da4b5c647ff1f1e769c8bf393799cacf319ad2b931b7b1a8f11e2591489"
+          },
+          {
+            "path": "D:\\capstone-v4\\brsr-pdfs\\TECHM_BR_24-25.pdf",
+            "exists": true,
+            "size_bytes": 1505213,
+            "modified_utc": "2026-09-23T18:31:52.516933Z",
+            "sha256": "af6f81d6ea452871d6afb84d3b4517154d260295336101e231ee2b30002ac85f"
+          },
+          {
+            "path": "D:\\capstone-v4\\brsr-pdfs\\TEJASNET_BR_24-25.pdf",
+            "exists": true,
+            "size_bytes": 545364,
+            "modified_utc": "2026-10-04T08:07:12.846303Z",
+            "sha256": "3e143eb9c55f624246e42aae8929fde7d0040f4b18cf3e02f38d8d928d806a0f"
+          },
+          {
+            "path": "D:\\capstone-v4\\brsr-pdfs\\WIPRO_BR_24-25.pdf",
+            "exists": true,
+            "size_bytes": 534409,
+            "modified_utc": "2026-09-23T18:31:53.745628Z",
+            "sha256": "bb41006ae043ae356fb70458d7892e8d93f8cd29d96ef7c7b94220f0f74f0156"
+          },
+          {
+            "path": "D:\\capstone-v4\\brsr-pdfs\\ZENSARTECH_BR_24-25.pdf",
+            "exists": true,
+            "size_bytes": 718009,
+            "modified_utc": "2026-09-23T18:31:52.640311Z",
+            "sha256": "d5ce48665057cfccb695ea85296f2e15602f833f9d83e08d610acd4723fc4cb5"
+          }
+        ]
+      }
+    },
+    "outputs": {
+      "master_scores": {
+        "path": "D:\\capstone-v4\\processed-data\\esg_master_scores.csv",
+        "exists": true,
+        "size_bytes": 15498,
+        "modified_utc": "2026-10-04T16:57:46.948356Z",
+        "sha256": "b3e4b1199354774503c2403d9f3cde3dde59a5e1692ff6d81df162f014a681d0",
+        "row_count": 50,
+        "column_count": 52,
+        "columns": [
+          "Company_Code",
+          "Company_Name",
+          "Environmental_Score",
+          "Social_Score",
+          "Governance_Score",
+          "Master_ESG_Score",
+          "Master_ESG_Score_Base",
+          "Risk_Level",
+          "Consistency_Score",
+          "Contradiction_Count",
+          "Highest_Contradiction_Severity",
+          "Contradiction_Summary",
+          "Quality_Score",
+          "Quality_Gate_Status",
+          "BRSR_Completeness_Pct",
+          "Review_Flag_Count",
+          "Missing_Extraction_Failed_Count",
+          "Missing_Not_Disclosed_Count",
+          "Missing_Not_Available_Sources",
+          "Environmental_Weight",
+          "Social_Weight",
+          "Governance_Weight",
+          "Analysis_Date",
+          "renewable_energy_pct",
+          "renewable_score",
+          "location_environmental_score",
+          "transparency_trust_score",
+          "final_environmental_score",
+          "component_count",
+          "news_sentiment_score",
+          "positive_articles",
+          "negative_articles",
+          "total_articles",
+          "final_social_score",
+          "stock_performance_score",
+          "disclosure_transparency_score",
+          "avg_trust_score",
+          "final_governance_score",
+          "water_recycled_pct",
+          "water_score",
+          "female_employee_pct",
+          "diversity_score",
+          "independent_directors_pct",
+          "independence_score",
+          "training_hours",
+          "training_score",
+          "External_Benchmark_Score",
+          "Project_Rank",
+          "Benchmark_Rank",
+          "Rank_Deviation",
+          "Rank_Alignment_Status",
+          "Rank_Spearman_Correlation"
+        ]
+      },
+      "cross_validation": {
+        "path": "D:\\capstone-v4\\processed-data\\cross_validation_report.csv",
+        "exists": true,
+        "size_bytes": 5475,
+        "modified_utc": "2026-10-04T16:57:46.948356Z",
+        "sha256": "b2b8be00ea718ebef71b9f8419651485a2bb5d90c7bfd9a93a8d0579086e5638",
+        "row_count": 50,
+        "column_count": 6,
+        "columns": [
+          "Company_Code",
+          "Rule_ID",
+          "Severity",
+          "Description",
+          "Evidence",
+          "Analysis_Date"
+        ]
+      },
+      "data_quality": {
+        "path": "D:\\capstone-v4\\processed-data\\data_quality_report.csv",
+        "exists": true,
+        "size_bytes": 4822,
+        "modified_utc": "2026-10-04T16:57:46.951388Z",
+        "sha256": "1d9978f7a4e8331ebe6ab0bd6f3d25871b0e18e0d5d8b890a25141e98afae8cc",
+        "row_count": 50,
+        "column_count": 16,
+        "columns": [
+          "Company_Code",
+          "Company_Name",
+          "BRSR_Total_Metrics",
+          "BRSR_Extracted_Metrics",
+          "BRSR_Completeness_Pct",
+          "Missing_Extraction_Failed_Count",
+          "Missing_Not_Disclosed_Count",
+          "Missing_Not_Available_Sources",
+          "Review_Flag_Count",
+          "BRSR_Records_Used_For_Scoring",
+          "Sentiment_Records_Used",
+          "Environmental_Records_Used",
+          "Stock_Records_Used",
+          "Quality_Score",
+          "Quality_Gate_Status",
+          "Analysis_Date"
+        ]
+      },
+      "external_benchmark": {
+        "path": "D:\\capstone-v4\\processed-data\\external_benchmark_report.csv",
+        "exists": true,
+        "size_bytes": 6689,
+        "modified_utc": "2026-10-04T16:57:46.951388Z",
+        "sha256": "65f35e828aa31ba49ec36543d948acafa4da08f5877b045dea134738185f3ad1",
+        "row_count": 50,
+        "column_count": 13,
+        "columns": [
+          "Company_Code",
+          "Company_Name",
+          "Benchmark_Market_Proxy",
+          "Benchmark_Reputation_Proxy",
+          "Benchmark_Disclosure_Proxy",
+          "External_Benchmark_Score",
+          "Benchmark_Method",
+          "Analysis_Date",
+          "Project_Rank",
+          "Benchmark_Rank",
+          "Rank_Deviation",
+          "Rank_Alignment_Status",
+          "Rank_Spearman_Correlation"
+        ]
+      }
+    }
+  },
+  "runs": [
+    {
+      "run_id": "run-20260902-183609",
+      "run_timestamp_utc": "2026-09-02T18:36:09.530862Z",
+      "python_version": "3.13.15 (tags/v3.13.15:4061bc4, Aug  5 2026, 13:05:39) [MSC v.1944 64 bit (AMD64)]",
+      "platform": "Windows-11-10.0.26200-SP0",
+      "git_commit": "unknown",
+      "inputs": {
+        "raw_air_quality_city_day": {
+          "path": "C:\\Users\\mahes\\Downloads\\capstone-phase3-complete-implementation\\raw-datasets\\Air Quality Data in India (2015 - 2024)\\city_day.csv",
+          "exists": true,
+          "size_bytes": 1763937,
+          "modified_utc": "2026-08-31T19:54:10.291026Z",
+          "sha256": "986e944aab4920b01263c5feaaf514088ff2bce2b3c6f6be573c5a03854f12ff",
+          "row_count": 18265,
+          "column_count": 16,
+          "columns": [
+            "City",
+            "Datetime",
+            "PM2.5",
+            "PM10",
+            "NO",
+            "NO2",
+            "NOx",
+            "NH3",
+            "CO",
+            "SO2",
+            "O3",
+            "Benzene",
+            "Toluene",
+            "Xylene",
+            "AQI",
+            "AQI_Bucket"
+          ]
+        },
+        "raw_air_quality_realtime": {
+          "path": "C:\\Users\\mahes\\Downloads\\capstone-phase3-complete-implementation\\raw-datasets\\Real-Time Air Quality Index (AQI) India 2023\u20132025\\AQI.csv",
+          "exists": false
+        },
+        "raw_stock_companies": {
+          "path": "C:\\Users\\mahes\\Downloads\\capstone-phase3-complete-implementation\\raw-datasets\\Stock Market Sensex & Nifty All-time Dataset\\NIFTY_50_COMPANIES.csv",
+          "exists": true,
+          "size_bytes": 94989759,
+          "modified_utc": "2026-08-31T19:54:07.286345Z",
+          "sha256": "6a8e2b6c40522876b524d57bd69a5fa6bb22c580b63d7d7ece82e6af267cf5ae",
+          "row_count": 304543,
+          "column_count": 19,
+          "columns": [
+            "Date",
+            "Adj Close",
+            "Close",
+            "High",
+            "Low",
+            "Open",
+            "Volume",
+            "Ticker",
+            "SMA_20",
+            "SMA_50",
+            "EMA_12",
+            "EMA_26",
+            "MACD",
+            "Signal_Line",
+            "RSI_14",
+            "BB_Mid",
+            "BB_Upper",
+            "BB_Lower",
+            "Daily_Return_%"
+          ]
+        },
+        "raw_esg_news": {
+          "path": "C:\\Users\\mahes\\Downloads\\capstone-phase3-complete-implementation\\raw-datasets\\Zenodo ESG News Dataset_Indian Stock Market News Dataset.csv",
+          "exists": true,
+          "size_bytes": 13067994,
+          "modified_utc": "2026-08-31T19:54:03.795535Z",
+          "sha256": "fa38c44557e7e7964ffc0c724dc5e2447c5f6ecca9ae2a23426f280da5e30535",
+          "row_count": 3348,
+          "column_count": 7,
+          "columns": [
+            "Title",
+            "Date",
+            "Description",
+            "Author",
+            "Content",
+            "Keywords",
+            "URL"
+          ]
+        },
+        "processed_brsr_metrics": {
+          "path": "C:\\Users\\mahes\\Downloads\\capstone-phase3-complete-implementation\\processed-data\\brsr_extracted_metrics.csv",
+          "exists": true,
+          "size_bytes": 62572,
+          "modified_utc": "2026-09-02T18:12:30.111525Z",
+          "sha256": "be38f529f13514eccce9b9cfa16b538eca94e9aa8ea3e137363541e82928ed96",
+          "row_count": 360,
+          "column_count": 14,
+          "columns": [
+            "Company_Code",
+            "Company_Name",
+            "Metric_Category",
+            "Metric_Name",
+            "Metric_Value",
+            "Unit",
+            "Page_Number",
+            "Verified",
+            "Extraction_Method",
+            "Confidence_Score",
+            "Validation_Status",
+            "Needs_Manual_Review",
+            "Extraction_Date",
+            "Notes"
+          ]
+        },
+        "processed_environmental_risk": {
+          "path": "C:\\Users\\mahes\\Downloads\\capstone-phase3-complete-implementation\\processed-data\\company_location_environmental_risk.csv",
+          "exists": true,
+          "size_bytes": 4947,
+          "modified_utc": "2026-09-02T18:18:31.168162Z",
+          "sha256": "c7096636c1cab7ff969a0757e2c798db2c855b05199f307876c728eed82b3395",
+          "row_count": 53,
+          "column_count": 12,
+          "columns": [
+            "Company_Code",
+            "Company_Name",
+            "Location_Type",
+            "City",
+            "Area",
+            "Avg_AQI",
+            "Max_AQI",
+            "Min_AQI",
+            "Environmental_Risk_Score",
+            "Risk_Level",
+            "Data_Records",
+            "Analysis_Date"
+          ]
+        },
+        "processed_news_sentiment": {
+          "path": "C:\\Users\\mahes\\Downloads\\capstone-phase3-complete-implementation\\processed-data\\esg_news_sentiment.csv",
+          "exists": true,
+          "size_bytes": 69094,
+          "modified_utc": "2026-09-02T18:32:15.815109Z",
+          "sha256": "a818345a0c92be98abeabd39658fa8d643c392c7a7371da94072dede76b8a6f8",
+          "row_count": 221,
+          "column_count": 14,
+          "columns": [
+            "Company_Code",
+            "Company_Name",
+            "Article_Title",
+            "Article_Date",
+            "Sentiment_Score",
+            "Sentiment_Class",
+            "Positive_Score",
+            "Negative_Score",
+            "Neutral_Score",
+            "ESG_Relevance_Score",
+            "Is_ESG_Relevant",
+            "Matched_ESG_Keywords",
+            "Matched_Non_ESG_Keywords",
+            "Analysis_Date"
+          ]
+        },
+        "processed_stock_correlation": {
+          "path": "C:\\Users\\mahes\\Downloads\\capstone-phase3-complete-implementation\\processed-data\\stock_esg_correlation.csv",
+          "exists": true,
+          "size_bytes": 9888,
+          "modified_utc": "2026-09-02T18:34:24.910381Z",
+          "sha256": "a3c5402e848d7405d9c3fb863b24ba12a4a4460245c3305349aeeec9e857351e",
+          "row_count": 65,
+          "column_count": 12,
+          "columns": [
+            "Company_Code",
+            "Company_Name",
+            "Stock_Ticker",
+            "Month",
+            "Current_Price",
+            "Month_High",
+            "Month_Low",
+            "Monthly_Return_Pct",
+            "Volatility_Pct",
+            "Stock_Performance_Score",
+            "ESG_Stock_Correlation",
+            "ESG_Influence_Score"
+          ]
+        },
+        "processed_greenwashing": {
+          "path": "C:\\Users\\mahes\\Downloads\\capstone-phase3-complete-implementation\\processed-data\\greenwashing_detection.csv",
+          "exists": true,
+          "size_bytes": 51863,
+          "modified_utc": "2026-09-02T18:35:17.946560Z",
+          "sha256": "adfcba3aeba04c2f62a1f2197179f1cabccc9ab85879f902c2bbdcaa1d90d03e",
+          "row_count": 360,
+          "column_count": 14,
+          "columns": [
+            "Company_Code",
+            "Company_Name",
+            "Metric_Category",
+            "Metric_Name",
+            "Claimed_Value",
+            "Metric_Unit",
+            "Claim_Verified",
+            "Verification_Details",
+            "Discrepancy_Detected",
+            "Discrepancy_Level",
+            "Trust_Score",
+            "Risk_Score",
+            "Actual_Environmental_Score",
+            "Analysis_Date"
+          ]
+        }
+      },
+      "input_directories": {
+        "brsr_pdfs": {
+          "path": "C:\\Users\\mahes\\Downloads\\capstone-phase3-complete-implementation\\brsr-pdfs",
+          "exists": true,
+          "pattern": "*.pdf",
+          "file_count": 21,
+          "files": [
+            {
+              "path": "C:\\Users\\mahes\\Downloads\\capstone-phase3-complete-implementation\\brsr-pdfs\\BSOFT_BR_24-25.pdf",
+              "exists": true,
+              "size_bytes": 504006,
+              "modified_utc": "2026-08-31T19:54:12.918219Z",
+              "sha256": "adbb666c1c57530f6d1bed3f1bdccf60bbf1137e71c9ee1abc3ebe73bd2eba9a"
+            },
+            {
+              "path": "C:\\Users\\mahes\\Downloads\\capstone-phase3-complete-implementation\\brsr-pdfs\\COFORGE_BR_24-25.pdf",
+              "exists": true,
+              "size_bytes": 881252,
+              "modified_utc": "2026-08-31T19:54:13.540535Z",
+              "sha256": "f81a765bb8a1682417a1eebe1dccacfb43b0a7ff41fd16e43114f68d3bd40a46"
+            },
+            {
+              "path": "C:\\Users\\mahes\\Downloads\\capstone-phase3-complete-implementation\\brsr-pdfs\\CYIENT_BR_24-25.pdf",
+              "exists": true,
+              "size_bytes": 16426663,
+              "modified_utc": "2026-08-31T19:54:11.134833Z",
+              "sha256": "8bfb4ec2b5a88207e79f679d50d50514720d4c1189505bf81fccc0a982c2c2ff"
+            },
+            {
+              "path": "C:\\Users\\mahes\\Downloads\\capstone-phase3-complete-implementation\\brsr-pdfs\\HAPPSTMNDS_BR_24-25.pdf",
+              "exists": true,
+              "size_bytes": 1721729,
+              "modified_utc": "2026-08-31T19:54:13.621151Z",
+              "sha256": "202270b86eabbb909bbaa401b71bbe30fea31441fc550e478b7681bea5612312"
+            },
+            {
+              "path": "C:\\Users\\mahes\\Downloads\\capstone-phase3-complete-implementation\\brsr-pdfs\\HCLTECH_BR_24-25.pdf",
+              "exists": true,
+              "size_bytes": 5002632,
+              "modified_utc": "2026-08-31T19:54:13.161487Z",
+              "sha256": "f640844c703e63106e97d092ae4db4c49f4b1ebec6f2800cb4f2949c9a9339e9"
+            },
+            {
+              "path": "C:\\Users\\mahes\\Downloads\\capstone-phase3-complete-implementation\\brsr-pdfs\\HEXAWARE_BR_24-25.pdf",
+              "exists": true,
+              "size_bytes": 9481938,
+              "modified_utc": "2026-08-31T19:54:13.899799Z",
+              "sha256": "ee29b57d4fcb150f7a0b7f55e13cd46c720c591370693315d13416664b946684"
+            },
+            {
+              "path": "C:\\Users\\mahes\\Downloads\\capstone-phase3-complete-implementation\\brsr-pdfs\\INFY_BR_24-25.pdf",
+              "exists": true,
+              "size_bytes": 7563360,
+              "modified_utc": "2026-08-31T19:54:12.871300Z",
+              "sha256": "236c06edb758b61b5379319d09ca3a1141cf495cb99fa0564372bdefd21caf41"
+            },
+            {
+              "path": "C:\\Users\\mahes\\Downloads\\capstone-phase3-complete-implementation\\brsr-pdfs\\KPITTECH_BR_24-25.pdf",
+              "exists": true,
+              "size_bytes": 5444917,
+              "modified_utc": "2026-08-31T19:54:13.348167Z",
+              "sha256": "4684905154541fdd8a5ae17d5fcbeb0193ac0e8cd210cddcd172d14d9a316668"
+            },
+            {
+              "path": "C:\\Users\\mahes\\Downloads\\capstone-phase3-complete-implementation\\brsr-pdfs\\LTIM_BR_24-25.pdf",
+              "exists": true,
+              "size_bytes": 16982179,
+              "modified_utc": "2026-08-31T19:54:12.003316Z",
+              "sha256": "3ee9cbeea005d86c0f92a7d4b1a160d6d8006d1ff21ca018d5304bb5b172bb3f"
+            },
+            {
+              "path": "C:\\Users\\mahes\\Downloads\\capstone-phase3-complete-implementation\\brsr-pdfs\\LTTS_BR_24-25.pdf",
+              "exists": true,
+              "size_bytes": 20972462,
+              "modified_utc": "2026-08-31T19:54:14.660311Z",
+              "sha256": "357963470db86aff8c6744f61077129849c78533bc434baac2433b78b83eb562"
+            },
+            {
+              "path": "C:\\Users\\mahes\\Downloads\\capstone-phase3-complete-implementation\\brsr-pdfs\\MPHASIS_BR_24-25.invalid.pdf",
+              "exists": true,
+              "size_bytes": 15113081,
+              "modified_utc": "2026-08-31T19:54:12.582248Z",
+              "sha256": "fd561603126e6f203e3e4f729217248a5550a071f9d09fbfabed3cbeb6554de2"
+            },
+            {
+              "path": "C:\\Users\\mahes\\Downloads\\capstone-phase3-complete-implementation\\brsr-pdfs\\MPHASIS_BR_24-25.pdf",
+              "exists": true,
+              "size_bytes": 15113081,
+              "modified_utc": "2026-09-02T13:44:32.156856Z",
+              "sha256": "fd561603126e6f203e3e4f729217248a5550a071f9d09fbfabed3cbeb6554de2"
+            },
+            {
+              "path": "C:\\Users\\mahes\\Downloads\\capstone-phase3-complete-implementation\\brsr-pdfs\\OFSS_BR_24-25.pdf",
+              "exists": true,
+              "size_bytes": 410465,
+              "modified_utc": "2026-08-31T19:54:11.493941Z",
+              "sha256": "15c3b0074ed5ef5ee9d0987ecd6c526802a142993a7250cb64e156e718b78f48"
+            },
+            {
+              "path": "C:\\Users\\mahes\\Downloads\\capstone-phase3-complete-implementation\\brsr-pdfs\\PERSISTENT_BR_24-25.pdf",
+              "exists": true,
+              "size_bytes": 3274778,
+              "modified_utc": "2026-08-31T19:54:13.028883Z",
+              "sha256": "d27c24daf9e35d8d6aaf5814ab7b9c596105626c2b588466bb9a7f8de5e34086"
+            },
+            {
+              "path": "C:\\Users\\mahes\\Downloads\\capstone-phase3-complete-implementation\\brsr-pdfs\\SONATSOFTW_BR_24-25.pdf",
+              "exists": true,
+              "size_bytes": 9364676,
+              "modified_utc": "2026-08-31T19:54:11.420360Z",
+              "sha256": "dc08e4644934726ff168f672a39c64be68dab31fbb79090a04f063f3302a52f3"
+            },
+            {
+              "path": "C:\\Users\\mahes\\Downloads\\capstone-phase3-complete-implementation\\brsr-pdfs\\TATAELXSI_BR_24-25.pdf",
+              "exists": true,
+              "size_bytes": 1330587,
+              "modified_utc": "2026-08-31T19:54:13.424651Z",
+              "sha256": "1b9e2dbe88505d7f4e5ada466389243e846abb122b28f17e8548f7c1e99b9ad5"
+            },
+            {
+              "path": "C:\\Users\\mahes\\Downloads\\capstone-phase3-complete-implementation\\brsr-pdfs\\TATATECH_BR_24-25.pdf",
+              "exists": true,
+              "size_bytes": 716017,
+              "modified_utc": "2026-08-31T19:54:12.063624Z",
+              "sha256": "4ebfdca4b8df06e6965f8837dd46c93f054cf368e97de650c7a5fce34d6569e6"
+            },
+            {
+              "path": "C:\\Users\\mahes\\Downloads\\capstone-phase3-complete-implementation\\brsr-pdfs\\TCS_BR_24-25.pdf",
+              "exists": true,
+              "size_bytes": 2373604,
+              "modified_utc": "2026-08-31T19:54:14.038888Z",
+              "sha256": "f5403da4b5c647ff1f1e769c8bf393799cacf319ad2b931b7b1a8f11e2591489"
+            },
+            {
+              "path": "C:\\Users\\mahes\\Downloads\\capstone-phase3-complete-implementation\\brsr-pdfs\\TECHM_BR_24-25.pdf",
+              "exists": true,
+              "size_bytes": 1505213,
+              "modified_utc": "2026-08-31T19:54:12.635784Z",
+              "sha256": "af6f81d6ea452871d6afb84d3b4517154d260295336101e231ee2b30002ac85f"
+            },
+            {
+              "path": "C:\\Users\\mahes\\Downloads\\capstone-phase3-complete-implementation\\brsr-pdfs\\WIPRO_BR_24-25.pdf",
+              "exists": true,
+              "size_bytes": 534409,
+              "modified_utc": "2026-08-31T19:54:12.098295Z",
+              "sha256": "bb41006ae043ae356fb70458d7892e8d93f8cd29d96ef7c7b94220f0f74f0156"
+            },
+            {
+              "path": "C:\\Users\\mahes\\Downloads\\capstone-phase3-complete-implementation\\brsr-pdfs\\ZENSARTECH_BR_24-25.pdf",
+              "exists": true,
+              "size_bytes": 718009,
+              "modified_utc": "2026-08-31T19:54:13.950681Z",
+              "sha256": "d5ce48665057cfccb695ea85296f2e15602f833f9d83e08d610acd4723fc4cb5"
+            }
+          ]
+        }
+      },
+      "outputs": {
+        "master_scores": {
+          "path": "C:\\Users\\mahes\\Downloads\\capstone-phase3-complete-implementation\\processed-data\\esg_master_scores.csv",
+          "exists": true,
+          "size_bytes": 7394,
+          "modified_utc": "2026-09-02T18:36:09.508092Z",
+          "sha256": "5497d9ced4ef2d61276045b392574c9527ecf13a155002208b88ac27710ee604",
+          "row_count": 20,
+          "column_count": 52,
+          "columns": [
+            "Company_Code",
+            "Company_Name",
+            "Environmental_Score",
+            "Social_Score",
+            "Governance_Score",
+            "Master_ESG_Score",
+            "Master_ESG_Score_Base",
+            "Risk_Level",
+            "Consistency_Score",
+            "Contradiction_Count",
+            "Highest_Contradiction_Severity",
+            "Contradiction_Summary",
+            "Quality_Score",
+            "Quality_Gate_Status",
+            "BRSR_Completeness_Pct",
+            "Review_Flag_Count",
+            "Missing_Extraction_Failed_Count",
+            "Missing_Not_Disclosed_Count",
+            "Missing_Not_Available_Sources",
+            "Environmental_Weight",
+            "Social_Weight",
+            "Governance_Weight",
+            "Analysis_Date",
+            "renewable_energy_pct",
+            "renewable_score",
+            "location_environmental_score",
+            "transparency_trust_score",
+            "final_environmental_score",
+            "component_count",
+            "news_sentiment_score",
+            "positive_articles",
+            "negative_articles",
+            "total_articles",
+            "final_social_score",
+            "stock_performance_score",
+            "disclosure_transparency_score",
+            "avg_trust_score",
+            "final_governance_score",
+            "water_recycled_pct",
+            "water_score",
+            "female_employee_pct",
+            "diversity_score",
+            "independent_directors_pct",
+            "independence_score",
+            "training_hours",
+            "training_score",
+            "External_Benchmark_Score",
+            "Project_Rank",
+            "Benchmark_Rank",
+            "Rank_Deviation",
+            "Rank_Alignment_Status",
+            "Rank_Spearman_Correlation"
+          ]
+        },
+        "cross_validation": {
+          "path": "C:\\Users\\mahes\\Downloads\\capstone-phase3-complete-implementation\\processed-data\\cross_validation_report.csv",
+          "exists": true,
+          "size_bytes": 2237,
+          "modified_utc": "2026-09-02T18:36:09.513034Z",
+          "sha256": "cbfad56783beaa7a7a477646803251551c7ad211c44bfd01547230464627e97f",
+          "row_count": 20,
+          "column_count": 6,
+          "columns": [
+            "Company_Code",
+            "Rule_ID",
+            "Severity",
+            "Description",
+            "Evidence",
+            "Analysis_Date"
+          ]
+        },
+        "data_quality": {
+          "path": "C:\\Users\\mahes\\Downloads\\capstone-phase3-complete-implementation\\processed-data\\data_quality_report.csv",
+          "exists": true,
+          "size_bytes": 2129,
+          "modified_utc": "2026-09-02T18:36:09.523844Z",
+          "sha256": "26473ba592605f03f401b88caed747ecd27fdad5b25d0c430ff0029cf393526d",
+          "row_count": 20,
+          "column_count": 16,
+          "columns": [
+            "Company_Code",
+            "Company_Name",
+            "BRSR_Total_Metrics",
+            "BRSR_Extracted_Metrics",
+            "BRSR_Completeness_Pct",
+            "Missing_Extraction_Failed_Count",
+            "Missing_Not_Disclosed_Count",
+            "Missing_Not_Available_Sources",
+            "Review_Flag_Count",
+            "BRSR_Records_Used_For_Scoring",
+            "Sentiment_Records_Used",
+            "Environmental_Records_Used",
+            "Stock_Records_Used",
+            "Quality_Score",
+            "Quality_Gate_Status",
+            "Analysis_Date"
+          ]
+        },
+        "external_benchmark": {
+          "path": "C:\\Users\\mahes\\Downloads\\capstone-phase3-complete-implementation\\processed-data\\external_benchmark_report.csv",
+          "exists": true,
+          "size_bytes": 2795,
+          "modified_utc": "2026-09-02T18:36:09.530181Z",
+          "sha256": "7980df7dc6bb248686f86f03717559068b95978b6ed395204ac7d7133ccd5602",
+          "row_count": 20,
+          "column_count": 13,
+          "columns": [
+            "Company_Code",
+            "Company_Name",
+            "Benchmark_Market_Proxy",
+            "Benchmark_Reputation_Proxy",
+            "Benchmark_Disclosure_Proxy",
+            "External_Benchmark_Score",
+            "Benchmark_Method",
+            "Analysis_Date",
+            "Project_Rank",
+            "Benchmark_Rank",
+            "Rank_Deviation",
+            "Rank_Alignment_Status",
+            "Rank_Spearman_Correlation"
+          ]
+        }
+      }
+    },
+    {
+      "run_id": "run-20261004-165746",
+      "run_timestamp_utc": "2026-10-04T16:57:46.955294Z",
+      "python_version": "3.13.15 (tags/v3.13.15:4061bc4, Aug  5 2026, 13:05:39) [MSC v.1944 64 bit (AMD64)]",
+      "platform": "Windows-11-10.0.26300-SP0",
+      "git_commit": "23d9bc436aea18d6ecc5c800b3614676fc7752cb",
+      "inputs": {
+        "raw_air_quality_city_day": {
+          "path": "D:\\capstone-v4\\raw-datasets\\Air Quality Data in India (2015 - 2024)\\city_day.csv",
+          "exists": true,
+          "size_bytes": 1763937,
+          "modified_utc": "2026-09-23T18:31:56.505192Z",
+          "sha256": "986e944aab4920b01263c5feaaf514088ff2bce2b3c6f6be573c5a03854f12ff",
+          "row_count": 18265,
+          "column_count": 16,
+          "columns": [
+            "City",
+            "Datetime",
+            "PM2.5",
+            "PM10",
+            "NO",
+            "NO2",
+            "NOx",
+            "NH3",
+            "CO",
+            "SO2",
+            "O3",
+            "Benzene",
+            "Toluene",
+            "Xylene",
+            "AQI",
+            "AQI_Bucket"
+          ]
+        },
+        "raw_air_quality_realtime": {
+          "path": "D:\\capstone-v4\\raw-datasets\\Real-Time Air Quality Index (AQI) India 2023\u20132025\\AQI.csv",
+          "exists": false
+        },
+        "raw_stock_companies": {
+          "path": "D:\\capstone-v4\\raw-datasets\\Stock Market Sensex & Nifty All-time Dataset\\NIFTY_50_COMPANIES.csv",
+          "exists": true,
+          "size_bytes": 94989759,
+          "modified_utc": "2026-09-23T18:31:58.044836Z",
+          "sha256": "6a8e2b6c40522876b524d57bd69a5fa6bb22c580b63d7d7ece82e6af267cf5ae",
+          "row_count": 304543,
+          "column_count": 19,
+          "columns": [
+            "Date",
+            "Adj Close",
+            "Close",
+            "High",
+            "Low",
+            "Open",
+            "Volume",
+            "Ticker",
+            "SMA_20",
+            "SMA_50",
+            "EMA_12",
+            "EMA_26",
+            "MACD",
+            "Signal_Line",
+            "RSI_14",
+            "BB_Mid",
+            "BB_Upper",
+            "BB_Lower",
+            "Daily_Return_%"
+          ]
+        },
+        "raw_esg_news": {
+          "path": "D:\\capstone-v4\\raw-datasets\\Zenodo ESG News Dataset_Indian Stock Market News Dataset.csv",
+          "exists": true,
+          "size_bytes": 13067994,
+          "modified_utc": "2026-09-23T18:31:55.545798Z",
+          "sha256": "fa38c44557e7e7964ffc0c724dc5e2447c5f6ecca9ae2a23426f280da5e30535",
+          "row_count": 3348,
+          "column_count": 7,
+          "columns": [
+            "Title",
+            "Date",
+            "Description",
+            "Author",
+            "Content",
+            "Keywords",
+            "URL"
+          ]
+        },
+        "processed_brsr_metrics": {
+          "path": "D:\\capstone-v4\\processed-data\\brsr_extracted_metrics.csv",
+          "exists": true,
+          "size_bytes": 163472,
+          "modified_utc": "2026-10-04T16:56:43.854034Z",
+          "sha256": "ba11ada5c2dee54ec5648fd9c0aa5a79ebdaaa33b7468532ffb6966c8a48fd34",
+          "row_count": 900,
+          "column_count": 14,
+          "columns": [
+            "Company_Code",
+            "Company_Name",
+            "Metric_Category",
+            "Metric_Name",
+            "Metric_Value",
+            "Unit",
+            "Page_Number",
+            "Verified",
+            "Extraction_Method",
+            "Confidence_Score",
+            "Validation_Status",
+            "Needs_Manual_Review",
+            "Extraction_Date",
+            "Notes"
+          ]
+        },
+        "processed_environmental_risk": {
+          "path": "D:\\capstone-v4\\processed-data\\company_location_environmental_risk.csv",
+          "exists": true,
+          "size_bytes": 7575,
+          "modified_utc": "2026-10-04T16:56:46.220987Z",
+          "sha256": "51d8600dd0d5939c2c07c59e7945503547817af1785573e2836f646f86e38835",
+          "row_count": 83,
+          "column_count": 12,
+          "columns": [
+            "Company_Code",
+            "Company_Name",
+            "Location_Type",
+            "City",
+            "Area",
+            "Avg_AQI",
+            "Max_AQI",
+            "Min_AQI",
+            "Environmental_Risk_Score",
+            "Risk_Level",
+            "Data_Records",
+            "Analysis_Date"
+          ]
+        },
+        "processed_news_sentiment": {
+          "path": "D:\\capstone-v4\\processed-data\\esg_news_sentiment.csv",
+          "exists": true,
+          "size_bytes": 214550,
+          "modified_utc": "2026-10-04T16:57:38.039068Z",
+          "sha256": "dff73c0813fc4c943290f8ca0b46e3406c3974d84da787ab26655f0d9848215e",
+          "row_count": 677,
+          "column_count": 14,
+          "columns": [
+            "Company_Code",
+            "Company_Name",
+            "Article_Title",
+            "Article_Date",
+            "Sentiment_Score",
+            "Sentiment_Class",
+            "Positive_Score",
+            "Negative_Score",
+            "Neutral_Score",
+            "ESG_Relevance_Score",
+            "Is_ESG_Relevant",
+            "Matched_ESG_Keywords",
+            "Matched_Non_ESG_Keywords",
+            "Analysis_Date"
+          ]
+        },
+        "processed_stock_correlation": {
+          "path": "D:\\capstone-v4\\processed-data\\stock_esg_correlation.csv",
+          "exists": true,
+          "size_bytes": 13922,
+          "modified_utc": "2026-10-04T16:57:42.765425Z",
+          "sha256": "307411ee5b3d1d792d5dcccadffce2f2209c3a82e5df17d3c99b78715f1ed0f2",
+          "row_count": 91,
+          "column_count": 12,
+          "columns": [
+            "Company_Code",
+            "Company_Name",
+            "Stock_Ticker",
+            "Month",
+            "Current_Price",
+            "Month_High",
+            "Month_Low",
+            "Monthly_Return_Pct",
+            "Volatility_Pct",
+            "Stock_Performance_Score",
+            "ESG_Stock_Correlation",
+            "ESG_Influence_Score"
+          ]
+        },
+        "processed_greenwashing": {
+          "path": "D:\\capstone-v4\\processed-data\\greenwashing_detection.csv",
+          "exists": true,
+          "size_bytes": 131892,
+          "modified_utc": "2026-10-04T16:57:43.810456Z",
+          "sha256": "2fc4a3a57668eb10e22b954402baccf20899d6b3fa43d59c3992da47057df760",
+          "row_count": 900,
+          "column_count": 14,
+          "columns": [
+            "Company_Code",
+            "Company_Name",
+            "Metric_Category",
+            "Metric_Name",
+            "Claimed_Value",
+            "Metric_Unit",
+            "Claim_Verified",
+            "Verification_Details",
+            "Discrepancy_Detected",
+            "Discrepancy_Level",
+            "Trust_Score",
+            "Risk_Score",
+            "Actual_Environmental_Score",
+            "Analysis_Date"
+          ]
+        }
+      },
+      "input_directories": {
+        "brsr_pdfs": {
+          "path": "D:\\capstone-v4\\brsr-pdfs",
+          "exists": true,
+          "pattern": "*.pdf",
+          "file_count": 36,
+          "files": [
+            {
+              "path": "D:\\capstone-v4\\brsr-pdfs\\AFFLE_BR_24-25.pdf",
+              "exists": true,
+              "size_bytes": 589429,
+              "modified_utc": "2026-10-04T08:06:13.584586Z",
+              "sha256": "e16b460f4269c67ee5e23188e744824ac9e8de2a36dd7d8c5f5d15b664829520"
+            },
+            {
+              "path": "D:\\capstone-v4\\brsr-pdfs\\BHARTIARTL_BR_24-25.pdf",
+              "exists": true,
+              "size_bytes": 511800,
+              "modified_utc": "2026-10-04T08:07:05.461381Z",
+              "sha256": "3b57c244d1a17ef7ef02ca2c3dd45f877a0efee82c0fd29d2e3cd5895367475b"
+            },
+            {
+              "path": "D:\\capstone-v4\\brsr-pdfs\\BSOFT_BR_24-25.pdf",
+              "exists": true,
+              "size_bytes": 504006,
+              "modified_utc": "2026-09-23T18:31:54.341848Z",
+              "sha256": "adbb666c1c57530f6d1bed3f1bdccf60bbf1137e71c9ee1abc3ebe73bd2eba9a"
+            },
+            {
+              "path": "D:\\capstone-v4\\brsr-pdfs\\COFORGE_BR_24-25.pdf",
+              "exists": true,
+              "size_bytes": 881252,
+              "modified_utc": "2026-09-23T18:31:53.772172Z",
+              "sha256": "f81a765bb8a1682417a1eebe1dccacfb43b0a7ff41fd16e43114f68d3bd40a46"
+            },
+            {
+              "path": "D:\\capstone-v4\\brsr-pdfs\\CYIENT_BR_24-25.pdf",
+              "exists": true,
+              "size_bytes": 16426663,
+              "modified_utc": "2026-09-23T18:31:53.462837Z",
+              "sha256": "8bfb4ec2b5a88207e79f679d50d50514720d4c1189505bf81fccc0a982c2c2ff"
+            },
+            {
+              "path": "D:\\capstone-v4\\brsr-pdfs\\ECLERX_BR_24-25.pdf",
+              "exists": true,
+              "size_bytes": 677873,
+              "modified_utc": "2026-10-04T08:05:53.751432Z",
+              "sha256": "11f525f456338aaac9737ce3610b189034300405a805e113fd85a3a816d715be"
+            },
+            {
+              "path": "D:\\capstone-v4\\brsr-pdfs\\HAPPSTMNDS_BR_24-25.pdf",
+              "exists": true,
+              "size_bytes": 1721729,
+              "modified_utc": "2026-09-23T18:31:54.086195Z",
+              "sha256": "202270b86eabbb909bbaa401b71bbe30fea31441fc550e478b7681bea5612312"
+            },
+            {
+              "path": "D:\\capstone-v4\\brsr-pdfs\\HCLTECH_BR_24-25.pdf",
+              "exists": true,
+              "size_bytes": 5002632,
+              "modified_utc": "2026-09-23T18:31:52.292842Z",
+              "sha256": "f640844c703e63106e97d092ae4db4c49f4b1ebec6f2800cb4f2949c9a9339e9"
+            },
+            {
+              "path": "D:\\capstone-v4\\brsr-pdfs\\HEXAWARE_BR_24-25.pdf",
+              "exists": true,
+              "size_bytes": 9481938,
+              "modified_utc": "2026-09-23T18:31:52.750489Z",
+              "sha256": "ee29b57d4fcb150f7a0b7f55e13cd46c720c591370693315d13416664b946684"
+            },
+            {
+              "path": "D:\\capstone-v4\\brsr-pdfs\\INDUSTOWER_BR_24-25.pdf",
+              "exists": true,
+              "size_bytes": 19359033,
+              "modified_utc": "2026-10-04T08:06:58.371569Z",
+              "sha256": "24309cfef0efd18d452d4c67a74f7ca0f9277bbb4dfda9587477a7862fc2dfa2"
+            },
+            {
+              "path": "D:\\capstone-v4\\brsr-pdfs\\INFY_BR_24-25.pdf",
+              "exists": true,
+              "size_bytes": 7563360,
+              "modified_utc": "2026-09-23T18:31:52.593894Z",
+              "sha256": "236c06edb758b61b5379319d09ca3a1141cf495cb99fa0564372bdefd21caf41"
+            },
+            {
+              "path": "D:\\capstone-v4\\brsr-pdfs\\INTELLECT_BR_24-25.pdf",
+              "exists": true,
+              "size_bytes": 4316748,
+              "modified_utc": "2026-10-04T08:05:09.066709Z",
+              "sha256": "2c24323911783ee656d09d2c51b65d34a2e3e74fde5256660fb7481ec98a5206"
+            },
+            {
+              "path": "D:\\capstone-v4\\brsr-pdfs\\KPITTECH_BR_24-25.pdf",
+              "exists": true,
+              "size_bytes": 5444917,
+              "modified_utc": "2026-09-23T18:31:53.194309Z",
+              "sha256": "4684905154541fdd8a5ae17d5fcbeb0193ac0e8cd210cddcd172d14d9a316668"
+            },
+            {
+              "path": "D:\\capstone-v4\\brsr-pdfs\\LTIM_BR_24-25.pdf",
+              "exists": true,
+              "size_bytes": 16982179,
+              "modified_utc": "2026-09-23T18:31:53.079669Z",
+              "sha256": "3ee9cbeea005d86c0f92a7d4b1a160d6d8006d1ff21ca018d5304bb5b172bb3f"
+            },
+            {
+              "path": "D:\\capstone-v4\\brsr-pdfs\\LTTS_BR_24-25.pdf",
+              "exists": true,
+              "size_bytes": 20972462,
+              "modified_utc": "2026-09-23T18:31:54.047463Z",
+              "sha256": "357963470db86aff8c6744f61077129849c78533bc434baac2433b78b83eb562"
+            },
+            {
+              "path": "D:\\capstone-v4\\brsr-pdfs\\MPHASIS_BR_24-25.invalid.pdf",
+              "exists": true,
+              "size_bytes": 15113081,
+              "modified_utc": "2026-09-23T18:31:54.322532Z",
+              "sha256": "fd561603126e6f203e3e4f729217248a5550a071f9d09fbfabed3cbeb6554de2"
+            },
+            {
+              "path": "D:\\capstone-v4\\brsr-pdfs\\MPHASIS_BR_24-25.pdf",
+              "exists": true,
+              "size_bytes": 15113081,
+              "modified_utc": "2026-09-23T18:31:53.715737Z",
+              "sha256": "fd561603126e6f203e3e4f729217248a5550a071f9d09fbfabed3cbeb6554de2"
+            },
+            {
+              "path": "D:\\capstone-v4\\brsr-pdfs\\NEWGEN_BR_24-25.pdf",
+              "exists": true,
+              "size_bytes": 493898,
+              "modified_utc": "2026-10-04T08:04:56.290941Z",
+              "sha256": "4d7e90be0530d2c104069b342f6dfd0aa114d74a9f586dad28db287f4033425d"
+            },
+            {
+              "path": "D:\\capstone-v4\\brsr-pdfs\\OFSS_BR_24-25.pdf",
+              "exists": true,
+              "size_bytes": 410465,
+              "modified_utc": "2026-09-23T18:31:52.426435Z",
+              "sha256": "15c3b0074ed5ef5ee9d0987ecd6c526802a142993a7250cb64e156e718b78f48"
+            },
+            {
+              "path": "D:\\capstone-v4\\brsr-pdfs\\PAYTM_BR_24-25.pdf",
+              "exists": true,
+              "size_bytes": 776092,
+              "modified_utc": "2026-10-04T08:06:35.393485Z",
+              "sha256": "044e95887e00232d5cd34526bc74b0c50d134844f4e0a88f25c954cb30ce3cd8"
+            },
+            {
+              "path": "D:\\capstone-v4\\brsr-pdfs\\PERSISTENT_BR_24-25.pdf",
+              "exists": true,
+              "size_bytes": 3274778,
+              "modified_utc": "2026-09-23T18:31:52.797971Z",
+              "sha256": "d27c24daf9e35d8d6aaf5814ab7b9c596105626c2b588466bb9a7f8de5e34086"
+            },
+            {
+              "path": "D:\\capstone-v4\\brsr-pdfs\\RATEGAIN_BR_24-25.pdf",
+              "exists": true,
+              "size_bytes": 12136348,
+              "modified_utc": "2026-10-04T08:05:20.496310Z",
+              "sha256": "4e9ee27d6bd1486992314f33921479168a0b971695440d33a45449543275f5a5"
+            },
+            {
+              "path": "D:\\capstone-v4\\brsr-pdfs\\REDINGTON_BR_24-25.pdf",
+              "exists": true,
+              "size_bytes": 595288,
+              "modified_utc": "2026-10-04T08:07:20.469998Z",
+              "sha256": "ec13abaf52f3e3c6fa3d68e272a715b115eb3bf5293b29a3fe471ba33d1e0659"
+            },
+            {
+              "path": "D:\\capstone-v4\\brsr-pdfs\\ROUTE_BR_24-25.pdf",
+              "exists": true,
+              "size_bytes": 839898,
+              "modified_utc": "2026-10-04T08:19:18.721303Z",
+              "sha256": "5eb44f06bcc576af54ee39b56410c72462e4ec5c7d394e7280f5097c2b3a4612"
+            },
+            {
+              "path": "D:\\capstone-v4\\brsr-pdfs\\SIS_BR_24-25.pdf",
+              "exists": true,
+              "size_bytes": 734025,
+              "modified_utc": "2026-10-04T08:06:27.397618Z",
+              "sha256": "c20e68553a7ad1c0de05955a8b413f874c1defe3695e5c46ab3e39f5463ea423"
+            },
+            {
+              "path": "D:\\capstone-v4\\brsr-pdfs\\SONATSOFTW_BR_24-25.pdf",
+              "exists": true,
+              "size_bytes": 9364676,
+              "modified_utc": "2026-09-23T18:31:52.409109Z",
+              "sha256": "dc08e4644934726ff168f672a39c64be68dab31fbb79090a04f063f3302a52f3"
+            },
+            {
+              "path": "D:\\capstone-v4\\brsr-pdfs\\SUBEXLTD_BR_24-25.pdf",
+              "exists": true,
+              "size_bytes": 509546,
+              "modified_utc": "2026-10-04T08:06:21.898096Z",
+              "sha256": "501a9d2eee1148b867e376f089a442fcce622586104667a196a13f0a3ab05288"
+            },
+            {
+              "path": "D:\\capstone-v4\\brsr-pdfs\\TANLA_BR_24-25.pdf",
+              "exists": true,
+              "size_bytes": 1022034,
+              "modified_utc": "2026-10-04T08:05:02.021602Z",
+              "sha256": "7d850fb5a69a28a72cde56d055c4ad73075025f664ed894d28775f0be94b7908"
+            },
+            {
+              "path": "D:\\capstone-v4\\brsr-pdfs\\TATACOMM_BR_24-25.pdf",
+              "exists": true,
+              "size_bytes": 4297342,
+              "modified_utc": "2026-10-04T08:06:49.239675Z",
+              "sha256": "a1cb96d09aa71ca0ac330369ae0423c7f5991d8121c4c463d839b36b7c64a1c8"
+            },
+            {
+              "path": "D:\\capstone-v4\\brsr-pdfs\\TATAELXSI_BR_24-25.pdf",
+              "exists": true,
+              "size_bytes": 1330587,
+              "modified_utc": "2026-09-23T18:31:53.117124Z",
+              "sha256": "1b9e2dbe88505d7f4e5ada466389243e846abb122b28f17e8548f7c1e99b9ad5"
+            },
+            {
+              "path": "D:\\capstone-v4\\brsr-pdfs\\TATATECH_BR_24-25.pdf",
+              "exists": true,
+              "size_bytes": 716017,
+              "modified_utc": "2026-09-23T18:31:52.481195Z",
+              "sha256": "4ebfdca4b8df06e6965f8837dd46c93f054cf368e97de650c7a5fce34d6569e6"
+            },
+            {
+              "path": "D:\\capstone-v4\\brsr-pdfs\\TCS_BR_24-25.pdf",
+              "exists": true,
+              "size_bytes": 2373604,
+              "modified_utc": "2026-09-23T18:31:52.465146Z",
+              "sha256": "f5403da4b5c647ff1f1e769c8bf393799cacf319ad2b931b7b1a8f11e2591489"
+            },
+            {
+              "path": "D:\\capstone-v4\\brsr-pdfs\\TECHM_BR_24-25.pdf",
+              "exists": true,
+              "size_bytes": 1505213,
+              "modified_utc": "2026-09-23T18:31:52.516933Z",
+              "sha256": "af6f81d6ea452871d6afb84d3b4517154d260295336101e231ee2b30002ac85f"
+            },
+            {
+              "path": "D:\\capstone-v4\\brsr-pdfs\\TEJASNET_BR_24-25.pdf",
+              "exists": true,
+              "size_bytes": 545364,
+              "modified_utc": "2026-10-04T08:07:12.846303Z",
+              "sha256": "3e143eb9c55f624246e42aae8929fde7d0040f4b18cf3e02f38d8d928d806a0f"
+            },
+            {
+              "path": "D:\\capstone-v4\\brsr-pdfs\\WIPRO_BR_24-25.pdf",
+              "exists": true,
+              "size_bytes": 534409,
+              "modified_utc": "2026-09-23T18:31:53.745628Z",
+              "sha256": "bb41006ae043ae356fb70458d7892e8d93f8cd29d96ef7c7b94220f0f74f0156"
+            },
+            {
+              "path": "D:\\capstone-v4\\brsr-pdfs\\ZENSARTECH_BR_24-25.pdf",
+              "exists": true,
+              "size_bytes": 718009,
+              "modified_utc": "2026-09-23T18:31:52.640311Z",
+              "sha256": "d5ce48665057cfccb695ea85296f2e15602f833f9d83e08d610acd4723fc4cb5"
+            }
+          ]
+        }
+      },
+      "outputs": {
+        "master_scores": {
+          "path": "D:\\capstone-v4\\processed-data\\esg_master_scores.csv",
+          "exists": true,
+          "size_bytes": 15498,
+          "modified_utc": "2026-10-04T16:57:46.948356Z",
+          "sha256": "b3e4b1199354774503c2403d9f3cde3dde59a5e1692ff6d81df162f014a681d0",
+          "row_count": 50,
+          "column_count": 52,
+          "columns": [
+            "Company_Code",
+            "Company_Name",
+            "Environmental_Score",
+            "Social_Score",
+            "Governance_Score",
+            "Master_ESG_Score",
+            "Master_ESG_Score_Base",
+            "Risk_Level",
+            "Consistency_Score",
+            "Contradiction_Count",
+            "Highest_Contradiction_Severity",
+            "Contradiction_Summary",
+            "Quality_Score",
+            "Quality_Gate_Status",
+            "BRSR_Completeness_Pct",
+            "Review_Flag_Count",
+            "Missing_Extraction_Failed_Count",
+            "Missing_Not_Disclosed_Count",
+            "Missing_Not_Available_Sources",
+            "Environmental_Weight",
+            "Social_Weight",
+            "Governance_Weight",
+            "Analysis_Date",
+            "renewable_energy_pct",
+            "renewable_score",
+            "location_environmental_score",
+            "transparency_trust_score",
+            "final_environmental_score",
+            "component_count",
+            "news_sentiment_score",
+            "positive_articles",
+            "negative_articles",
+            "total_articles",
+            "final_social_score",
+            "stock_performance_score",
+            "disclosure_transparency_score",
+            "avg_trust_score",
+            "final_governance_score",
+            "water_recycled_pct",
+            "water_score",
+            "female_employee_pct",
+            "diversity_score",
+            "independent_directors_pct",
+            "independence_score",
+            "training_hours",
+            "training_score",
+            "External_Benchmark_Score",
+            "Project_Rank",
+            "Benchmark_Rank",
+            "Rank_Deviation",
+            "Rank_Alignment_Status",
+            "Rank_Spearman_Correlation"
+          ]
+        },
+        "cross_validation": {
+          "path": "D:\\capstone-v4\\processed-data\\cross_validation_report.csv",
+          "exists": true,
+          "size_bytes": 5475,
+          "modified_utc": "2026-10-04T16:57:46.948356Z",
+          "sha256": "b2b8be00ea718ebef71b9f8419651485a2bb5d90c7bfd9a93a8d0579086e5638",
+          "row_count": 50,
+          "column_count": 6,
+          "columns": [
+            "Company_Code",
+            "Rule_ID",
+            "Severity",
+            "Description",
+            "Evidence",
+            "Analysis_Date"
+          ]
+        },
+        "data_quality": {
+          "path": "D:\\capstone-v4\\processed-data\\data_quality_report.csv",
+          "exists": true,
+          "size_bytes": 4822,
+          "modified_utc": "2026-10-04T16:57:46.951388Z",
+          "sha256": "1d9978f7a4e8331ebe6ab0bd6f3d25871b0e18e0d5d8b890a25141e98afae8cc",
+          "row_count": 50,
+          "column_count": 16,
+          "columns": [
+            "Company_Code",
+            "Company_Name",
+            "BRSR_Total_Metrics",
+            "BRSR_Extracted_Metrics",
+            "BRSR_Completeness_Pct",
+            "Missing_Extraction_Failed_Count",
+            "Missing_Not_Disclosed_Count",
+            "Missing_Not_Available_Sources",
+            "Review_Flag_Count",
+            "BRSR_Records_Used_For_Scoring",
+            "Sentiment_Records_Used",
+            "Environmental_Records_Used",
+            "Stock_Records_Used",
+            "Quality_Score",
+            "Quality_Gate_Status",
+            "Analysis_Date"
+          ]
+        },
+        "external_benchmark": {
+          "path": "D:\\capstone-v4\\processed-data\\external_benchmark_report.csv",
+          "exists": true,
+          "size_bytes": 6689,
+          "modified_utc": "2026-10-04T16:57:46.951388Z",
+          "sha256": "65f35e828aa31ba49ec36543d948acafa4da08f5877b045dea134738185f3ad1",
+          "row_count": 50,
+          "column_count": 13,
+          "columns": [
+            "Company_Code",
+            "Company_Name",
+            "Benchmark_Market_Proxy",
+            "Benchmark_Reputation_Proxy",
+            "Benchmark_Disclosure_Proxy",
+            "External_Benchmark_Score",
+            "Benchmark_Method",
+            "Analysis_Date",
+            "Project_Rank",
+            "Benchmark_Rank",
+            "Rank_Deviation",
+            "Rank_Alignment_Status",
+            "Rank_Spearman_Correlation"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+Company_Code,Company_Name,Benchmark_Market_Proxy,Benchmark_Reputation_Proxy,Benchmark_Disclosure_Proxy,External_Benchmark_Score,Benchmark_Method,Analysis_Date,Project_Rank,Benchmark_Rank,Rank_Deviation,Rank_Alignment_Status,Rank_Spearman_Correlation
+TCS,Tata Consultancy Services,6.0,10.0,6.111,7.233,0.4*Market + 0.3*Reputation + 0.3*Disclosure,2026-10-04,2,2,0,Aligned,0.456
+INFY,Infosys,6.308,10.0,4.444,6.856,0.4*Market + 0.3*Reputation + 0.3*Disclosure,2026-10-04,5,4,1,Aligned,0.456
+WIPRO,Wipro,6.385,10.0,5.0,7.054,0.4*Market + 0.3*Reputation + 0.3*Disclosure,2026-10-04,7,3,4,Deviation-Review,0.456
+HCLTECH,HCL Technologies,6.462,10.0,3.889,6.751,0.4*Market + 0.3*Reputation + 0.3*Disclosure,2026-10-04,9,6,3,Deviation-Review,0.456
+TECHM,Tech Mahindra,6.231,10.0,4.444,6.826,0.4*Market + 0.3*Reputation + 0.3*Disclosure,2026-10-04,4,5,1,Aligned,0.456
+LTIM,LTIMindtree,,9.444,3.889,4.0,0.4*Market + 0.3*Reputation + 0.3*Disclosure,2026-10-04,18,33,15,Deviation-Review,0.456
+MPHASIS,Mphasis,,10.0,2.222,3.667,0.4*Market + 0.3*Reputation + 0.3*Disclosure,2026-10-04,17,34,17,Deviation-Review,0.456
+PERSISTENT,Persistent Systems,,10.0,6.111,4.833,0.4*Market + 0.3*Reputation + 0.3*Disclosure,2026-10-04,23,13,10,Deviation-Review,0.456
+COFORGE,Coforge,,10.0,5.0,4.5,0.4*Market + 0.3*Reputation + 0.3*Disclosure,2026-10-04,24,18,6,Deviation-Review,0.456
+LTTS,L&T Technology Services,,10.0,3.889,4.167,0.4*Market + 0.3*Reputation + 0.3*Disclosure,2026-10-04,16,26,10,Deviation-Review,0.456
+TATAELXSI,Tata Elxsi,,10.0,4.444,4.333,0.4*Market + 0.3*Reputation + 0.3*Disclosure,2026-10-04,13,23,10,Deviation-Review,0.456
+OFSS,Oracle Financial Services Software,,10.0,6.111,4.833,0.4*Market + 0.3*Reputation + 0.3*Disclosure,2026-10-04,14,11,3,Deviation-Review,0.456
+KPITTECH,KPIT Technologies,,10.0,3.333,4.0,0.4*Market + 0.3*Reputation + 0.3*Disclosure,2026-10-04,25,30,5,Deviation-Review,0.456
+CYIENT,Cyient,,10.0,1.111,3.333,0.4*Market + 0.3*Reputation + 0.3*Disclosure,2026-10-04,26,35,9,Deviation-Review,0.456
+BSOFT,Birlasoft,,10.0,6.667,5.0,0.4*Market + 0.3*Reputation + 0.3*Disclosure,2026-10-04,27,10,17,Deviation-Review,0.456
+ZENSARTECH,Zensar Technologies,,10.0,6.111,4.833,0.4*Market + 0.3*Reputation + 0.3*Disclosure,2026-10-04,28,12,16,Deviation-Review,0.456
+TATATECH,Tata Technologies,,9.167,4.444,4.083,0.4*Market + 0.3*Reputation + 0.3*Disclosure,2026-10-04,29,29,0,Aligned,0.456
+HAPPSTMNDS,Happiest Minds Technologies,,10.0,5.0,4.5,0.4*Market + 0.3*Reputation + 0.3*Disclosure,2026-10-04,11,17,6,Deviation-Review,0.456
+SONATSOFTW,Sonata Software,,10.0,6.667,5.0,0.4*Market + 0.3*Reputation + 0.3*Disclosure,2026-10-04,1,9,8,Deviation-Review,0.456
+HEXAWARE,Hexaware Technologies,,10.0,3.333,4.0,0.4*Market + 0.3*Reputation + 0.3*Disclosure,2026-10-04,30,32,2,Deviation-Review,0.456
+MINDTREE,Mindtree (legacy symbol),,10.0,0.0,3.0,0.4*Market + 0.3*Reputation + 0.3*Disclosure,2026-10-04,31,41,10,Deviation-Review,0.456
+NEWGEN,Newgen Software Technologies,,10.0,5.0,4.5,0.4*Market + 0.3*Reputation + 0.3*Disclosure,2026-10-04,32,20,12,Deviation-Review,0.456
+TANLA,Tanla Platforms,,10.0,3.889,4.167,0.4*Market + 0.3*Reputation + 0.3*Disclosure,2026-10-04,33,27,6,Deviation-Review,0.456
+INTELLECT,Intellect Design Arena,,10.0,5.556,4.667,0.4*Market + 0.3*Reputation + 0.3*Disclosure,2026-10-04,8,16,8,Deviation-Review,0.456
+ROUTE,Route Mobile,,9.286,4.444,4.119,0.4*Market + 0.3*Reputation + 0.3*Disclosure,2026-10-04,12,28,16,Deviation-Review,0.456
+RATEGAIN,RateGain Travel Technologies,,10.0,1.111,3.333,0.4*Market + 0.3*Reputation + 0.3*Disclosure,2026-10-04,34,36,2,Deviation-Review,0.456
+ECLERX,eClerx Services,,10.0,6.111,4.833,0.4*Market + 0.3*Reputation + 0.3*Disclosure,2026-10-04,6,14,8,Deviation-Review,0.456
+DATAMATICS,Datamatics Global Services,,10.0,0.0,3.0,0.4*Market + 0.3*Reputation + 0.3*Disclosure,2026-10-04,20,39,19,Deviation-Review,0.456
+MASTEK,Mastek,,10.0,0.0,3.0,0.4*Market + 0.3*Reputation + 0.3*Disclosure,2026-10-04,19,40,21,Deviation-Review,0.456
+SONACOMS,Sona BLW Precision Forgings,,10.0,0.0,3.0,0.4*Market + 0.3*Reputation + 0.3*Disclosure,2026-10-04,35,42,7,Deviation-Review,0.456
+HGS,Hinduja Global Solutions,,10.0,0.0,3.0,0.4*Market + 0.3*Reputation + 0.3*Disclosure,2026-10-04,36,37,1,Aligned,0.456
+NIITLTD,NIIT,,10.0,0.0,3.0,0.4*Market + 0.3*Reputation + 0.3*Disclosure,2026-10-04,37,38,1,Aligned,0.456
+E2E,E2E Networks,,10.0,0.0,3.0,0.4*Market + 0.3*Reputation + 0.3*Disclosure,2026-10-04,38,43,5,Deviation-Review,0.456
+AFFLE,Affle India,,10.0,5.0,4.5,0.4*Market + 0.3*Reputation + 0.3*Disclosure,2026-10-04,3,19,16,Deviation-Review,0.456
+MPSLTD,MPS,,9.692,0.0,2.908,0.4*Market + 0.3*Reputation + 0.3*Disclosure,2026-10-04,39,49,10,Deviation-Review,0.456
+SUBEXLTD,Subex,,10.0,4.444,4.333,0.4*Market + 0.3*Reputation + 0.3*Disclosure,2026-10-04,40,22,18,Deviation-Review,0.456
+SIS,Security and Intelligence Services,,9.661,5.0,4.398,0.4*Market + 0.3*Reputation + 0.3*Disclosure,2026-10-04,41,21,20,Deviation-Review,0.456
+ZOMATO,Eternal (formerly Zomato),,10.0,0.0,3.0,0.4*Market + 0.3*Reputation + 0.3*Disclosure,2026-10-04,42,44,2,Deviation-Review,0.456
+PAYTM,One 97 Communications,,10.0,3.333,4.0,0.4*Market + 0.3*Reputation + 0.3*Disclosure,2026-10-04,43,31,12,Deviation-Review,0.456
+POLICYBZR,PB Fintech,,8.889,0.0,2.667,0.4*Market + 0.3*Reputation + 0.3*Disclosure,2026-10-04,44,50,6,Deviation-Review,0.456
+DELHIVERY,Delhivery,,10.0,0.0,3.0,0.4*Market + 0.3*Reputation + 0.3*Disclosure,2026-10-04,45,45,0,Aligned,0.456
+NAZARA,Nazara Technologies,,10.0,0.0,3.0,0.4*Market + 0.3*Reputation + 0.3*Disclosure,2026-10-04,21,46,25,Deviation-Review,0.456
+TATACOMM,Tata Communications,,10.0,4.444,4.333,0.4*Market + 0.3*Reputation + 0.3*Disclosure,2026-10-04,15,24,9,Deviation-Review,0.456
+INDUSTOWER,Indus Towers,,10.0,3.889,4.167,0.4*Market + 0.3*Reputation + 0.3*Disclosure,2026-10-04,46,25,21,Deviation-Review,0.456
+BHARTIARTL,Bharti Airtel,7.231,10.0,5.556,7.559,0.4*Market + 0.3*Reputation + 0.3*Disclosure,2026-10-04,47,1,46,Deviation-Review,0.456
+TEJASNET,Tejas Networks,,10.0,5.556,4.667,0.4*Market + 0.3*Reputation + 0.3*Disclosure,2026-10-04,48,15,33,Deviation-Review,0.456
+REDINGTON,Redington,,10.0,7.222,5.167,0.4*Market + 0.3*Reputation + 0.3*Disclosure,2026-10-04,10,8,2,Deviation-Review,0.456
+HCL-INFO,HCL Infosystems,,10.0,0.0,3.0,0.4*Market + 0.3*Reputation + 0.3*Disclosure,2026-10-04,49,47,2,Deviation-Review,0.456
+MAZDOCK,Mazagon Dock Shipbuilders,,10.0,0.0,3.0,0.4*Market + 0.3*Reputation + 0.3*Disclosure,2026-10-04,22,48,26,Deviation-Review,0.456
+TITAN,Titan Company,7.0,10.0,0.0,5.8,0.4*Market + 0.3*Reputation + 0.3*Disclosure,2026-10-04,50,7,43,Deviation-Review,0.456

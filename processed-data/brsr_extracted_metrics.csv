@@ -1,0 +1,901 @@
+Company_Code,Company_Name,Metric_Category,Metric_Name,Metric_Value,Unit,Page_Number,Verified,Extraction_Method,Confidence_Score,Validation_Status,Needs_Manual_Review,Extraction_Date,Notes
+TCS,Tata Consultancy Services,Environmental,Total Energy Consumption,2630.0,GWh,10.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: energy consumption; Within expected range
+TCS,Tata Consultancy Services,Environmental,Renewable Energy Percentage,79.0,%,6.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: renewable energy; Within expected range
+TCS,Tata Consultancy Services,Environmental,Total Water Consumption,2871784.0,KL,25.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: water consumption; Within expected range
+TCS,Tata Consultancy Services,Environmental,Water Recycled Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TCS,Tata Consultancy Services,Environmental,Total Waste Generated,48.1,MT,29.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: hazardous waste; Within expected range
+TCS,Tata Consultancy Services,Environmental,Waste Recycled Percentage,56.0,%,11.0,Auto-extracted,text_window,0.6,Valid,False,2026-10-04,Method: text_window; Keyword: recycling; Within expected range
+TCS,Tata Consultancy Services,Social,Total Employees,3.0,Count,4.0,Auto-extracted (Needs Review),table,0.55,Outlier/Suspect,True,2026-10-04,Outside expected bounds 100-10000000; Method: table; Keyword: total employees
+TCS,Tata Consultancy Services,Social,Female Employee Percentage,0.06,%,22.0,Auto-extracted (Needs Review),keyword_context,0.4,Outlier/Suspect,True,2026-10-04,"Very low value, verify manually; Method: keyword_context; Keyword: female employees"
+TCS,Tata Consultancy Services,Social,Employee Turnover Rate,1.0,%,10.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: turnover; Within expected range
+TCS,Tata Consultancy Services,Social,Training Hours per Employee,,Hours,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TCS,Tata Consultancy Services,Social,Health and Safety Incidents,2025.0,Count,16.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: lost time injury; Within expected range
+TCS,Tata Consultancy Services,Social,CSR Expenditure,,Crores INR,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TCS,Tata Consultancy Services,Governance,Board Size,8.0,Count,4.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: board of directors; Within expected range
+TCS,Tata Consultancy Services,Governance,Independent Directors Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TCS,Tata Consultancy Services,Governance,Female Directors Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TCS,Tata Consultancy Services,Governance,Board Meeting Frequency,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TCS,Tata Consultancy Services,Governance,Audit Committee Size,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TCS,Tata Consultancy Services,Governance,Ethics Policy Violations,10.0,Count,5.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: complaints; Within expected range
+INFY,Infosys,Environmental,Total Energy Consumption,77.7,GWh,26.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: electricity; Within expected range
+INFY,Infosys,Environmental,Renewable Energy Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+INFY,Infosys,Environmental,Total Water Consumption,,KL,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+INFY,Infosys,Environmental,Water Recycled Percentage,100.0,%,26.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: water recycled; Within expected range
+INFY,Infosys,Environmental,Total Waste Generated,,MT,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+INFY,Infosys,Environmental,Waste Recycled Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+INFY,Infosys,Social,Total Employees,320000.0,Count,17.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: workforce; Within expected range
+INFY,Infosys,Social,Female Employee Percentage,39.0,%,17.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: women employees; Within expected range
+INFY,Infosys,Social,Employee Turnover Rate,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+INFY,Infosys,Social,Training Hours per Employee,2066.0,Hours,22.0,Auto-extracted (Needs Review),keyword_context,0.4,Outlier/Suspect,True,2026-10-04,Outside expected bounds 0-1000; Method: keyword_context; Keyword: training hours
+INFY,Infosys,Social,Health and Safety Incidents,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+INFY,Infosys,Social,CSR Expenditure,,Crores INR,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+INFY,Infosys,Governance,Board Size,19.0,Count,8.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: board of directors; Within expected range
+INFY,Infosys,Governance,Independent Directors Percentage,0.98,%,11.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: non-executive; Within expected range
+INFY,Infosys,Governance,Female Directors Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+INFY,Infosys,Governance,Board Meeting Frequency,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+INFY,Infosys,Governance,Audit Committee Size,3.0,Count,13.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: audit committee; Within expected range
+INFY,Infosys,Governance,Ethics Policy Violations,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+WIPRO,Wipro,Environmental,Total Energy Consumption,1.0,GWh,28.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: total energy; Within expected range
+WIPRO,Wipro,Environmental,Renewable Energy Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+WIPRO,Wipro,Environmental,Total Water Consumption,2030.0,KL,12.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: total water; Within expected range
+WIPRO,Wipro,Environmental,Water Recycled Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+WIPRO,Wipro,Environmental,Total Waste Generated,,MT,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+WIPRO,Wipro,Environmental,Waste Recycled Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+WIPRO,Wipro,Social,Total Employees,10109.0,Count,4.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: total employees; Within expected range
+WIPRO,Wipro,Social,Female Employee Percentage,37.0,%,11.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: gender diversity; Within expected range
+WIPRO,Wipro,Social,Employee Turnover Rate,19.97,%,4.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: attrition; Within expected range
+WIPRO,Wipro,Social,Training Hours per Employee,,Hours,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+WIPRO,Wipro,Social,Health and Safety Incidents,2024.0,Count,21.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: lost time injury; Within expected range
+WIPRO,Wipro,Social,CSR Expenditure,10.0,Crores INR,13.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: corporate social responsibility; Within expected range
+WIPRO,Wipro,Governance,Board Size,9.0,Count,4.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: board of directors; Within expected range
+WIPRO,Wipro,Governance,Independent Directors Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+WIPRO,Wipro,Governance,Female Directors Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+WIPRO,Wipro,Governance,Board Meeting Frequency,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+WIPRO,Wipro,Governance,Audit Committee Size,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+WIPRO,Wipro,Governance,Ethics Policy Violations,26.0,Count,5.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: complaints; Within expected range
+HCLTECH,HCL Technologies,Environmental,Total Energy Consumption,2030.0,GWh,23.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: electricity; Within expected range
+HCLTECH,HCL Technologies,Environmental,Renewable Energy Percentage,50.0,%,23.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: renewable energy; Within expected range
+HCLTECH,HCL Technologies,Environmental,Total Water Consumption,,KL,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+HCLTECH,HCL Technologies,Environmental,Water Recycled Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+HCLTECH,HCL Technologies,Environmental,Total Waste Generated,,MT,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+HCLTECH,HCL Technologies,Environmental,Waste Recycled Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+HCLTECH,HCL Technologies,Social,Total Employees,234496.0,Count,5.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: total employees; Within expected range
+HCLTECH,HCL Technologies,Social,Female Employee Percentage,40.0,%,23.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: gender diversity; Within expected range
+HCLTECH,HCL Technologies,Social,Employee Turnover Rate,90.0,%,4.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: turnover; Within expected range
+HCLTECH,HCL Technologies,Social,Training Hours per Employee,,Hours,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+HCLTECH,HCL Technologies,Social,Health and Safety Incidents,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+HCLTECH,HCL Technologies,Social,CSR Expenditure,,Crores INR,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+HCLTECH,HCL Technologies,Governance,Board Size,10.0,Count,6.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: board of directors; Within expected range
+HCLTECH,HCL Technologies,Governance,Independent Directors Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+HCLTECH,HCL Technologies,Governance,Female Directors Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+HCLTECH,HCL Technologies,Governance,Board Meeting Frequency,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+HCLTECH,HCL Technologies,Governance,Audit Committee Size,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+HCLTECH,HCL Technologies,Governance,Ethics Policy Violations,25.0,Count,10.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: complaints; Within expected range
+TECHM,Tech Mahindra,Environmental,Total Energy Consumption,1.0,GWh,27.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: total energy; Within expected range
+TECHM,Tech Mahindra,Environmental,Renewable Energy Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TECHM,Tech Mahindra,Environmental,Total Water Consumption,876.33,KL,28.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: total water; Within expected range
+TECHM,Tech Mahindra,Environmental,Water Recycled Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TECHM,Tech Mahindra,Environmental,Total Waste Generated,2024.0,MT,30.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: total waste; Within expected range
+TECHM,Tech Mahindra,Environmental,Waste Recycled Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TECHM,Tech Mahindra,Social,Total Employees,7827.0,Count,3.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: total employees; Within expected range
+TECHM,Tech Mahindra,Social,Female Employee Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TECHM,Tech Mahindra,Social,Employee Turnover Rate,90.0,%,2.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: turnover; Within expected range
+TECHM,Tech Mahindra,Social,Training Hours per Employee,,Hours,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TECHM,Tech Mahindra,Social,Health and Safety Incidents,2024.0,Count,18.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: lost time injury; Within expected range
+TECHM,Tech Mahindra,Social,CSR Expenditure,,Crores INR,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TECHM,Tech Mahindra,Governance,Board Size,10.0,Count,4.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: board of directors; Within expected range
+TECHM,Tech Mahindra,Governance,Independent Directors Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TECHM,Tech Mahindra,Governance,Female Directors Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TECHM,Tech Mahindra,Governance,Board Meeting Frequency,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TECHM,Tech Mahindra,Governance,Audit Committee Size,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TECHM,Tech Mahindra,Governance,Ethics Policy Violations,25.0,Count,4.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: complaints; Within expected range
+LTIM,LTIMindtree,Environmental,Total Energy Consumption,25.0,GWh,3.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: energy consumption; Within expected range
+LTIM,LTIMindtree,Environmental,Renewable Energy Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+LTIM,LTIMindtree,Environmental,Total Water Consumption,25.0,KL,3.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: water consumption; Within expected range
+LTIM,LTIMindtree,Environmental,Water Recycled Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+LTIM,LTIMindtree,Environmental,Total Waste Generated,,MT,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+LTIM,LTIMindtree,Environmental,Waste Recycled Percentage,7.0,%,3.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: waste recycled; Within expected range
+LTIM,LTIMindtree,Social,Total Employees,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+LTIM,LTIMindtree,Social,Female Employee Percentage,14.4,%,12.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: female employees; Within expected range
+LTIM,LTIMindtree,Social,Employee Turnover Rate,14.4,%,12.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: attrition; Within expected range
+LTIM,LTIMindtree,Social,Training Hours per Employee,4.0,Hours,23.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: skill development; Within expected range
+LTIM,LTIMindtree,Social,Health and Safety Incidents,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+LTIM,LTIMindtree,Social,CSR Expenditure,,Crores INR,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+LTIM,LTIMindtree,Governance,Board Size,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+LTIM,LTIMindtree,Governance,Independent Directors Percentage,7.0,%,3.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: independent directors; Within expected range
+LTIM,LTIMindtree,Governance,Female Directors Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+LTIM,LTIMindtree,Governance,Board Meeting Frequency,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+LTIM,LTIMindtree,Governance,Audit Committee Size,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+LTIM,LTIMindtree,Governance,Ethics Policy Violations,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+MPHASIS,Mphasis,Environmental,Total Energy Consumption,,GWh,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+MPHASIS,Mphasis,Environmental,Renewable Energy Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+MPHASIS,Mphasis,Environmental,Total Water Consumption,,KL,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+MPHASIS,Mphasis,Environmental,Water Recycled Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+MPHASIS,Mphasis,Environmental,Total Waste Generated,,MT,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+MPHASIS,Mphasis,Environmental,Waste Recycled Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+MPHASIS,Mphasis,Social,Total Employees,14.0,Count,27.0,Auto-extracted (Needs Review),keyword_context,0.4,Outlier/Suspect,True,2026-10-04,Outside expected bounds 100-10000000; Method: keyword_context; Keyword: workforce
+MPHASIS,Mphasis,Social,Female Employee Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+MPHASIS,Mphasis,Social,Employee Turnover Rate,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+MPHASIS,Mphasis,Social,Training Hours per Employee,,Hours,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+MPHASIS,Mphasis,Social,Health and Safety Incidents,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+MPHASIS,Mphasis,Social,CSR Expenditure,,Crores INR,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+MPHASIS,Mphasis,Governance,Board Size,31.0,Count,3.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: board of directors; Within expected range
+MPHASIS,Mphasis,Governance,Independent Directors Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+MPHASIS,Mphasis,Governance,Female Directors Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+MPHASIS,Mphasis,Governance,Board Meeting Frequency,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+MPHASIS,Mphasis,Governance,Audit Committee Size,24.0,Count,14.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: audit committee; Within expected range
+MPHASIS,Mphasis,Governance,Ethics Policy Violations,1.0,Count,8.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: complaints; Within expected range
+PERSISTENT,Persistent Systems,Environmental,Total Energy Consumption,1.0,GWh,23.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: total energy; Within expected range
+PERSISTENT,Persistent Systems,Environmental,Renewable Energy Percentage,100.0,%,9.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: renewable energy; Within expected range
+PERSISTENT,Persistent Systems,Environmental,Total Water Consumption,100.0,KL,12.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: water consumption; Within expected range
+PERSISTENT,Persistent Systems,Environmental,Water Recycled Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+PERSISTENT,Persistent Systems,Environmental,Total Waste Generated,2024.0,MT,24.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: total waste; Within expected range
+PERSISTENT,Persistent Systems,Environmental,Waste Recycled Percentage,100.0,%,12.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: recycling; Within expected range
+PERSISTENT,Persistent Systems,Social,Total Employees,2389.0,Count,4.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: total employees; Within expected range
+PERSISTENT,Persistent Systems,Social,Female Employee Percentage,35.0,%,12.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: gender diversity; Within expected range
+PERSISTENT,Persistent Systems,Social,Employee Turnover Rate,90.0,%,3.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: turnover; Within expected range
+PERSISTENT,Persistent Systems,Social,Training Hours per Employee,,Hours,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+PERSISTENT,Persistent Systems,Social,Health and Safety Incidents,2024.0,Count,18.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: lost time injury; Within expected range
+PERSISTENT,Persistent Systems,Social,CSR Expenditure,,Crores INR,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+PERSISTENT,Persistent Systems,Governance,Board Size,9.0,Count,4.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: board of directors; Within expected range
+PERSISTENT,Persistent Systems,Governance,Independent Directors Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+PERSISTENT,Persistent Systems,Governance,Female Directors Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+PERSISTENT,Persistent Systems,Governance,Board Meeting Frequency,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+PERSISTENT,Persistent Systems,Governance,Audit Committee Size,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+PERSISTENT,Persistent Systems,Governance,Ethics Policy Violations,0.0,Count,5.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: complaints; Within expected range
+COFORGE,Coforge,Environmental,Total Energy Consumption,,GWh,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+COFORGE,Coforge,Environmental,Renewable Energy Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+COFORGE,Coforge,Environmental,Total Water Consumption,,KL,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+COFORGE,Coforge,Environmental,Water Recycled Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+COFORGE,Coforge,Environmental,Total Waste Generated,5.0,MT,20.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: hazardous waste; Within expected range
+COFORGE,Coforge,Environmental,Waste Recycled Percentage,100.0,%,2.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: recycling; Within expected range
+COFORGE,Coforge,Social,Total Employees,1279.0,Count,5.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: total employees; Within expected range
+COFORGE,Coforge,Social,Female Employee Percentage,0.11,%,30.0,Auto-extracted (Needs Review),keyword_context,0.4,Outlier/Suspect,True,2026-10-04,"Very low value, verify manually; Method: keyword_context; Keyword: female employees"
+COFORGE,Coforge,Social,Employee Turnover Rate,90.0,%,4.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: turnover; Within expected range
+COFORGE,Coforge,Social,Training Hours per Employee,3.0,Hours,2.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: skill development; Within expected range
+COFORGE,Coforge,Social,Health and Safety Incidents,2024.0,Count,24.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: safety incidents; Within expected range
+COFORGE,Coforge,Social,CSR Expenditure,,Crores INR,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+COFORGE,Coforge,Governance,Board Size,6.0,Count,5.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: board of directors; Within expected range
+COFORGE,Coforge,Governance,Independent Directors Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+COFORGE,Coforge,Governance,Female Directors Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+COFORGE,Coforge,Governance,Board Meeting Frequency,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+COFORGE,Coforge,Governance,Audit Committee Size,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+COFORGE,Coforge,Governance,Ethics Policy Violations,10.0,Count,8.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: complaints; Within expected range
+LTTS,L&T Technology Services,Environmental,Total Energy Consumption,25.0,GWh,9.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: total energy; Within expected range
+LTTS,L&T Technology Services,Environmental,Renewable Energy Percentage,10.6,%,9.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: renewable energy; Within expected range
+LTTS,L&T Technology Services,Environmental,Total Water Consumption,,KL,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+LTTS,L&T Technology Services,Environmental,Water Recycled Percentage,10.6,%,9.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: water recycled; Within expected range
+LTTS,L&T Technology Services,Environmental,Total Waste Generated,,MT,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+LTTS,L&T Technology Services,Environmental,Waste Recycled Percentage,10.6,%,9.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: waste recycled; Within expected range
+LTTS,L&T Technology Services,Social,Total Employees,100.0,Count,10.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: workforce; Within expected range
+LTTS,L&T Technology Services,Social,Female Employee Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+LTTS,L&T Technology Services,Social,Employee Turnover Rate,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+LTTS,L&T Technology Services,Social,Training Hours per Employee,278.2,Hours,10.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: training hours; Within expected range
+LTTS,L&T Technology Services,Social,Health and Safety Incidents,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+LTTS,L&T Technology Services,Social,CSR Expenditure,,Crores INR,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+LTTS,L&T Technology Services,Governance,Board Size,2024.0,Count,8.0,Auto-extracted (Needs Review),table,0.55,Outlier/Suspect,True,2026-10-04,Outside expected bounds 1-100; Method: table; Keyword: board of directors
+LTTS,L&T Technology Services,Governance,Independent Directors Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+LTTS,L&T Technology Services,Governance,Female Directors Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+LTTS,L&T Technology Services,Governance,Board Meeting Frequency,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+LTTS,L&T Technology Services,Governance,Audit Committee Size,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+LTTS,L&T Technology Services,Governance,Ethics Policy Violations,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TATAELXSI,Tata Elxsi,Environmental,Total Energy Consumption,1.0,GWh,30.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: total energy; Within expected range
+TATAELXSI,Tata Elxsi,Environmental,Renewable Energy Percentage,51.15,%,10.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: renewable energy; Within expected range
+TATAELXSI,Tata Elxsi,Environmental,Total Water Consumption,,KL,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TATAELXSI,Tata Elxsi,Environmental,Water Recycled Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TATAELXSI,Tata Elxsi,Environmental,Total Waste Generated,,MT,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TATAELXSI,Tata Elxsi,Environmental,Waste Recycled Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TATAELXSI,Tata Elxsi,Social,Total Employees,12414.0,Count,5.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: total employees; Within expected range
+TATAELXSI,Tata Elxsi,Social,Female Employee Percentage,0.04,%,28.0,Auto-extracted (Needs Review),keyword_context,0.4,Outlier/Suspect,True,2026-10-04,"Very low value, verify manually; Method: keyword_context; Keyword: female employees"
+TATAELXSI,Tata Elxsi,Social,Employee Turnover Rate,90.0,%,4.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: turnover; Within expected range
+TATAELXSI,Tata Elxsi,Social,Training Hours per Employee,,Hours,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TATAELXSI,Tata Elxsi,Social,Health and Safety Incidents,2023.0,Count,22.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: lost time injury; Within expected range
+TATAELXSI,Tata Elxsi,Social,CSR Expenditure,,Crores INR,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TATAELXSI,Tata Elxsi,Governance,Board Size,6.0,Count,6.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: board of directors; Within expected range
+TATAELXSI,Tata Elxsi,Governance,Independent Directors Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TATAELXSI,Tata Elxsi,Governance,Female Directors Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TATAELXSI,Tata Elxsi,Governance,Board Meeting Frequency,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TATAELXSI,Tata Elxsi,Governance,Audit Committee Size,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TATAELXSI,Tata Elxsi,Governance,Ethics Policy Violations,1.0,Count,7.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: complaints; Within expected range
+OFSS,Oracle Financial Services Software,Environmental,Total Energy Consumption,7327.0,GWh,16.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: electricity; Within expected range
+OFSS,Oracle Financial Services Software,Environmental,Renewable Energy Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+OFSS,Oracle Financial Services Software,Environmental,Total Water Consumption,32149.0,KL,17.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: water consumption; Within expected range
+OFSS,Oracle Financial Services Software,Environmental,Water Recycled Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+OFSS,Oracle Financial Services Software,Environmental,Total Waste Generated,2.64,MT,19.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: hazardous waste; Within expected range
+OFSS,Oracle Financial Services Software,Environmental,Waste Recycled Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+OFSS,Oracle Financial Services Software,Social,Total Employees,3.0,Count,3.0,Auto-extracted (Needs Review),table,0.55,Outlier/Suspect,True,2026-10-04,Outside expected bounds 100-10000000; Method: table; Keyword: total employees
+OFSS,Oracle Financial Services Software,Social,Female Employee Percentage,26.42,%,15.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: female employees; Within expected range
+OFSS,Oracle Financial Services Software,Social,Employee Turnover Rate,90.0,%,2.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: turnover; Within expected range
+OFSS,Oracle Financial Services Software,Social,Training Hours per Employee,,Hours,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+OFSS,Oracle Financial Services Software,Social,Health and Safety Incidents,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+OFSS,Oracle Financial Services Software,Social,CSR Expenditure,6.0,Crores INR,8.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: corporate social responsibility; Within expected range
+OFSS,Oracle Financial Services Software,Governance,Board Size,10.0,Count,3.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: board of directors; Within expected range
+OFSS,Oracle Financial Services Software,Governance,Independent Directors Percentage,30.0,%,3.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: non-executive; Within expected range
+OFSS,Oracle Financial Services Software,Governance,Female Directors Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+OFSS,Oracle Financial Services Software,Governance,Board Meeting Frequency,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+OFSS,Oracle Financial Services Software,Governance,Audit Committee Size,11.0,Count,8.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: audit committee; Within expected range
+OFSS,Oracle Financial Services Software,Governance,Ethics Policy Violations,-176732.0,Count,12.0,Auto-extracted (Needs Review),table,0.55,Outlier/Suspect,True,2026-10-04,Outside expected bounds 0-100000; Method: table; Keyword: grievances
+KPITTECH,KPIT Technologies,Environmental,Total Energy Consumption,,GWh,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+KPITTECH,KPIT Technologies,Environmental,Renewable Energy Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+KPITTECH,KPIT Technologies,Environmental,Total Water Consumption,,KL,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+KPITTECH,KPIT Technologies,Environmental,Water Recycled Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+KPITTECH,KPIT Technologies,Environmental,Total Waste Generated,5.0,MT,25.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: hazardous waste; Within expected range
+KPITTECH,KPIT Technologies,Environmental,Waste Recycled Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+KPITTECH,KPIT Technologies,Social,Total Employees,10188.0,Count,5.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: total employees; Within expected range
+KPITTECH,KPIT Technologies,Social,Female Employee Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+KPITTECH,KPIT Technologies,Social,Employee Turnover Rate,90.0,%,4.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: turnover; Within expected range
+KPITTECH,KPIT Technologies,Social,Training Hours per Employee,,Hours,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+KPITTECH,KPIT Technologies,Social,Health and Safety Incidents,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+KPITTECH,KPIT Technologies,Social,CSR Expenditure,7.0,Crores INR,20.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: corporate social responsibility; Within expected range
+KPITTECH,KPIT Technologies,Governance,Board Size,2.0,Count,19.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: board of directors; Within expected range
+KPITTECH,KPIT Technologies,Governance,Independent Directors Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+KPITTECH,KPIT Technologies,Governance,Female Directors Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+KPITTECH,KPIT Technologies,Governance,Board Meeting Frequency,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+KPITTECH,KPIT Technologies,Governance,Audit Committee Size,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+KPITTECH,KPIT Technologies,Governance,Ethics Policy Violations,25.0,Count,8.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: complaints; Within expected range
+CYIENT,Cyient,Environmental,Total Energy Consumption,,GWh,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+CYIENT,Cyient,Environmental,Renewable Energy Percentage,60.0,%,14.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: renewable energy; Within expected range
+CYIENT,Cyient,Environmental,Total Water Consumption,,KL,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+CYIENT,Cyient,Environmental,Water Recycled Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+CYIENT,Cyient,Environmental,Total Waste Generated,,MT,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+CYIENT,Cyient,Environmental,Waste Recycled Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+CYIENT,Cyient,Social,Total Employees,48.0,Count,14.0,Auto-extracted (Needs Review),keyword_context,0.4,Outlier/Suspect,True,2026-10-04,Outside expected bounds 100-10000000; Method: keyword_context; Keyword: workforce
+CYIENT,Cyient,Social,Female Employee Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+CYIENT,Cyient,Social,Employee Turnover Rate,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+CYIENT,Cyient,Social,Training Hours per Employee,,Hours,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+CYIENT,Cyient,Social,Health and Safety Incidents,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+CYIENT,Cyient,Social,CSR Expenditure,,Crores INR,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+CYIENT,Cyient,Governance,Board Size,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+CYIENT,Cyient,Governance,Independent Directors Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+CYIENT,Cyient,Governance,Female Directors Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+CYIENT,Cyient,Governance,Board Meeting Frequency,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+CYIENT,Cyient,Governance,Audit Committee Size,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+CYIENT,Cyient,Governance,Ethics Policy Violations,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+BSOFT,Birlasoft,Environmental,Total Energy Consumption,40.0,GWh,5.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: total energy; Within expected range
+BSOFT,Birlasoft,Environmental,Renewable Energy Percentage,40.0,%,5.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: renewable energy; Within expected range
+BSOFT,Birlasoft,Environmental,Total Water Consumption,8.0,KL,18.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: total water; Within expected range
+BSOFT,Birlasoft,Environmental,Water Recycled Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+BSOFT,Birlasoft,Environmental,Total Waste Generated,2024.0,MT,19.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: total waste; Within expected range
+BSOFT,Birlasoft,Environmental,Waste Recycled Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+BSOFT,Birlasoft,Social,Total Employees,10882.0,Count,2.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: permanent employees; Within expected range
+BSOFT,Birlasoft,Social,Female Employee Percentage,0.2,%,16.0,Auto-extracted (Needs Review),keyword_context,0.4,Outlier/Suspect,True,2026-10-04,"Very low value, verify manually; Method: keyword_context; Keyword: female employees"
+BSOFT,Birlasoft,Social,Employee Turnover Rate,90.0,%,2.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: turnover; Within expected range
+BSOFT,Birlasoft,Social,Training Hours per Employee,,Hours,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+BSOFT,Birlasoft,Social,Health and Safety Incidents,2024.0,Count,12.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: safety incidents; Within expected range
+BSOFT,Birlasoft,Social,CSR Expenditure,40.0,Crores INR,5.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: corporate social responsibility; Within expected range
+BSOFT,Birlasoft,Governance,Board Size,7.0,Count,3.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: board of directors; Within expected range
+BSOFT,Birlasoft,Governance,Independent Directors Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+BSOFT,Birlasoft,Governance,Female Directors Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+BSOFT,Birlasoft,Governance,Board Meeting Frequency,6.0,Count,7.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: board meetings held; Within expected range
+BSOFT,Birlasoft,Governance,Audit Committee Size,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+BSOFT,Birlasoft,Governance,Ethics Policy Violations,16.0,Count,4.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: complaints; Within expected range
+ZENSARTECH,Zensar Technologies,Environmental,Total Energy Consumption,30.0,GWh,15.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: energy consumption; Within expected range
+ZENSARTECH,Zensar Technologies,Environmental,Renewable Energy Percentage,90.0,%,15.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: renewable energy; Within expected range
+ZENSARTECH,Zensar Technologies,Environmental,Total Water Consumption,,KL,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+ZENSARTECH,Zensar Technologies,Environmental,Water Recycled Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+ZENSARTECH,Zensar Technologies,Environmental,Total Waste Generated,100.0,MT,7.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: hazardous waste; Within expected range
+ZENSARTECH,Zensar Technologies,Environmental,Waste Recycled Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+ZENSARTECH,Zensar Technologies,Social,Total Employees,727.0,Count,3.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: total employees; Within expected range
+ZENSARTECH,Zensar Technologies,Social,Female Employee Percentage,35.0,%,15.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: women employees; Within expected range
+ZENSARTECH,Zensar Technologies,Social,Employee Turnover Rate,9.9,%,16.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: attrition; Within expected range
+ZENSARTECH,Zensar Technologies,Social,Training Hours per Employee,30.0,Hours,15.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: skill development; Within expected range
+ZENSARTECH,Zensar Technologies,Social,Health and Safety Incidents,2024.0,Count,26.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: lost time injury; Within expected range
+ZENSARTECH,Zensar Technologies,Social,CSR Expenditure,4.0,Crores INR,5.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: corporate social responsibility; Within expected range
+ZENSARTECH,Zensar Technologies,Governance,Board Size,9.0,Count,4.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: board of directors; Within expected range
+ZENSARTECH,Zensar Technologies,Governance,Independent Directors Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+ZENSARTECH,Zensar Technologies,Governance,Female Directors Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+ZENSARTECH,Zensar Technologies,Governance,Board Meeting Frequency,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+ZENSARTECH,Zensar Technologies,Governance,Audit Committee Size,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+ZENSARTECH,Zensar Technologies,Governance,Ethics Policy Violations,23.0,Count,5.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: complaints; Within expected range
+TATATECH,Tata Technologies,Environmental,Total Energy Consumption,1.0,GWh,2.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: energy consumption; Within expected range
+TATATECH,Tata Technologies,Environmental,Renewable Energy Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TATATECH,Tata Technologies,Environmental,Total Water Consumption,6.0,KL,25.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: water consumption; Within expected range
+TATATECH,Tata Technologies,Environmental,Water Recycled Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TATATECH,Tata Technologies,Environmental,Total Waste Generated,6.0,MT,25.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: waste generated; Within expected range
+TATATECH,Tata Technologies,Environmental,Waste Recycled Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TATATECH,Tata Technologies,Social,Total Employees,717.0,Count,3.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: total employees; Within expected range
+TATATECH,Tata Technologies,Social,Female Employee Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TATATECH,Tata Technologies,Social,Employee Turnover Rate,31.4,%,3.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: turnover; Within expected range
+TATATECH,Tata Technologies,Social,Training Hours per Employee,,Hours,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TATATECH,Tata Technologies,Social,Health and Safety Incidents,3.0,Count,25.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: lost time injury; Within expected range
+TATATECH,Tata Technologies,Social,CSR Expenditure,,Crores INR,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TATATECH,Tata Technologies,Governance,Board Size,7.0,Count,3.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: board of directors; Within expected range
+TATATECH,Tata Technologies,Governance,Independent Directors Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TATATECH,Tata Technologies,Governance,Female Directors Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TATATECH,Tata Technologies,Governance,Board Meeting Frequency,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TATATECH,Tata Technologies,Governance,Audit Committee Size,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TATATECH,Tata Technologies,Governance,Ethics Policy Violations,5.0,Count,25.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: complaints; Within expected range
+HAPPSTMNDS,Happiest Minds Technologies,Environmental,Total Energy Consumption,1.0,GWh,30.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: total energy; Within expected range
+HAPPSTMNDS,Happiest Minds Technologies,Environmental,Renewable Energy Percentage,12.13,%,14.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: solar; Within expected range
+HAPPSTMNDS,Happiest Minds Technologies,Environmental,Total Water Consumption,2030.0,KL,7.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: water consumption; Within expected range
+HAPPSTMNDS,Happiest Minds Technologies,Environmental,Water Recycled Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+HAPPSTMNDS,Happiest Minds Technologies,Environmental,Total Waste Generated,5.0,MT,19.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: hazardous waste; Within expected range
+HAPPSTMNDS,Happiest Minds Technologies,Environmental,Waste Recycled Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+HAPPSTMNDS,Happiest Minds Technologies,Social,Total Employees,212.0,Count,4.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: total employees; Within expected range
+HAPPSTMNDS,Happiest Minds Technologies,Social,Female Employee Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+HAPPSTMNDS,Happiest Minds Technologies,Social,Employee Turnover Rate,90.0,%,3.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: turnover; Within expected range
+HAPPSTMNDS,Happiest Minds Technologies,Social,Training Hours per Employee,,Hours,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+HAPPSTMNDS,Happiest Minds Technologies,Social,Health and Safety Incidents,2025.0,Count,23.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: lost time injury; Within expected range
+HAPPSTMNDS,Happiest Minds Technologies,Social,CSR Expenditure,,Crores INR,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+HAPPSTMNDS,Happiest Minds Technologies,Governance,Board Size,8.0,Count,4.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: board of directors; Within expected range
+HAPPSTMNDS,Happiest Minds Technologies,Governance,Independent Directors Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+HAPPSTMNDS,Happiest Minds Technologies,Governance,Female Directors Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+HAPPSTMNDS,Happiest Minds Technologies,Governance,Board Meeting Frequency,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+HAPPSTMNDS,Happiest Minds Technologies,Governance,Audit Committee Size,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+HAPPSTMNDS,Happiest Minds Technologies,Governance,Ethics Policy Violations,25.0,Count,5.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: complaints; Within expected range
+SONATSOFTW,Sonata Software,Environmental,Total Energy Consumption,2025.0,GWh,26.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: total energy; Within expected range
+SONATSOFTW,Sonata Software,Environmental,Renewable Energy Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+SONATSOFTW,Sonata Software,Environmental,Total Water Consumption,3.0,KL,27.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: total water; Within expected range
+SONATSOFTW,Sonata Software,Environmental,Water Recycled Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+SONATSOFTW,Sonata Software,Environmental,Total Waste Generated,51.0,MT,15.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: hazardous waste; Within expected range
+SONATSOFTW,Sonata Software,Environmental,Waste Recycled Percentage,51.0,%,15.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: recycling; Within expected range
+SONATSOFTW,Sonata Software,Social,Total Employees,20.0,Count,3.0,Auto-extracted (Needs Review),table,0.55,Outlier/Suspect,True,2026-10-04,Outside expected bounds 100-10000000; Method: table; Keyword: total employees
+SONATSOFTW,Sonata Software,Social,Female Employee Percentage,1.1,%,10.0,Auto-extracted (Needs Review),table,0.55,Outlier/Suspect,True,2026-10-04,"Very low value, verify manually; Method: table; Keyword: gender diversity"
+SONATSOFTW,Sonata Software,Social,Employee Turnover Rate,40.0,%,2.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: turnover; Within expected range
+SONATSOFTW,Sonata Software,Social,Training Hours per Employee,,Hours,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+SONATSOFTW,Sonata Software,Social,Health and Safety Incidents,10.0,Count,19.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: lost time injury; Within expected range
+SONATSOFTW,Sonata Software,Social,CSR Expenditure,1.0,Crores INR,10.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: corporate social responsibility; Within expected range
+SONATSOFTW,Sonata Software,Governance,Board Size,20.0,Count,3.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: board of directors; Within expected range
+SONATSOFTW,Sonata Software,Governance,Independent Directors Percentage,100.0,%,12.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: independent directors; Within expected range
+SONATSOFTW,Sonata Software,Governance,Female Directors Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+SONATSOFTW,Sonata Software,Governance,Board Meeting Frequency,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+SONATSOFTW,Sonata Software,Governance,Audit Committee Size,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+SONATSOFTW,Sonata Software,Governance,Ethics Policy Violations,22.0,Count,4.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: complaints; Within expected range
+HEXAWARE,Hexaware Technologies,Environmental,Total Energy Consumption,59.0,GWh,15.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: total energy; Within expected range
+HEXAWARE,Hexaware Technologies,Environmental,Renewable Energy Percentage,83.0,%,4.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: renewable energy; Within expected range
+HEXAWARE,Hexaware Technologies,Environmental,Total Water Consumption,,KL,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+HEXAWARE,Hexaware Technologies,Environmental,Water Recycled Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+HEXAWARE,Hexaware Technologies,Environmental,Total Waste Generated,,MT,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+HEXAWARE,Hexaware Technologies,Environmental,Waste Recycled Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+HEXAWARE,Hexaware Technologies,Social,Total Employees,187.0,Count,4.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: workforce; Within expected range
+HEXAWARE,Hexaware Technologies,Social,Female Employee Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+HEXAWARE,Hexaware Technologies,Social,Employee Turnover Rate,11.0,%,12.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: attrition; Within expected range
+HEXAWARE,Hexaware Technologies,Social,Training Hours per Employee,21222.0,Hours,4.0,Auto-extracted (Needs Review),keyword_context,0.4,Outlier/Suspect,True,2026-10-04,Outside expected bounds 0-1000; Method: keyword_context; Keyword: training hours
+HEXAWARE,Hexaware Technologies,Social,Health and Safety Incidents,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+HEXAWARE,Hexaware Technologies,Social,CSR Expenditure,34.3,Crores INR,4.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: csr spent; Within expected range
+HEXAWARE,Hexaware Technologies,Governance,Board Size,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+HEXAWARE,Hexaware Technologies,Governance,Independent Directors Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+HEXAWARE,Hexaware Technologies,Governance,Female Directors Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+HEXAWARE,Hexaware Technologies,Governance,Board Meeting Frequency,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+HEXAWARE,Hexaware Technologies,Governance,Audit Committee Size,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+HEXAWARE,Hexaware Technologies,Governance,Ethics Policy Violations,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+MINDTREE,Mindtree (legacy symbol),Environmental,Total Energy Consumption,,GWh,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MINDTREE,Mindtree (legacy symbol),Environmental,Renewable Energy Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MINDTREE,Mindtree (legacy symbol),Environmental,Total Water Consumption,,KL,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MINDTREE,Mindtree (legacy symbol),Environmental,Water Recycled Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MINDTREE,Mindtree (legacy symbol),Environmental,Total Waste Generated,,MT,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MINDTREE,Mindtree (legacy symbol),Environmental,Waste Recycled Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MINDTREE,Mindtree (legacy symbol),Social,Total Employees,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MINDTREE,Mindtree (legacy symbol),Social,Female Employee Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MINDTREE,Mindtree (legacy symbol),Social,Employee Turnover Rate,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MINDTREE,Mindtree (legacy symbol),Social,Training Hours per Employee,,Hours,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MINDTREE,Mindtree (legacy symbol),Social,Health and Safety Incidents,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MINDTREE,Mindtree (legacy symbol),Social,CSR Expenditure,,Crores INR,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MINDTREE,Mindtree (legacy symbol),Governance,Board Size,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MINDTREE,Mindtree (legacy symbol),Governance,Independent Directors Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MINDTREE,Mindtree (legacy symbol),Governance,Female Directors Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MINDTREE,Mindtree (legacy symbol),Governance,Board Meeting Frequency,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MINDTREE,Mindtree (legacy symbol),Governance,Audit Committee Size,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MINDTREE,Mindtree (legacy symbol),Governance,Ethics Policy Violations,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+NEWGEN,Newgen Software Technologies,Environmental,Total Energy Consumption,1.0,GWh,23.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: total energy; Within expected range
+NEWGEN,Newgen Software Technologies,Environmental,Renewable Energy Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+NEWGEN,Newgen Software Technologies,Environmental,Total Water Consumption,38197.47,KL,24.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: total water; Within expected range
+NEWGEN,Newgen Software Technologies,Environmental,Water Recycled Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+NEWGEN,Newgen Software Technologies,Environmental,Total Waste Generated,2024.0,MT,26.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: total waste; Within expected range
+NEWGEN,Newgen Software Technologies,Environmental,Waste Recycled Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+NEWGEN,Newgen Software Technologies,Social,Total Employees,417.0,Count,3.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: total employees; Within expected range
+NEWGEN,Newgen Software Technologies,Social,Female Employee Percentage,25.5,%,3.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: female employees; Within expected range
+NEWGEN,Newgen Software Technologies,Social,Employee Turnover Rate,90.0,%,2.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: turnover; Within expected range
+NEWGEN,Newgen Software Technologies,Social,Training Hours per Employee,,Hours,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+NEWGEN,Newgen Software Technologies,Social,Health and Safety Incidents,2024.0,Count,18.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: lost time injury; Within expected range
+NEWGEN,Newgen Software Technologies,Social,CSR Expenditure,,Crores INR,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+NEWGEN,Newgen Software Technologies,Governance,Board Size,7.0,Count,3.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: board of directors; Within expected range
+NEWGEN,Newgen Software Technologies,Governance,Independent Directors Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+NEWGEN,Newgen Software Technologies,Governance,Female Directors Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+NEWGEN,Newgen Software Technologies,Governance,Board Meeting Frequency,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+NEWGEN,Newgen Software Technologies,Governance,Audit Committee Size,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+NEWGEN,Newgen Software Technologies,Governance,Ethics Policy Violations,25.0,Count,4.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: complaints; Within expected range
+TANLA,Tanla Platforms,Environmental,Total Energy Consumption,1.0,GWh,30.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: total energy; Within expected range
+TANLA,Tanla Platforms,Environmental,Renewable Energy Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TANLA,Tanla Platforms,Environmental,Total Water Consumption,,KL,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TANLA,Tanla Platforms,Environmental,Water Recycled Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TANLA,Tanla Platforms,Environmental,Total Waste Generated,3.0,MT,16.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: hazardous waste; Within expected range
+TANLA,Tanla Platforms,Environmental,Waste Recycled Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TANLA,Tanla Platforms,Social,Total Employees,40.0,Count,4.0,Auto-extracted (Needs Review),keyword_context,0.4,Outlier/Suspect,True,2026-10-04,Outside expected bounds 100-10000000; Method: keyword_context; Keyword: total employees
+TANLA,Tanla Platforms,Social,Female Employee Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TANLA,Tanla Platforms,Social,Employee Turnover Rate,90.0,%,3.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: turnover; Within expected range
+TANLA,Tanla Platforms,Social,Training Hours per Employee,,Hours,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TANLA,Tanla Platforms,Social,Health and Safety Incidents,3.0,Count,21.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: lost time injury; Within expected range
+TANLA,Tanla Platforms,Social,CSR Expenditure,,Crores INR,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TANLA,Tanla Platforms,Governance,Board Size,7.0,Count,4.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: board of directors; Within expected range
+TANLA,Tanla Platforms,Governance,Independent Directors Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TANLA,Tanla Platforms,Governance,Female Directors Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TANLA,Tanla Platforms,Governance,Board Meeting Frequency,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TANLA,Tanla Platforms,Governance,Audit Committee Size,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TANLA,Tanla Platforms,Governance,Ethics Policy Violations,25.0,Count,5.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: complaints; Within expected range
+INTELLECT,Intellect Design Arena,Environmental,Total Energy Consumption,6553483.2,GWh,26.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: electricity; Within expected range
+INTELLECT,Intellect Design Arena,Environmental,Renewable Energy Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+INTELLECT,Intellect Design Arena,Environmental,Total Water Consumption,9781.35,KL,27.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: total water; Within expected range
+INTELLECT,Intellect Design Arena,Environmental,Water Recycled Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+INTELLECT,Intellect Design Arena,Environmental,Total Waste Generated,5.0,MT,8.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: hazardous waste; Within expected range
+INTELLECT,Intellect Design Arena,Environmental,Waste Recycled Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+INTELLECT,Intellect Design Arena,Social,Total Employees,3.0,Count,4.0,Auto-extracted (Needs Review),table,0.55,Outlier/Suspect,True,2026-10-04,Outside expected bounds 100-10000000; Method: table; Keyword: total employees
+INTELLECT,Intellect Design Arena,Social,Female Employee Percentage,0.1,%,24.0,Auto-extracted (Needs Review),table,0.55,Outlier/Suspect,True,2026-10-04,"Very low value, verify manually; Method: table; Keyword: female employees"
+INTELLECT,Intellect Design Arena,Social,Employee Turnover Rate,0.21,%,14.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: turnover; Within expected range
+INTELLECT,Intellect Design Arena,Social,Training Hours per Employee,257.0,Hours,12.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: skill development; Within expected range
+INTELLECT,Intellect Design Arena,Social,Health and Safety Incidents,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+INTELLECT,Intellect Design Arena,Social,CSR Expenditure,9.0,Crores INR,11.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: corporate social responsibility; Within expected range
+INTELLECT,Intellect Design Arena,Governance,Board Size,6.0,Count,4.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: board of directors; Within expected range
+INTELLECT,Intellect Design Arena,Governance,Independent Directors Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+INTELLECT,Intellect Design Arena,Governance,Female Directors Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+INTELLECT,Intellect Design Arena,Governance,Board Meeting Frequency,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+INTELLECT,Intellect Design Arena,Governance,Audit Committee Size,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+INTELLECT,Intellect Design Arena,Governance,Ethics Policy Violations,2024.0,Count,6.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: complaints; Within expected range
+ROUTE,Route Mobile,Environmental,Total Energy Consumption,1.0,GWh,25.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: total energy; Within expected range
+ROUTE,Route Mobile,Environmental,Renewable Energy Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+ROUTE,Route Mobile,Environmental,Total Water Consumption,52.8,KL,26.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: total water; Within expected range
+ROUTE,Route Mobile,Environmental,Water Recycled Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+ROUTE,Route Mobile,Environmental,Total Waste Generated,2024.0,MT,28.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: total waste; Within expected range
+ROUTE,Route Mobile,Environmental,Waste Recycled Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+ROUTE,Route Mobile,Social,Total Employees,15.0,Count,4.0,Auto-extracted (Needs Review),keyword_context,0.4,Outlier/Suspect,True,2026-10-04,Outside expected bounds 100-10000000; Method: keyword_context; Keyword: total employees
+ROUTE,Route Mobile,Social,Female Employee Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+ROUTE,Route Mobile,Social,Employee Turnover Rate,90.0,%,3.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: turnover; Within expected range
+ROUTE,Route Mobile,Social,Training Hours per Employee,,Hours,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+ROUTE,Route Mobile,Social,Health and Safety Incidents,2024.0,Count,18.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: lost time injury; Within expected range
+ROUTE,Route Mobile,Social,CSR Expenditure,,Crores INR,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+ROUTE,Route Mobile,Governance,Board Size,6.0,Count,4.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: board of directors; Within expected range
+ROUTE,Route Mobile,Governance,Independent Directors Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+ROUTE,Route Mobile,Governance,Female Directors Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+ROUTE,Route Mobile,Governance,Board Meeting Frequency,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+ROUTE,Route Mobile,Governance,Audit Committee Size,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+ROUTE,Route Mobile,Governance,Ethics Policy Violations,25.0,Count,5.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: complaints; Within expected range
+RATEGAIN,RateGain Travel Technologies,Environmental,Total Energy Consumption,,GWh,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+RATEGAIN,RateGain Travel Technologies,Environmental,Renewable Energy Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+RATEGAIN,RateGain Travel Technologies,Environmental,Total Water Consumption,,KL,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+RATEGAIN,RateGain Travel Technologies,Environmental,Water Recycled Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+RATEGAIN,RateGain Travel Technologies,Environmental,Total Waste Generated,,MT,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+RATEGAIN,RateGain Travel Technologies,Environmental,Waste Recycled Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+RATEGAIN,RateGain Travel Technologies,Social,Total Employees,115.0,Count,6.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: permanent employees; Within expected range
+RATEGAIN,RateGain Travel Technologies,Social,Female Employee Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+RATEGAIN,RateGain Travel Technologies,Social,Employee Turnover Rate,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+RATEGAIN,RateGain Travel Technologies,Social,Training Hours per Employee,,Hours,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+RATEGAIN,RateGain Travel Technologies,Social,Health and Safety Incidents,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+RATEGAIN,RateGain Travel Technologies,Social,CSR Expenditure,,Crores INR,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+RATEGAIN,RateGain Travel Technologies,Governance,Board Size,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+RATEGAIN,RateGain Travel Technologies,Governance,Independent Directors Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+RATEGAIN,RateGain Travel Technologies,Governance,Female Directors Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+RATEGAIN,RateGain Travel Technologies,Governance,Board Meeting Frequency,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+RATEGAIN,RateGain Travel Technologies,Governance,Audit Committee Size,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+RATEGAIN,RateGain Travel Technologies,Governance,Ethics Policy Violations,117.0,Count,8.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: complaints; Within expected range
+ECLERX,eClerx Services,Environmental,Total Energy Consumption,22301.0,GWh,7.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: electricity; Within expected range
+ECLERX,eClerx Services,Environmental,Renewable Energy Percentage,64.0,%,27.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: renewable source; Within expected range
+ECLERX,eClerx Services,Environmental,Total Water Consumption,2.0,KL,25.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: total water; Within expected range
+ECLERX,eClerx Services,Environmental,Water Recycled Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+ECLERX,eClerx Services,Environmental,Total Waste Generated,2024.0,MT,27.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: total waste; Within expected range
+ECLERX,eClerx Services,Environmental,Waste Recycled Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+ECLERX,eClerx Services,Social,Total Employees,16628.0,Count,3.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: total employees; Within expected range
+ECLERX,eClerx Services,Social,Female Employee Percentage,0.0,%,23.0,Auto-extracted (Needs Review),keyword_context,0.4,Outlier/Suspect,True,2026-10-04,"Very low value, verify manually; Method: keyword_context; Keyword: female employees"
+ECLERX,eClerx Services,Social,Employee Turnover Rate,90.0,%,2.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: turnover; Within expected range
+ECLERX,eClerx Services,Social,Training Hours per Employee,,Hours,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+ECLERX,eClerx Services,Social,Health and Safety Incidents,2024.0,Count,17.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: lost time injury; Within expected range
+ECLERX,eClerx Services,Social,CSR Expenditure,,Crores INR,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+ECLERX,eClerx Services,Governance,Board Size,9.0,Count,3.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: board of directors; Within expected range
+ECLERX,eClerx Services,Governance,Independent Directors Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+ECLERX,eClerx Services,Governance,Female Directors Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+ECLERX,eClerx Services,Governance,Board Meeting Frequency,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+ECLERX,eClerx Services,Governance,Audit Committee Size,11.0,Count,23.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: audit committee; Within expected range
+ECLERX,eClerx Services,Governance,Ethics Policy Violations,1.0,Count,5.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: complaints; Within expected range
+DATAMATICS,Datamatics Global Services,Environmental,Total Energy Consumption,,GWh,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+DATAMATICS,Datamatics Global Services,Environmental,Renewable Energy Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+DATAMATICS,Datamatics Global Services,Environmental,Total Water Consumption,,KL,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+DATAMATICS,Datamatics Global Services,Environmental,Water Recycled Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+DATAMATICS,Datamatics Global Services,Environmental,Total Waste Generated,,MT,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+DATAMATICS,Datamatics Global Services,Environmental,Waste Recycled Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+DATAMATICS,Datamatics Global Services,Social,Total Employees,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+DATAMATICS,Datamatics Global Services,Social,Female Employee Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+DATAMATICS,Datamatics Global Services,Social,Employee Turnover Rate,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+DATAMATICS,Datamatics Global Services,Social,Training Hours per Employee,,Hours,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+DATAMATICS,Datamatics Global Services,Social,Health and Safety Incidents,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+DATAMATICS,Datamatics Global Services,Social,CSR Expenditure,,Crores INR,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+DATAMATICS,Datamatics Global Services,Governance,Board Size,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+DATAMATICS,Datamatics Global Services,Governance,Independent Directors Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+DATAMATICS,Datamatics Global Services,Governance,Female Directors Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+DATAMATICS,Datamatics Global Services,Governance,Board Meeting Frequency,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+DATAMATICS,Datamatics Global Services,Governance,Audit Committee Size,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+DATAMATICS,Datamatics Global Services,Governance,Ethics Policy Violations,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MASTEK,Mastek,Environmental,Total Energy Consumption,,GWh,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MASTEK,Mastek,Environmental,Renewable Energy Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MASTEK,Mastek,Environmental,Total Water Consumption,,KL,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MASTEK,Mastek,Environmental,Water Recycled Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MASTEK,Mastek,Environmental,Total Waste Generated,,MT,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MASTEK,Mastek,Environmental,Waste Recycled Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MASTEK,Mastek,Social,Total Employees,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MASTEK,Mastek,Social,Female Employee Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MASTEK,Mastek,Social,Employee Turnover Rate,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MASTEK,Mastek,Social,Training Hours per Employee,,Hours,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MASTEK,Mastek,Social,Health and Safety Incidents,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MASTEK,Mastek,Social,CSR Expenditure,,Crores INR,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MASTEK,Mastek,Governance,Board Size,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MASTEK,Mastek,Governance,Independent Directors Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MASTEK,Mastek,Governance,Female Directors Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MASTEK,Mastek,Governance,Board Meeting Frequency,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MASTEK,Mastek,Governance,Audit Committee Size,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MASTEK,Mastek,Governance,Ethics Policy Violations,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+SONACOMS,Sona BLW Precision Forgings,Environmental,Total Energy Consumption,,GWh,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+SONACOMS,Sona BLW Precision Forgings,Environmental,Renewable Energy Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+SONACOMS,Sona BLW Precision Forgings,Environmental,Total Water Consumption,,KL,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+SONACOMS,Sona BLW Precision Forgings,Environmental,Water Recycled Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+SONACOMS,Sona BLW Precision Forgings,Environmental,Total Waste Generated,,MT,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+SONACOMS,Sona BLW Precision Forgings,Environmental,Waste Recycled Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+SONACOMS,Sona BLW Precision Forgings,Social,Total Employees,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+SONACOMS,Sona BLW Precision Forgings,Social,Female Employee Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+SONACOMS,Sona BLW Precision Forgings,Social,Employee Turnover Rate,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+SONACOMS,Sona BLW Precision Forgings,Social,Training Hours per Employee,,Hours,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+SONACOMS,Sona BLW Precision Forgings,Social,Health and Safety Incidents,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+SONACOMS,Sona BLW Precision Forgings,Social,CSR Expenditure,,Crores INR,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+SONACOMS,Sona BLW Precision Forgings,Governance,Board Size,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+SONACOMS,Sona BLW Precision Forgings,Governance,Independent Directors Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+SONACOMS,Sona BLW Precision Forgings,Governance,Female Directors Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+SONACOMS,Sona BLW Precision Forgings,Governance,Board Meeting Frequency,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+SONACOMS,Sona BLW Precision Forgings,Governance,Audit Committee Size,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+SONACOMS,Sona BLW Precision Forgings,Governance,Ethics Policy Violations,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+HGS,Hinduja Global Solutions,Environmental,Total Energy Consumption,,GWh,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+HGS,Hinduja Global Solutions,Environmental,Renewable Energy Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+HGS,Hinduja Global Solutions,Environmental,Total Water Consumption,,KL,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+HGS,Hinduja Global Solutions,Environmental,Water Recycled Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+HGS,Hinduja Global Solutions,Environmental,Total Waste Generated,,MT,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+HGS,Hinduja Global Solutions,Environmental,Waste Recycled Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+HGS,Hinduja Global Solutions,Social,Total Employees,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+HGS,Hinduja Global Solutions,Social,Female Employee Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+HGS,Hinduja Global Solutions,Social,Employee Turnover Rate,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+HGS,Hinduja Global Solutions,Social,Training Hours per Employee,,Hours,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+HGS,Hinduja Global Solutions,Social,Health and Safety Incidents,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+HGS,Hinduja Global Solutions,Social,CSR Expenditure,,Crores INR,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+HGS,Hinduja Global Solutions,Governance,Board Size,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+HGS,Hinduja Global Solutions,Governance,Independent Directors Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+HGS,Hinduja Global Solutions,Governance,Female Directors Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+HGS,Hinduja Global Solutions,Governance,Board Meeting Frequency,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+HGS,Hinduja Global Solutions,Governance,Audit Committee Size,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+HGS,Hinduja Global Solutions,Governance,Ethics Policy Violations,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+NIITLTD,NIIT,Environmental,Total Energy Consumption,,GWh,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+NIITLTD,NIIT,Environmental,Renewable Energy Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+NIITLTD,NIIT,Environmental,Total Water Consumption,,KL,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+NIITLTD,NIIT,Environmental,Water Recycled Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+NIITLTD,NIIT,Environmental,Total Waste Generated,,MT,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+NIITLTD,NIIT,Environmental,Waste Recycled Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+NIITLTD,NIIT,Social,Total Employees,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+NIITLTD,NIIT,Social,Female Employee Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+NIITLTD,NIIT,Social,Employee Turnover Rate,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+NIITLTD,NIIT,Social,Training Hours per Employee,,Hours,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+NIITLTD,NIIT,Social,Health and Safety Incidents,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+NIITLTD,NIIT,Social,CSR Expenditure,,Crores INR,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+NIITLTD,NIIT,Governance,Board Size,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+NIITLTD,NIIT,Governance,Independent Directors Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+NIITLTD,NIIT,Governance,Female Directors Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+NIITLTD,NIIT,Governance,Board Meeting Frequency,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+NIITLTD,NIIT,Governance,Audit Committee Size,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+NIITLTD,NIIT,Governance,Ethics Policy Violations,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+E2E,E2E Networks,Environmental,Total Energy Consumption,,GWh,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+E2E,E2E Networks,Environmental,Renewable Energy Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+E2E,E2E Networks,Environmental,Total Water Consumption,,KL,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+E2E,E2E Networks,Environmental,Water Recycled Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+E2E,E2E Networks,Environmental,Total Waste Generated,,MT,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+E2E,E2E Networks,Environmental,Waste Recycled Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+E2E,E2E Networks,Social,Total Employees,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+E2E,E2E Networks,Social,Female Employee Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+E2E,E2E Networks,Social,Employee Turnover Rate,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+E2E,E2E Networks,Social,Training Hours per Employee,,Hours,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+E2E,E2E Networks,Social,Health and Safety Incidents,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+E2E,E2E Networks,Social,CSR Expenditure,,Crores INR,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+E2E,E2E Networks,Governance,Board Size,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+E2E,E2E Networks,Governance,Independent Directors Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+E2E,E2E Networks,Governance,Female Directors Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+E2E,E2E Networks,Governance,Board Meeting Frequency,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+E2E,E2E Networks,Governance,Audit Committee Size,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+E2E,E2E Networks,Governance,Ethics Policy Violations,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+AFFLE,Affle India,Environmental,Total Energy Consumption,1.0,GWh,25.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: total energy; Within expected range
+AFFLE,Affle India,Environmental,Renewable Energy Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+AFFLE,Affle India,Environmental,Total Water Consumption,,KL,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+AFFLE,Affle India,Environmental,Water Recycled Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+AFFLE,Affle India,Environmental,Total Waste Generated,2023.0,MT,28.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: total waste; Within expected range
+AFFLE,Affle India,Environmental,Waste Recycled Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+AFFLE,Affle India,Social,Total Employees,2.0,Count,3.0,Auto-extracted (Needs Review),keyword_context,0.4,Outlier/Suspect,True,2026-10-04,Outside expected bounds 100-10000000; Method: keyword_context; Keyword: total employees
+AFFLE,Affle India,Social,Female Employee Percentage,0.43,%,24.0,Auto-extracted (Needs Review),keyword_context,0.4,Outlier/Suspect,True,2026-10-04,"Very low value, verify manually; Method: keyword_context; Keyword: female employees"
+AFFLE,Affle India,Social,Employee Turnover Rate,90.0,%,2.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: turnover; Within expected range
+AFFLE,Affle India,Social,Training Hours per Employee,,Hours,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+AFFLE,Affle India,Social,Health and Safety Incidents,2024.0,Count,20.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: lost time injury; Within expected range
+AFFLE,Affle India,Social,CSR Expenditure,,Crores INR,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+AFFLE,Affle India,Governance,Board Size,8.0,Count,4.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: board of directors; Within expected range
+AFFLE,Affle India,Governance,Independent Directors Percentage,55.6,%,9.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: independent directors; Within expected range
+AFFLE,Affle India,Governance,Female Directors Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+AFFLE,Affle India,Governance,Board Meeting Frequency,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+AFFLE,Affle India,Governance,Audit Committee Size,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+AFFLE,Affle India,Governance,Ethics Policy Violations,25.0,Count,5.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: complaints; Within expected range
+MPSLTD,MPS,Environmental,Total Energy Consumption,,GWh,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MPSLTD,MPS,Environmental,Renewable Energy Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MPSLTD,MPS,Environmental,Total Water Consumption,,KL,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MPSLTD,MPS,Environmental,Water Recycled Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MPSLTD,MPS,Environmental,Total Waste Generated,,MT,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MPSLTD,MPS,Environmental,Waste Recycled Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MPSLTD,MPS,Social,Total Employees,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MPSLTD,MPS,Social,Female Employee Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MPSLTD,MPS,Social,Employee Turnover Rate,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MPSLTD,MPS,Social,Training Hours per Employee,,Hours,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MPSLTD,MPS,Social,Health and Safety Incidents,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MPSLTD,MPS,Social,CSR Expenditure,,Crores INR,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MPSLTD,MPS,Governance,Board Size,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MPSLTD,MPS,Governance,Independent Directors Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MPSLTD,MPS,Governance,Female Directors Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MPSLTD,MPS,Governance,Board Meeting Frequency,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MPSLTD,MPS,Governance,Audit Committee Size,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MPSLTD,MPS,Governance,Ethics Policy Violations,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+SUBEXLTD,Subex,Environmental,Total Energy Consumption,1.0,GWh,18.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: total energy; Within expected range
+SUBEXLTD,Subex,Environmental,Renewable Energy Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+SUBEXLTD,Subex,Environmental,Total Water Consumption,6500.0,KL,19.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: water consumption; Within expected range
+SUBEXLTD,Subex,Environmental,Water Recycled Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+SUBEXLTD,Subex,Environmental,Total Waste Generated,-2025.0,MT,20.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: total waste; Within expected range
+SUBEXLTD,Subex,Environmental,Waste Recycled Percentage,93.0,%,11.0,Auto-extracted,text_window,0.6,Valid,False,2026-10-04,Method: text_window; Keyword: recycling; Within expected range
+SUBEXLTD,Subex,Social,Total Employees,639.0,Count,3.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: total employees; Within expected range
+SUBEXLTD,Subex,Social,Female Employee Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+SUBEXLTD,Subex,Social,Employee Turnover Rate,90.0,%,2.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: turnover; Within expected range
+SUBEXLTD,Subex,Social,Training Hours per Employee,,Hours,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+SUBEXLTD,Subex,Social,Health and Safety Incidents,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+SUBEXLTD,Subex,Social,CSR Expenditure,,Crores INR,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+SUBEXLTD,Subex,Governance,Board Size,6.0,Count,4.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: board of directors; Within expected range
+SUBEXLTD,Subex,Governance,Independent Directors Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+SUBEXLTD,Subex,Governance,Female Directors Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+SUBEXLTD,Subex,Governance,Board Meeting Frequency,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+SUBEXLTD,Subex,Governance,Audit Committee Size,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+SUBEXLTD,Subex,Governance,Ethics Policy Violations,25.0,Count,5.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: complaints; Within expected range
+SIS,Security and Intelligence Services,Environmental,Total Energy Consumption,1.0,GWh,30.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: total energy; Within expected range
+SIS,Security and Intelligence Services,Environmental,Renewable Energy Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+SIS,Security and Intelligence Services,Environmental,Total Water Consumption,,KL,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+SIS,Security and Intelligence Services,Environmental,Water Recycled Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+SIS,Security and Intelligence Services,Environmental,Total Waste Generated,4.0,MT,15.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: hazardous waste; Within expected range
+SIS,Security and Intelligence Services,Environmental,Waste Recycled Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+SIS,Security and Intelligence Services,Social,Total Employees,122.0,Count,3.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: total employees; Within expected range
+SIS,Security and Intelligence Services,Social,Female Employee Percentage,0.07,%,29.0,Auto-extracted (Needs Review),keyword_context,0.4,Outlier/Suspect,True,2026-10-04,"Very low value, verify manually; Method: keyword_context; Keyword: female employees"
+SIS,Security and Intelligence Services,Social,Employee Turnover Rate,90.0,%,2.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: turnover; Within expected range
+SIS,Security and Intelligence Services,Social,Training Hours per Employee,,Hours,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+SIS,Security and Intelligence Services,Social,Health and Safety Incidents,2024.0,Count,22.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: lost time injury; Within expected range
+SIS,Security and Intelligence Services,Social,CSR Expenditure,21.0,Crores INR,11.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: corporate social responsibility; Within expected range
+SIS,Security and Intelligence Services,Governance,Board Size,11.0,Count,4.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: board of directors; Within expected range
+SIS,Security and Intelligence Services,Governance,Independent Directors Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+SIS,Security and Intelligence Services,Governance,Female Directors Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+SIS,Security and Intelligence Services,Governance,Board Meeting Frequency,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+SIS,Security and Intelligence Services,Governance,Audit Committee Size,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+SIS,Security and Intelligence Services,Governance,Ethics Policy Violations,31.0,Count,7.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: complaints; Within expected range
+ZOMATO,Eternal (formerly Zomato),Environmental,Total Energy Consumption,,GWh,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+ZOMATO,Eternal (formerly Zomato),Environmental,Renewable Energy Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+ZOMATO,Eternal (formerly Zomato),Environmental,Total Water Consumption,,KL,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+ZOMATO,Eternal (formerly Zomato),Environmental,Water Recycled Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+ZOMATO,Eternal (formerly Zomato),Environmental,Total Waste Generated,,MT,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+ZOMATO,Eternal (formerly Zomato),Environmental,Waste Recycled Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+ZOMATO,Eternal (formerly Zomato),Social,Total Employees,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+ZOMATO,Eternal (formerly Zomato),Social,Female Employee Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+ZOMATO,Eternal (formerly Zomato),Social,Employee Turnover Rate,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+ZOMATO,Eternal (formerly Zomato),Social,Training Hours per Employee,,Hours,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+ZOMATO,Eternal (formerly Zomato),Social,Health and Safety Incidents,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+ZOMATO,Eternal (formerly Zomato),Social,CSR Expenditure,,Crores INR,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+ZOMATO,Eternal (formerly Zomato),Governance,Board Size,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+ZOMATO,Eternal (formerly Zomato),Governance,Independent Directors Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+ZOMATO,Eternal (formerly Zomato),Governance,Female Directors Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+ZOMATO,Eternal (formerly Zomato),Governance,Board Meeting Frequency,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+ZOMATO,Eternal (formerly Zomato),Governance,Audit Committee Size,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+ZOMATO,Eternal (formerly Zomato),Governance,Ethics Policy Violations,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+PAYTM,One 97 Communications,Environmental,Total Energy Consumption,,GWh,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+PAYTM,One 97 Communications,Environmental,Renewable Energy Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+PAYTM,One 97 Communications,Environmental,Total Water Consumption,,KL,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+PAYTM,One 97 Communications,Environmental,Water Recycled Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+PAYTM,One 97 Communications,Environmental,Total Waste Generated,157.73,MT,18.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: hazardous waste; Within expected range
+PAYTM,One 97 Communications,Environmental,Waste Recycled Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+PAYTM,One 97 Communications,Social,Total Employees,14656.0,Count,4.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: total employees; Within expected range
+PAYTM,One 97 Communications,Social,Female Employee Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+PAYTM,One 97 Communications,Social,Employee Turnover Rate,90.0,%,2.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: turnover; Within expected range
+PAYTM,One 97 Communications,Social,Training Hours per Employee,,Hours,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+PAYTM,One 97 Communications,Social,Health and Safety Incidents,2023.0,Count,24.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: lost time injury; Within expected range
+PAYTM,One 97 Communications,Social,CSR Expenditure,,Crores INR,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+PAYTM,One 97 Communications,Governance,Board Size,7.0,Count,13.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: board of directors; Within expected range
+PAYTM,One 97 Communications,Governance,Independent Directors Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+PAYTM,One 97 Communications,Governance,Female Directors Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+PAYTM,One 97 Communications,Governance,Board Meeting Frequency,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+PAYTM,One 97 Communications,Governance,Audit Committee Size,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+PAYTM,One 97 Communications,Governance,Ethics Policy Violations,1032.0,Count,7.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: complaints; Within expected range
+POLICYBZR,PB Fintech,Environmental,Total Energy Consumption,,GWh,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+POLICYBZR,PB Fintech,Environmental,Renewable Energy Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+POLICYBZR,PB Fintech,Environmental,Total Water Consumption,,KL,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+POLICYBZR,PB Fintech,Environmental,Water Recycled Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+POLICYBZR,PB Fintech,Environmental,Total Waste Generated,,MT,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+POLICYBZR,PB Fintech,Environmental,Waste Recycled Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+POLICYBZR,PB Fintech,Social,Total Employees,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+POLICYBZR,PB Fintech,Social,Female Employee Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+POLICYBZR,PB Fintech,Social,Employee Turnover Rate,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+POLICYBZR,PB Fintech,Social,Training Hours per Employee,,Hours,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+POLICYBZR,PB Fintech,Social,Health and Safety Incidents,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+POLICYBZR,PB Fintech,Social,CSR Expenditure,,Crores INR,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+POLICYBZR,PB Fintech,Governance,Board Size,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+POLICYBZR,PB Fintech,Governance,Independent Directors Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+POLICYBZR,PB Fintech,Governance,Female Directors Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+POLICYBZR,PB Fintech,Governance,Board Meeting Frequency,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+POLICYBZR,PB Fintech,Governance,Audit Committee Size,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+POLICYBZR,PB Fintech,Governance,Ethics Policy Violations,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+DELHIVERY,Delhivery,Environmental,Total Energy Consumption,,GWh,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+DELHIVERY,Delhivery,Environmental,Renewable Energy Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+DELHIVERY,Delhivery,Environmental,Total Water Consumption,,KL,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+DELHIVERY,Delhivery,Environmental,Water Recycled Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+DELHIVERY,Delhivery,Environmental,Total Waste Generated,,MT,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+DELHIVERY,Delhivery,Environmental,Waste Recycled Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+DELHIVERY,Delhivery,Social,Total Employees,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+DELHIVERY,Delhivery,Social,Female Employee Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+DELHIVERY,Delhivery,Social,Employee Turnover Rate,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+DELHIVERY,Delhivery,Social,Training Hours per Employee,,Hours,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+DELHIVERY,Delhivery,Social,Health and Safety Incidents,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+DELHIVERY,Delhivery,Social,CSR Expenditure,,Crores INR,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+DELHIVERY,Delhivery,Governance,Board Size,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+DELHIVERY,Delhivery,Governance,Independent Directors Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+DELHIVERY,Delhivery,Governance,Female Directors Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+DELHIVERY,Delhivery,Governance,Board Meeting Frequency,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+DELHIVERY,Delhivery,Governance,Audit Committee Size,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+DELHIVERY,Delhivery,Governance,Ethics Policy Violations,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+NAZARA,Nazara Technologies,Environmental,Total Energy Consumption,,GWh,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+NAZARA,Nazara Technologies,Environmental,Renewable Energy Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+NAZARA,Nazara Technologies,Environmental,Total Water Consumption,,KL,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+NAZARA,Nazara Technologies,Environmental,Water Recycled Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+NAZARA,Nazara Technologies,Environmental,Total Waste Generated,,MT,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+NAZARA,Nazara Technologies,Environmental,Waste Recycled Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+NAZARA,Nazara Technologies,Social,Total Employees,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+NAZARA,Nazara Technologies,Social,Female Employee Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+NAZARA,Nazara Technologies,Social,Employee Turnover Rate,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+NAZARA,Nazara Technologies,Social,Training Hours per Employee,,Hours,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+NAZARA,Nazara Technologies,Social,Health and Safety Incidents,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+NAZARA,Nazara Technologies,Social,CSR Expenditure,,Crores INR,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+NAZARA,Nazara Technologies,Governance,Board Size,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+NAZARA,Nazara Technologies,Governance,Independent Directors Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+NAZARA,Nazara Technologies,Governance,Female Directors Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+NAZARA,Nazara Technologies,Governance,Board Meeting Frequency,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+NAZARA,Nazara Technologies,Governance,Audit Committee Size,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+NAZARA,Nazara Technologies,Governance,Ethics Policy Violations,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+TATACOMM,Tata Communications,Environmental,Total Energy Consumption,,GWh,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TATACOMM,Tata Communications,Environmental,Renewable Energy Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TATACOMM,Tata Communications,Environmental,Total Water Consumption,20.0,KL,14.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: water consumption; Within expected range
+TATACOMM,Tata Communications,Environmental,Water Recycled Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TATACOMM,Tata Communications,Environmental,Total Waste Generated,21.0,MT,21.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: hazardous waste; Within expected range
+TATACOMM,Tata Communications,Environmental,Waste Recycled Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TATACOMM,Tata Communications,Social,Total Employees,3926.0,Count,4.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: total employees; Within expected range
+TATACOMM,Tata Communications,Social,Female Employee Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TATACOMM,Tata Communications,Social,Employee Turnover Rate,90.0,%,3.0,Auto-extracted,text_window,0.6,Valid,False,2026-10-04,Method: text_window; Keyword: turnover; Within expected range
+TATACOMM,Tata Communications,Social,Training Hours per Employee,,Hours,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TATACOMM,Tata Communications,Social,Health and Safety Incidents,2024.0,Count,26.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: lost time injury; Within expected range
+TATACOMM,Tata Communications,Social,CSR Expenditure,135.0,Crores INR,7.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: corporate social responsibility; Within expected range
+TATACOMM,Tata Communications,Governance,Board Size,6.0,Count,5.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: board of directors; Within expected range
+TATACOMM,Tata Communications,Governance,Independent Directors Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TATACOMM,Tata Communications,Governance,Female Directors Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TATACOMM,Tata Communications,Governance,Board Meeting Frequency,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TATACOMM,Tata Communications,Governance,Audit Committee Size,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TATACOMM,Tata Communications,Governance,Ethics Policy Violations,0.0,Count,8.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: grievances; Within expected range
+INDUSTOWER,Indus Towers,Environmental,Total Energy Consumption,,GWh,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+INDUSTOWER,Indus Towers,Environmental,Renewable Energy Percentage,64.5,%,27.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: solar; Within expected range
+INDUSTOWER,Indus Towers,Environmental,Total Water Consumption,,KL,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+INDUSTOWER,Indus Towers,Environmental,Water Recycled Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+INDUSTOWER,Indus Towers,Environmental,Total Waste Generated,,MT,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+INDUSTOWER,Indus Towers,Environmental,Waste Recycled Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+INDUSTOWER,Indus Towers,Social,Total Employees,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+INDUSTOWER,Indus Towers,Social,Female Employee Percentage,103.1,%,27.0,Auto-extracted (Needs Review),keyword_context,0.4,Invalid Range,True,2026-10-04,Percentage outside 0-100; Method: keyword_context; Keyword: gender diversity
+INDUSTOWER,Indus Towers,Social,Employee Turnover Rate,82.99,%,18.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: turnover; Within expected range
+INDUSTOWER,Indus Towers,Social,Training Hours per Employee,,Hours,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+INDUSTOWER,Indus Towers,Social,Health and Safety Incidents,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+INDUSTOWER,Indus Towers,Social,CSR Expenditure,1.0,Crores INR,23.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: corporate social responsibility; Within expected range
+INDUSTOWER,Indus Towers,Governance,Board Size,25.0,Count,12.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: board of directors; Within expected range
+INDUSTOWER,Indus Towers,Governance,Independent Directors Percentage,1.0,%,5.0,Auto-extracted,text_window,0.6,Valid,False,2026-10-04,Method: text_window; Keyword: non-executive; Within expected range
+INDUSTOWER,Indus Towers,Governance,Female Directors Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+INDUSTOWER,Indus Towers,Governance,Board Meeting Frequency,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+INDUSTOWER,Indus Towers,Governance,Audit Committee Size,1.0,Count,23.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: audit committee; Within expected range
+INDUSTOWER,Indus Towers,Governance,Ethics Policy Violations,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+BHARTIARTL,Bharti Airtel,Environmental,Total Energy Consumption,1.0,GWh,11.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: total energy; Within expected range
+BHARTIARTL,Bharti Airtel,Environmental,Renewable Energy Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+BHARTIARTL,Bharti Airtel,Environmental,Total Water Consumption,56.0,KL,12.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: total water; Within expected range
+BHARTIARTL,Bharti Airtel,Environmental,Water Recycled Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+BHARTIARTL,Bharti Airtel,Environmental,Total Waste Generated,2024.0,MT,12.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: total waste; Within expected range
+BHARTIARTL,Bharti Airtel,Environmental,Waste Recycled Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+BHARTIARTL,Bharti Airtel,Social,Total Employees,661.0,Count,2.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: total employees; Within expected range
+BHARTIARTL,Bharti Airtel,Social,Female Employee Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+BHARTIARTL,Bharti Airtel,Social,Employee Turnover Rate,90.0,%,2.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: turnover; Within expected range
+BHARTIARTL,Bharti Airtel,Social,Training Hours per Employee,,Hours,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+BHARTIARTL,Bharti Airtel,Social,Health and Safety Incidents,2024.0,Count,7.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: lost time injury; Within expected range
+BHARTIARTL,Bharti Airtel,Social,CSR Expenditure,62.0,Crores INR,9.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: corporate social responsibility; Within expected range
+BHARTIARTL,Bharti Airtel,Governance,Board Size,10.0,Count,3.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: board of directors; Within expected range
+BHARTIARTL,Bharti Airtel,Governance,Independent Directors Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+BHARTIARTL,Bharti Airtel,Governance,Female Directors Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+BHARTIARTL,Bharti Airtel,Governance,Board Meeting Frequency,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+BHARTIARTL,Bharti Airtel,Governance,Audit Committee Size,2.0,Count,5.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: audit committee; Within expected range
+BHARTIARTL,Bharti Airtel,Governance,Ethics Policy Violations,25.0,Count,3.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: complaints; Within expected range
+TEJASNET,Tejas Networks,Environmental,Total Energy Consumption,45906178.0,GWh,23.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: electricity; Within expected range
+TEJASNET,Tejas Networks,Environmental,Renewable Energy Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TEJASNET,Tejas Networks,Environmental,Total Water Consumption,29189.0,KL,24.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: water consumption; Within expected range
+TEJASNET,Tejas Networks,Environmental,Water Recycled Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TEJASNET,Tejas Networks,Environmental,Total Waste Generated,19.52,MT,13.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: hazardous waste; Within expected range
+TEJASNET,Tejas Networks,Environmental,Waste Recycled Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TEJASNET,Tejas Networks,Social,Total Employees,3.0,Count,4.0,Auto-extracted (Needs Review),table,0.55,Outlier/Suspect,True,2026-10-04,Outside expected bounds 100-10000000; Method: table; Keyword: total employees
+TEJASNET,Tejas Networks,Social,Female Employee Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TEJASNET,Tejas Networks,Social,Employee Turnover Rate,90.0,%,3.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: turnover; Within expected range
+TEJASNET,Tejas Networks,Social,Training Hours per Employee,2024.0,Hours,19.0,Auto-extracted (Needs Review),keyword_context,0.4,Outlier/Suspect,True,2026-10-04,Outside expected bounds 0-1000; Method: keyword_context; Keyword: skill development
+TEJASNET,Tejas Networks,Social,Health and Safety Incidents,2024.0,Count,17.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: lost time injury; Within expected range
+TEJASNET,Tejas Networks,Social,CSR Expenditure,100.0,Crores INR,5.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: corporate social responsibility; Within expected range
+TEJASNET,Tejas Networks,Governance,Board Size,6.0,Count,4.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: board of directors; Within expected range
+TEJASNET,Tejas Networks,Governance,Independent Directors Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TEJASNET,Tejas Networks,Governance,Female Directors Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TEJASNET,Tejas Networks,Governance,Board Meeting Frequency,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TEJASNET,Tejas Networks,Governance,Audit Committee Size,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+TEJASNET,Tejas Networks,Governance,Ethics Policy Violations,2013.0,Count,22.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: complaints; Within expected range
+REDINGTON,Redington,Environmental,Total Energy Consumption,1.0,GWh,12.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: total energy; Within expected range
+REDINGTON,Redington,Environmental,Renewable Energy Percentage,90.0,%,2.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: solar; Within expected range
+REDINGTON,Redington,Environmental,Total Water Consumption,0.03,KL,13.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: total water; Within expected range
+REDINGTON,Redington,Environmental,Water Recycled Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+REDINGTON,Redington,Environmental,Total Waste Generated,2025.0,MT,14.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: total waste; Within expected range
+REDINGTON,Redington,Environmental,Waste Recycled Percentage,100.0,%,17.0,Auto-extracted,text_window,0.6,Valid,False,2026-10-04,Method: text_window; Keyword: recycling; Within expected range
+REDINGTON,Redington,Social,Total Employees,301.0,Count,3.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: total employees; Within expected range
+REDINGTON,Redington,Social,Female Employee Percentage,0.09,%,11.0,Auto-extracted (Needs Review),keyword_context,0.4,Outlier/Suspect,True,2026-10-04,"Very low value, verify manually; Method: keyword_context; Keyword: female employees"
+REDINGTON,Redington,Social,Employee Turnover Rate,90.0,%,2.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: turnover; Within expected range
+REDINGTON,Redington,Social,Training Hours per Employee,8.0,Hours,15.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: skill development; Within expected range
+REDINGTON,Redington,Social,Health and Safety Incidents,2024.0,Count,9.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: lost time injury; Within expected range
+REDINGTON,Redington,Social,CSR Expenditure,,Crores INR,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+REDINGTON,Redington,Governance,Board Size,8.0,Count,3.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: board of directors; Within expected range
+REDINGTON,Redington,Governance,Independent Directors Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+REDINGTON,Redington,Governance,Female Directors Percentage,,%,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+REDINGTON,Redington,Governance,Board Meeting Frequency,,Count,,Not found,not_found,0.2,Not Found,True,2026-10-04,Not found in PDF. Check manually.
+REDINGTON,Redington,Governance,Audit Committee Size,17.0,Count,2.0,Auto-extracted,table,0.9,Valid,False,2026-10-04,Method: table; Keyword: audit committee; Within expected range
+REDINGTON,Redington,Governance,Ethics Policy Violations,25.0,Count,3.0,Auto-extracted,keyword_context,0.75,Valid,False,2026-10-04,Method: keyword_context; Keyword: complaints; Within expected range
+HCL-INFO,HCL Infosystems,Environmental,Total Energy Consumption,,GWh,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+HCL-INFO,HCL Infosystems,Environmental,Renewable Energy Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+HCL-INFO,HCL Infosystems,Environmental,Total Water Consumption,,KL,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+HCL-INFO,HCL Infosystems,Environmental,Water Recycled Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+HCL-INFO,HCL Infosystems,Environmental,Total Waste Generated,,MT,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+HCL-INFO,HCL Infosystems,Environmental,Waste Recycled Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+HCL-INFO,HCL Infosystems,Social,Total Employees,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+HCL-INFO,HCL Infosystems,Social,Female Employee Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+HCL-INFO,HCL Infosystems,Social,Employee Turnover Rate,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+HCL-INFO,HCL Infosystems,Social,Training Hours per Employee,,Hours,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+HCL-INFO,HCL Infosystems,Social,Health and Safety Incidents,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+HCL-INFO,HCL Infosystems,Social,CSR Expenditure,,Crores INR,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+HCL-INFO,HCL Infosystems,Governance,Board Size,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+HCL-INFO,HCL Infosystems,Governance,Independent Directors Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+HCL-INFO,HCL Infosystems,Governance,Female Directors Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+HCL-INFO,HCL Infosystems,Governance,Board Meeting Frequency,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+HCL-INFO,HCL Infosystems,Governance,Audit Committee Size,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+HCL-INFO,HCL Infosystems,Governance,Ethics Policy Violations,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MAZDOCK,Mazagon Dock Shipbuilders,Environmental,Total Energy Consumption,,GWh,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MAZDOCK,Mazagon Dock Shipbuilders,Environmental,Renewable Energy Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MAZDOCK,Mazagon Dock Shipbuilders,Environmental,Total Water Consumption,,KL,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MAZDOCK,Mazagon Dock Shipbuilders,Environmental,Water Recycled Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MAZDOCK,Mazagon Dock Shipbuilders,Environmental,Total Waste Generated,,MT,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MAZDOCK,Mazagon Dock Shipbuilders,Environmental,Waste Recycled Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MAZDOCK,Mazagon Dock Shipbuilders,Social,Total Employees,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MAZDOCK,Mazagon Dock Shipbuilders,Social,Female Employee Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MAZDOCK,Mazagon Dock Shipbuilders,Social,Employee Turnover Rate,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MAZDOCK,Mazagon Dock Shipbuilders,Social,Training Hours per Employee,,Hours,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MAZDOCK,Mazagon Dock Shipbuilders,Social,Health and Safety Incidents,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MAZDOCK,Mazagon Dock Shipbuilders,Social,CSR Expenditure,,Crores INR,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MAZDOCK,Mazagon Dock Shipbuilders,Governance,Board Size,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MAZDOCK,Mazagon Dock Shipbuilders,Governance,Independent Directors Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MAZDOCK,Mazagon Dock Shipbuilders,Governance,Female Directors Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MAZDOCK,Mazagon Dock Shipbuilders,Governance,Board Meeting Frequency,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MAZDOCK,Mazagon Dock Shipbuilders,Governance,Audit Committee Size,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+MAZDOCK,Mazagon Dock Shipbuilders,Governance,Ethics Policy Violations,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+TITAN,Titan Company,Environmental,Total Energy Consumption,,GWh,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+TITAN,Titan Company,Environmental,Renewable Energy Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+TITAN,Titan Company,Environmental,Total Water Consumption,,KL,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+TITAN,Titan Company,Environmental,Water Recycled Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+TITAN,Titan Company,Environmental,Total Waste Generated,,MT,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+TITAN,Titan Company,Environmental,Waste Recycled Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+TITAN,Titan Company,Social,Total Employees,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+TITAN,Titan Company,Social,Female Employee Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+TITAN,Titan Company,Social,Employee Turnover Rate,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+TITAN,Titan Company,Social,Training Hours per Employee,,Hours,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+TITAN,Titan Company,Social,Health and Safety Incidents,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+TITAN,Titan Company,Social,CSR Expenditure,,Crores INR,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+TITAN,Titan Company,Governance,Board Size,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+TITAN,Titan Company,Governance,Independent Directors Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+TITAN,Titan Company,Governance,Female Directors Percentage,,%,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+TITAN,Titan Company,Governance,Board Meeting Frequency,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+TITAN,Titan Company,Governance,Audit Committee Size,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF
+TITAN,Titan Company,Governance,Ethics Policy Violations,,Count,,No PDF - Placeholder,not_found,0.0,Not Found,True,2026-10-04,BRSR PDF not available; populate from alternate source or upload PDF

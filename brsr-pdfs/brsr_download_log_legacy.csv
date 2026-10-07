@@ -1,0 +1,207 @@
+timestamp,company_code,company_name,ticker,target_financial_year,nse_company,match_score,nse_from_year,nse_to_year,attachment_url,output_file,status,message
+2026-08-26T02:08:52,TCS,Tata Consultancy Services,TCS.NS,2024-25,,40,,,,,missing,No FY 2024-25 company match found.
+2026-08-26T02:38:37,TCS,Tata Consultancy Services,2024-25,NSE,https://nsearchives.nseindia.com/corporate/TCS_CORPCS_27052025233643_BRSRSEint27052025_signed.pdf,TCS_BR_24-25.pdf,success,TCS FY2024-25 BRSR PDF downloaded and validated.
+2026-08-26T02:52:48,TCS,Tata Consultancy Services,2024-25,NSE,https://nsearchives.nseindia.com/corporate/TCS_CORPCS_27052025233643_BRSRSEint27052025_signed.pdf,TCS_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,Canonical FY2024-25 PDF already exists and passed validation. No duplicate download created.
+2026-08-26T03:00:08,TCS,Tata Consultancy Services,2024-25,NSE,https://nsearchives.nseindia.com/corporate/TCS_CORPCS_27052025233643_BRSRSEint27052025_signed.pdf,TCS_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,Valid canonical PDF already exists.
+2026-08-26T03:01:38,INFY,Infosys,2024-25,NSE,https://nsearchives.nseindia.com/corporate/Infosys_02062025154237_infosys-ar-2025.pdf,INFY_BR_24-25.pdf,REPLACEMENT_FAILED,failed,company identity could not be confirmed
+2026-08-26T03:01:43,HCLTECH,HCL Technologies,2024-25,NSE,https://nsearchives.nseindia.com/corporate/HCLTECH_02082025204043_BRSR_2024-25.pdf,HCLTECH_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,Valid canonical PDF already exists.
+2026-08-26T03:01:53,TECHM,Tech Mahindra,2024-25,NSE,https://nsearchives.nseindia.com/corporate/Apekshakhemka_23062025233414_StockExchangeIntimationBRSR_S.pdf,TECHM_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,Valid canonical PDF already exists.
+2026-08-26T03:01:53,LTIM,LTIMindtree,2024-25,NSE,https://www.ltimindtree.com/wp-content/uploads/2025/05/LTIMindtree-BRSR-FY2024-25.pdf,LTIM_BR_24-25.pdf,NOT_DOWNLOADED,pending,Official NSE FY2024-25 source has not yet been verified.
+2026-08-26T03:02:01,PERSISTENT,Persistent Systems,2024-25,NSE,https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_23062025235235_PSLBusinessResponsibilityandSustainabilityReport2025signed.pdf,PERSISTENT_BR_24-25.pdf,DOWNLOADED_NEW,success,New FY2024-25 BRSR downloaded and validated.
+2026-08-26T03:02:13,COFORGE,Coforge,2024-25,NSE,https://nsearchives.nseindia.com/corporate/COFORGE_28082025220019_BRSR_Intimation.pdf,COFORGE_BR_24-25.pdf,DOWNLOAD_FAILED,failed,company identity could not be confirmed
+2026-08-26T03:03:32,LTTS,L&T Technology Services,2024-25,NSE,https://nsearchives.nseindia.com/corporate/LTTS_23052025212838_IntimationAnnualReport2025_DSC.pdf,LTTS_BR_24-25.pdf,DOWNLOADED_NEW,success,New FY2024-25 BRSR downloaded and validated.
+2026-08-26T03:03:41,TATAELXSI,Tata Elxsi,2024-25,NSE,https://nsearchives.nseindia.com/corporate/TELNSE_29052025183519_TELBRSRFY25.pdf,TATAELXSI_BR_24-25.pdf,DOWNLOADED_NEW,success,New FY2024-25 BRSR downloaded and validated.
+2026-08-26T03:03:47,OFSS,Oracle Financial Services Software,2024-25,NSE,https://nsearchives.nseindia.com/corporate/OFSS_27062025192524_OFSSLettertoSEBRSR2025.pdf,OFSS_BR_24-25.pdf,DOWNLOADED_NEW,success,New FY2024-25 BRSR downloaded and validated.
+2026-08-26T03:04:05,KPITTECH,KPIT Technologies,2024-25,NSE,https://nsearchives.nseindia.com/corporate/KPITTECH_10072025175501_KPITBRSR2425_Signed.pdf,KPITTECH_BR_24-25.pdf,DOWNLOADED_NEW,success,New FY2024-25 BRSR downloaded and validated.
+2026-08-26T03:05:18,CYIENT,Cyient,2024-25,NSE,https://nsearchives.nseindia.com/corporate/CYIENT_24062025190008_24062025Annualreportsigned.pdf,CYIENT_BR_24-25.pdf,DOWNLOAD_FAILED,failed,company identity could not be confirmed
+2026-08-26T03:05:24,BSOFT,Birlasoft,2024-25,NSE,https://nsearchives.nseindia.com/corporate/BSOFT_11072025145110_SEIntimationBRSR.pdf,BSOFT_BR_24-25.pdf,DOWNLOAD_FAILED,failed,company identity could not be confirmed
+2026-08-26T03:05:28,ZENSARTECH,Zensar Technologies,2024-25,NSE,https://nsearchives.nseindia.com/corporate/ZENSARTECH_01072025182313_SEIntimationBRSRF.pdf,ZENSARTECH_BR_24-25.pdf,DOWNLOAD_FAILED,failed,404 Client Error: Not Found for url: https://nsearchives.nseindia.com/corporate/ZENSARTECH_01072025182313_SEIntimationBRSRF.pdf
+2026-08-26T03:05:34,TATATECH,Tata Technologies,2024-25,NSE,https://nsearchives.nseindia.com/corporate/TTLNSE_28052025200521_BRSR.pdf,TATATECH_BR_24-25.pdf,DOWNLOADED_NEW,success,New FY2024-25 BRSR downloaded and validated.
+2026-08-26T03:36:04,TCS,Tata Consultancy Services,2024-25,NSE,https://nsearchives.nseindia.com/corporate/TCS_CORPCS_27052025233643_BRSRSEint27052025_signed.pdf,TCS_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T03:36:19,INFY,Infosys,2024-25,NSE,https://nsearchives.nseindia.com/corporate/Infosys_02062025172921_infosys-ar-2025.pdf,INFY_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T03:36:19,WIPRO,Wipro,2024-25,NSE,,WIPRO_BR_24-25.pdf,NOT_DOWNLOADED,pending,Official NSE source not yet verified.
+2026-08-26T03:36:21,HCLTECH,HCL Technologies,2024-25,NSE,https://nsearchives.nseindia.com/corporate/HCLTECH_02082025204043_BRSR_2024-25.pdf,HCLTECH_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T03:36:23,TECHM,Tech Mahindra,2024-25,NSE,https://nsearchives.nseindia.com/corporate/Apekshakhemka_23062025233414_StockExchangeIntimationBRSR_S.pdf,TECHM_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T03:36:23,LTIM,LTIMindtree,2024-25,NSE,,LTIM_BR_24-25.pdf,NOT_DOWNLOADED,pending,Official NSE source not yet verified.
+2026-08-26T03:36:23,MPHASIS,Mphasis,2024-25,NSE,,MPHASIS_BR_24-25.pdf,NOT_DOWNLOADED,pending,Official NSE source not yet verified.
+2026-08-26T03:36:24,PERSISTENT,Persistent Systems,2024-25,NSE,https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_23062025235235_PSLBusinessResponsibilityandSustainabilityReport2025signed.pdf,PERSISTENT_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T03:36:27,COFORGE,Coforge,2024-25,NSE,https://nsearchives.nseindia.com/corporate/COFORGE_28082025220019_BRSR_Intimation.pdf,COFORGE_BR_24-25.pdf,DOWNLOADED_NEW,success,company + BRSR + FY2024-25 validated
+2026-08-26T03:36:49,LTTS,L&T Technology Services,2024-25,NSE,https://nsearchives.nseindia.com/corporate/LTTS_23052025212838_IntimationAnnualReport2025_DSC.pdf,LTTS_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T03:36:51,TATAELXSI,Tata Elxsi,2024-25,NSE,https://nsearchives.nseindia.com/corporate/TELNSE_29052025183519_TELBRSRFY25.pdf,TATAELXSI_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T03:36:52,OFSS,Oracle Financial Services Software,2024-25,NSE,https://nsearchives.nseindia.com/corporate/OFSS_27062025192524_OFSSLettertoSEBRSR2025.pdf,OFSS_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T03:36:56,KPITTECH,KPIT Technologies,2024-25,NSE,https://nsearchives.nseindia.com/corporate/KPITTECH_10072025175501_KPITBRSR2425_Signed.pdf,KPITTECH_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T03:37:18,CYIENT,Cyient,2024-25,NSE,https://nsearchives.nseindia.com/corporate/CYIENT_24062025190008_24062025Annualreportsigned.pdf,CYIENT_BR_24-25.pdf,DOWNLOADED_NEW,success,company + BRSR + FY2024-25 validated
+2026-08-26T03:37:19,BSOFT,Birlasoft,2024-25,NSE,https://nsearchives.nseindia.com/corporate/BSOFT_11072025145110_SEIntimationBRSR.pdf,BSOFT_BR_24-25.pdf,DOWNLOADED_NEW,success,company + BRSR + FY2024-25 validated
+2026-08-26T03:37:22,ZENSARTECH,Zensar Technologies,2024-25,NSE,https://nsearchives.nseindia.com/corporate/ZENSARTECH_01072025181715_SEIntimationBRSRF.pdf,ZENSARTECH_BR_24-25.pdf,DOWNLOADED_NEW,success,company + BRSR + FY2024-25 validated
+2026-08-26T03:37:23,TATATECH,Tata Technologies,2024-25,NSE,https://nsearchives.nseindia.com/corporate/TTLNSE_28052025200521_BRSR.pdf,TATATECH_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T03:37:23,HAPPSTMNDS,Happiest Minds Technologies,2024-25,NSE,,HAPPSTMNDS_BR_24-25.pdf,NOT_DOWNLOADED,pending,Official NSE source not yet verified.
+2026-08-26T03:50:10,TCS,Tata Consultancy Services,2024-25,NSE,https://nsearchives.nseindia.com/corporate/TCS_CORPCS_27052025233643_BRSRSEint27052025_signed.pdf,TCS_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T03:50:46,INFY,Infosys,2024-25,NSE,https://nsearchives.nseindia.com/corporate/Infosys_02062025172921_infosys-ar-2025.pdf,INFY_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T03:50:46,WIPRO,Wipro,2024-25,NSE,,WIPRO_BR_24-25.pdf,NOT_DOWNLOADED,pending,Official NSE source not yet verified.
+2026-08-26T03:50:49,HCLTECH,HCL Technologies,2024-25,NSE,https://nsearchives.nseindia.com/corporate/HCLTECH_02082025204043_BRSR_2024-25.pdf,HCLTECH_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T03:50:56,TECHM,Tech Mahindra,2024-25,NSE,https://nsearchives.nseindia.com/corporate/Apekshakhemka_23062025233414_StockExchangeIntimationBRSR_S.pdf,TECHM_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T03:50:56,LTIM,LTIMindtree,2024-25,NSE,,LTIM_BR_24-25.pdf,NOT_DOWNLOADED,pending,Official NSE source not yet verified.
+2026-08-26T03:50:56,MPHASIS,Mphasis,2024-25,NSE,,MPHASIS_BR_24-25.pdf,NOT_DOWNLOADED,pending,Official NSE source not yet verified.
+2026-08-26T03:50:59,PERSISTENT,Persistent Systems,2024-25,NSE,https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_23062025235235_PSLBusinessResponsibilityandSustainabilityReport2025signed.pdf,PERSISTENT_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T03:51:04,COFORGE,Coforge,2024-25,NSE,https://nsearchives.nseindia.com/corporate/COFORGE_28082025220019_BRSR_Intimation.pdf,COFORGE_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T03:51:55,LTTS,L&T Technology Services,2024-25,NSE,https://nsearchives.nseindia.com/corporate/LTTS_23052025212838_IntimationAnnualReport2025_DSC.pdf,LTTS_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T03:51:59,TATAELXSI,Tata Elxsi,2024-25,NSE,https://nsearchives.nseindia.com/corporate/TELNSE_29052025183519_TELBRSRFY25.pdf,TATAELXSI_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T03:52:01,OFSS,Oracle Financial Services Software,2024-25,NSE,https://nsearchives.nseindia.com/corporate/OFSS_27062025192524_OFSSLettertoSEBRSR2025.pdf,OFSS_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T03:52:11,KPITTECH,KPIT Technologies,2024-25,NSE,https://nsearchives.nseindia.com/corporate/KPITTECH_10072025175501_KPITBRSR2425_Signed.pdf,KPITTECH_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T03:52:50,CYIENT,Cyient,2024-25,NSE,https://nsearchives.nseindia.com/corporate/CYIENT_24062025190008_24062025Annualreportsigned.pdf,CYIENT_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T03:52:53,BSOFT,Birlasoft,2024-25,NSE,https://nsearchives.nseindia.com/corporate/BSOFT_11072025145110_SEIntimationBRSR.pdf,BSOFT_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T03:52:57,ZENSARTECH,Zensar Technologies,2024-25,NSE,https://nsearchives.nseindia.com/corporate/ZENSARTECH_01072025181715_SEIntimationBRSRF.pdf,ZENSARTECH_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T03:52:59,TATATECH,Tata Technologies,2024-25,NSE,https://nsearchives.nseindia.com/corporate/TTLNSE_28052025200521_BRSR.pdf,TATATECH_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T03:52:59,HAPPSTMNDS,Happiest Minds Technologies,2024-25,NSE,,HAPPSTMNDS_BR_24-25.pdf,NOT_DOWNLOADED,pending,Official NSE source not yet verified.
+2026-08-26T04:01:03,SONATSOFTW,Sonata Software,2024-25,NSE,https://nsearchives.nseindia.com/corporate/SONATSOFTW_04072025194537_Sefilingbrsr.pdf,SONATSOFTW_BR_24-25.pdf,DOWNLOADED_NEW,success,company + BRSR + FY2024-25 validated
+2026-08-26T04:01:03,HEXAWARE,Hexaware Technologies,2024-25,NSE,,HEXAWARE_BR_24-25.pdf,NOT_DOWNLOADED,pending,Official NSE source not yet verified.
+2026-08-26T04:09:30,TCS,Tata Consultancy Services,2024-25,NSE,https://nsearchives.nseindia.com/corporate/TCS_CORPCS_27052025233643_BRSRSEint27052025_signed.pdf,TCS_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T04:09:31,INFY,Infosys,2024-25,NSE,https://nsearchives.nseindia.com/corporate/Infosys_02062025172921_infosys-ar-2025.pdf,INFY_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T04:09:31,WIPRO,Wipro,2024-25,NSE,,WIPRO_BR_24-25.pdf,NOT_DOWNLOADED,pending,Official NSE source not yet verified.
+2026-08-26T04:09:32,HCLTECH,HCL Technologies,2024-25,NSE,https://nsearchives.nseindia.com/corporate/HCLTECH_02082025204043_BRSR_2024-25.pdf,HCLTECH_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T04:09:32,TECHM,Tech Mahindra,2024-25,NSE,https://nsearchives.nseindia.com/corporate/Apekshakhemka_23062025233414_StockExchangeIntimationBRSR_S.pdf,TECHM_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T04:09:32,LTIM,LTIMindtree,2024-25,NSE,,LTIM_BR_24-25.pdf,NOT_DOWNLOADED,pending,Official NSE source not yet verified.
+2026-08-26T04:09:32,MPHASIS,Mphasis,2024-25,NSE,,MPHASIS_BR_24-25.pdf,NOT_DOWNLOADED,pending,Official NSE source not yet verified.
+2026-08-26T04:09:32,PERSISTENT,Persistent Systems,2024-25,NSE,https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_23062025235235_PSLBusinessResponsibilityandSustainabilityReport2025signed.pdf,PERSISTENT_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T04:09:33,COFORGE,Coforge,2024-25,NSE,https://nsearchives.nseindia.com/corporate/COFORGE_28082025220019_BRSR_Intimation.pdf,COFORGE_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T04:09:33,LTTS,L&T Technology Services,2024-25,NSE,https://nsearchives.nseindia.com/corporate/LTTS_23052025212838_IntimationAnnualReport2025_DSC.pdf,LTTS_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T04:09:34,TATAELXSI,Tata Elxsi,2024-25,NSE,https://nsearchives.nseindia.com/corporate/TELNSE_29052025183519_TELBRSRFY25.pdf,TATAELXSI_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T04:09:34,OFSS,Oracle Financial Services Software,2024-25,NSE,https://nsearchives.nseindia.com/corporate/OFSS_27062025192524_OFSSLettertoSEBRSR2025.pdf,OFSS_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T04:09:35,KPITTECH,KPIT Technologies,2024-25,NSE,https://nsearchives.nseindia.com/corporate/KPITTECH_10072025175501_KPITBRSR2425_Signed.pdf,KPITTECH_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T04:09:36,CYIENT,Cyient,2024-25,NSE,https://nsearchives.nseindia.com/corporate/CYIENT_24062025190008_24062025Annualreportsigned.pdf,CYIENT_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T04:09:36,BSOFT,Birlasoft,2024-25,NSE,https://nsearchives.nseindia.com/corporate/BSOFT_11072025145110_SEIntimationBRSR.pdf,BSOFT_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T04:09:36,ZENSARTECH,Zensar Technologies,2024-25,NSE,https://nsearchives.nseindia.com/corporate/ZENSARTECH_01072025181715_SEIntimationBRSRF.pdf,ZENSARTECH_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T04:09:37,TATATECH,Tata Technologies,2024-25,NSE,https://nsearchives.nseindia.com/corporate/TTLNSE_28052025200521_BRSR.pdf,TATATECH_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T04:09:37,HAPPSTMNDS,Happiest Minds Technologies,2024-25,NSE,,HAPPSTMNDS_BR_24-25.pdf,NOT_DOWNLOADED,pending,Official NSE source not yet verified.
+2026-08-26T04:10:59,SONATSOFTW,Sonata Software,2024-25,NSE,https://nsearchives.nseindia.com/corporate/SONATSOFTW_04072025194537_Sefilingbrsr.pdf,SONATSOFTW_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T04:10:59,HEXAWARE,Hexaware Technologies,2024-25,NSE,,HEXAWARE_BR_24-25.pdf,NOT_DOWNLOADED,pending,Official NSE source not yet verified.
+2026-08-26T04:28:27,TCS,Tata Consultancy Services,2024-25,Existing/Unknown,,TCS_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T04:28:29,INFY,Infosys,2024-25,Existing/Unknown,,INFY_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T04:28:29,WIPRO,Wipro,2024-25,Existing/Unknown,,WIPRO_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T04:28:30,HCLTECH,HCL Technologies,2024-25,Existing/Unknown,,HCLTECH_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T04:28:30,TECHM,Tech Mahindra,2024-25,Existing/Unknown,,TECHM_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T04:28:36,LTIM,LTIMindtree,2024-25,NSE,https://nsearchives.nseindia.com/annual_reports/AR_26433_LTIM_2024_2025_A_07052025121730.pdf,LTIM_BR_24-25.pdf,SOURCE_FAILED,failed,validation failed: BRSR content
+2026-08-26T04:28:36,LTIM,LTIMindtree,2024-25,ALL_SOURCES,,LTIM_BR_24-25.pdf,ALL_SOURCES_FAILED,failed,All configured source attempts failed.
+2026-08-26T04:29:01,MPHASIS,Mphasis,2024-25,NSE,https://nsearchives.nseindia.com/annual_reports/AR_26670_MPHASIS_2024_2025_A_01072025190655.pdf,MPHASIS_BR_24-25.pdf,DOWNLOADED_NEW,success,company + BRSR + FY2024-25 validated
+2026-08-26T04:29:02,PERSISTENT,Persistent Systems,2024-25,Existing/Unknown,,PERSISTENT_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T04:29:02,COFORGE,Coforge,2024-25,Existing/Unknown,,COFORGE_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T04:29:03,LTTS,L&T Technology Services,2024-25,Existing/Unknown,,LTTS_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T04:29:04,TATAELXSI,Tata Elxsi,2024-25,Existing/Unknown,,TATAELXSI_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T04:29:04,OFSS,Oracle Financial Services Software,2024-25,Existing/Unknown,,OFSS_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T04:29:05,KPITTECH,KPIT Technologies,2024-25,Existing/Unknown,,KPITTECH_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T04:29:07,CYIENT,Cyient,2024-25,Existing/Unknown,,CYIENT_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T04:29:07,BSOFT,Birlasoft,2024-25,Existing/Unknown,,BSOFT_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T04:29:08,ZENSARTECH,Zensar Technologies,2024-25,Existing/Unknown,,ZENSARTECH_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T04:29:08,TATATECH,Tata Technologies,2024-25,Existing/Unknown,,TATATECH_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T04:29:08,HAPPSTMNDS,Happiest Minds Technologies,2024-25,NSE,,HAPPSTMNDS_BR_24-25.pdf,SOURCE_NOT_CONFIGURED,pending,No URL configured for this source.
+2026-08-26T04:29:08,HAPPSTMNDS,Happiest Minds Technologies,2024-25,BSE,,HAPPSTMNDS_BR_24-25.pdf,SOURCE_NOT_CONFIGURED,pending,No URL configured for this source.
+2026-08-26T04:29:11,HAPPSTMNDS,Happiest Minds Technologies,2024-25,Happiest Minds Official,https://www.happiestminds.com/investors/Annual%20Report/2024-2025-Q4/HappiestMindsBRSR04072025.pdf,HAPPSTMNDS_BR_24-25.pdf,DOWNLOADED_NEW,success,company + BRSR + FY2024-25 validated
+2026-08-26T04:30:53,SONATSOFTW,Sonata Software,2024-25,Existing/Unknown,,SONATSOFTW_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T04:30:53,HEXAWARE,Hexaware Technologies,2024-25,NSE,,HEXAWARE_BR_24-25.pdf,SOURCE_NOT_CONFIGURED,pending,No URL configured for this source.
+2026-08-26T04:30:53,HEXAWARE,Hexaware Technologies,2024-25,BSE,,HEXAWARE_BR_24-25.pdf,SOURCE_NOT_CONFIGURED,pending,No URL configured for this source.
+2026-08-26T04:30:53,HEXAWARE,Hexaware Technologies,2024-25,Hexaware Official,,HEXAWARE_BR_24-25.pdf,SOURCE_NOT_CONFIGURED,pending,No URL configured for this source.
+2026-08-26T04:30:53,HEXAWARE,Hexaware Technologies,2024-25,ALL_SOURCES,,HEXAWARE_BR_24-25.pdf,ALL_SOURCES_FAILED,pending,No source URL is currently configured. Manual/NSE/BSE discovery required.
+2026-08-26T04:58:09,TCS,Tata Consultancy Services,2024-25,Existing/Unknown,,TCS_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T04:58:10,INFY,Infosys,2024-25,Existing/Unknown,,INFY_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T04:58:10,WIPRO,Wipro,2024-25,Existing/Unknown,,WIPRO_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T04:58:10,HCLTECH,HCL Technologies,2024-25,Existing/Unknown,,HCLTECH_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T04:58:10,TECHM,Tech Mahindra,2024-25,Existing/Unknown,,TECHM_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T04:58:10,LTIM,LTIMindtree,2024-25,NSE,,LTIM_BR_24-25.pdf,SOURCE_NOT_CONFIGURED,pending,URL not configured.
+2026-08-26T04:58:10,LTIM,LTIMindtree,2024-25,BSE,,LTIM_BR_24-25.pdf,SOURCE_NOT_CONFIGURED,pending,URL not configured.
+2026-08-26T04:58:21,LTIM,LTIMindtree,2024-25,LTIMindtree Official,https://www.ltimindtree.com/wp-content/uploads/2025/05/LTIMindtree-BRSR-FY2024-25.pdf,LTIM_BR_24-25.pdf,SOURCE_FAILED,failed,LTIMindtree Official download failed after 3 attempts: invalid PDF signature
+2026-08-26T04:58:21,LTIM,LTIMindtree,2024-25,ALL_SOURCES,,LTIM_BR_24-25.pdf,ALL_SOURCES_EXHAUSTED,failed,All configured source attempts failed validation or download.
+2026-08-26T04:58:45,MPHASIS,Mphasis,2024-25,Existing/Unknown,,MPHASIS_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T04:58:45,PERSISTENT,Persistent Systems,2024-25,Existing/Unknown,,PERSISTENT_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T04:58:46,COFORGE,Coforge,2024-25,Existing/Unknown,,COFORGE_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T04:58:46,LTTS,L&T Technology Services,2024-25,Existing/Unknown,,LTTS_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T04:58:46,TATAELXSI,Tata Elxsi,2024-25,Existing/Unknown,,TATAELXSI_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T04:58:46,OFSS,Oracle Financial Services Software,2024-25,Existing/Unknown,,OFSS_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T04:58:47,KPITTECH,KPIT Technologies,2024-25,Existing/Unknown,,KPITTECH_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T04:58:47,CYIENT,Cyient,2024-25,Existing/Unknown,,CYIENT_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T04:58:47,BSOFT,Birlasoft,2024-25,Existing/Unknown,,BSOFT_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T04:58:47,ZENSARTECH,Zensar Technologies,2024-25,Existing/Unknown,,ZENSARTECH_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T04:58:47,TATATECH,Tata Technologies,2024-25,Existing/Unknown,,TATATECH_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T04:58:48,HAPPSTMNDS,Happiest Minds Technologies,2024-25,Existing/Unknown,,HAPPSTMNDS_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T04:58:48,SONATSOFTW,Sonata Software,2024-25,Existing/Unknown,,SONATSOFTW_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T04:58:48,HEXAWARE,Hexaware Technologies,2024-25,NSE,,HEXAWARE_BR_24-25.pdf,SOURCE_NOT_CONFIGURED,pending,URL not configured.
+2026-08-26T04:58:48,HEXAWARE,Hexaware Technologies,2024-25,BSE,,HEXAWARE_BR_24-25.pdf,SOURCE_NOT_CONFIGURED,pending,URL not configured.
+2026-08-26T04:58:48,HEXAWARE,Hexaware Technologies,2024-25,Hexaware Official,,HEXAWARE_BR_24-25.pdf,SOURCE_NOT_CONFIGURED,pending,URL not configured.
+2026-08-26T04:58:48,HEXAWARE,Hexaware Technologies,2024-25,ALL_SOURCES,,HEXAWARE_BR_24-25.pdf,ALL_SOURCES_EXHAUSTED,pending,No verified source URL configured. Source discovery required.
+2026-08-26T23:15:14,TCS,Tata Consultancy Services,2024-25,Existing/Unknown,,TCS_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T23:15:15,INFY,Infosys,2024-25,Existing/Unknown,,INFY_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T23:15:15,WIPRO,Wipro,2024-25,Existing/Unknown,,WIPRO_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T23:15:16,HCLTECH,HCL Technologies,2024-25,Existing/Unknown,,HCLTECH_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T23:15:17,TECHM,Tech Mahindra,2024-25,Existing/Unknown,,TECHM_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T23:15:17,LTIM,LTIMindtree,2024-25,NSE,,LTIM_BR_24-25.pdf,SOURCE_NOT_CONFIGURED,pending,URL not configured.
+2026-08-26T23:15:17,LTIM,LTIMindtree,2024-25,BSE,,LTIM_BR_24-25.pdf,SOURCE_NOT_CONFIGURED,pending,URL not configured.
+2026-08-26T23:15:22,LTIM,LTIMindtree,2024-25,LTIMindtree Official,https://www.ltimindtree.com/wp-content/uploads/2025/05/LTIMindtree-BRSR-FY2024-25.pdf,LTIM_BR_24-25.pdf,SOURCE_FAILED,failed,server returned HTML instead of PDF
+2026-08-26T23:15:27,LTIM,LTIMindtree,2024-25,LTIMindtree Official Alternate,https://www.ltimindtree.com/annual-report-html/pdf/LTIMindtree_IR_2024-25_Business%20Responsibility%20%26%20Sustainability%20Report.pdf,LTIM_BR_24-25.pdf,SOURCE_FAILED,failed,server returned HTML instead of PDF
+2026-08-26T23:15:30,LTIM,LTIMindtree,2024-25,LTIMindtree Integrated Annual Report,https://www.ltimindtree.com/wp-content/uploads/2025/05/Integrated-Annual-Report-FY25.pdf?pdf=download,LTIM_BR_24-25.pdf,SOURCE_FAILED,failed,server returned HTML instead of PDF
+2026-08-26T23:15:30,LTIM,LTIMindtree,2024-25,ALL_SOURCES,,LTIM_BR_24-25.pdf,ALL_SOURCES_EXHAUSTED,failed,"Configured sources were attempted, but no valid FY2024-25 BRSR was accepted."
+2026-08-26T23:17:07,MPHASIS,Mphasis,2024-25,Existing/Unknown,,MPHASIS_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T23:17:07,PERSISTENT,Persistent Systems,2024-25,Existing/Unknown,,PERSISTENT_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T23:17:08,COFORGE,Coforge,2024-25,Existing/Unknown,,COFORGE_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T23:17:13,LTTS,L&T Technology Services,2024-25,Existing/Unknown,,LTTS_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T23:17:13,TATAELXSI,Tata Elxsi,2024-25,Existing/Unknown,,TATAELXSI_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T23:17:14,OFSS,Oracle Financial Services Software,2024-25,Existing/Unknown,,OFSS_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T23:17:14,KPITTECH,KPIT Technologies,2024-25,Existing/Unknown,,KPITTECH_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T23:17:16,CYIENT,Cyient,2024-25,Existing/Unknown,,CYIENT_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T23:17:17,BSOFT,Birlasoft,2024-25,Existing/Unknown,,BSOFT_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T23:17:17,ZENSARTECH,Zensar Technologies,2024-25,Existing/Unknown,,ZENSARTECH_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T23:17:17,TATATECH,Tata Technologies,2024-25,Existing/Unknown,,TATATECH_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T23:17:18,HAPPSTMNDS,Happiest Minds Technologies,2024-25,Existing/Unknown,,HAPPSTMNDS_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T23:17:18,SONATSOFTW,Sonata Software,2024-25,Existing/Unknown,,SONATSOFTW_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T23:17:18,HEXAWARE,Hexaware Technologies,2024-25,NSE,,HEXAWARE_BR_24-25.pdf,SOURCE_NOT_CONFIGURED,pending,URL not configured.
+2026-08-26T23:17:18,HEXAWARE,Hexaware Technologies,2024-25,BSE,,HEXAWARE_BR_24-25.pdf,SOURCE_NOT_CONFIGURED,pending,URL not configured.
+2026-08-26T23:17:18,HEXAWARE,Hexaware Technologies,2024-25,Hexaware Official,,HEXAWARE_BR_24-25.pdf,SOURCE_NOT_CONFIGURED,pending,URL not configured.
+2026-08-26T23:17:18,HEXAWARE,Hexaware Technologies,2024-25,ALL_SOURCES,,HEXAWARE_BR_24-25.pdf,ALL_SOURCES_EXHAUSTED,pending,No verified source URL configured. Source discovery required.
+2026-08-26T23:25:27,TCS,Tata Consultancy Services,2024-25,Existing/Unknown,,TCS_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T23:25:27,INFY,Infosys,2024-25,Existing/Unknown,,INFY_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T23:25:27,WIPRO,Wipro,2024-25,Existing/Unknown,,WIPRO_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T23:25:28,HCLTECH,HCL Technologies,2024-25,Existing/Unknown,,HCLTECH_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T23:25:28,TECHM,Tech Mahindra,2024-25,Existing/Unknown,,TECHM_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T23:25:30,LTIM,LTIMindtree,2024-25,NSE,,LTIM_BR_24-25.pdf,SOURCE_FAILED,failed,No LTIMindtree FY2024-25 NSE attachment discovered
+2026-08-26T23:25:30,LTIM,LTIMindtree,2024-25,BSE,,LTIM_BR_24-25.pdf,SOURCE_NOT_CONFIGURED,pending,URL not configured.
+2026-08-26T23:25:30,LTIM,LTIMindtree,2024-25,LTIMindtree Official,,LTIM_BR_24-25.pdf,SOURCE_NOT_CONFIGURED,pending,URL not configured.
+2026-08-26T23:25:30,LTIM,LTIMindtree,2024-25,ALL_SOURCES,,LTIM_BR_24-25.pdf,ALL_SOURCES_EXHAUSTED,failed,"Configured sources were attempted, but no valid FY2024-25 BRSR was accepted."
+2026-08-26T23:26:00,MPHASIS,Mphasis,2024-25,Existing/Unknown,,MPHASIS_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T23:26:00,PERSISTENT,Persistent Systems,2024-25,Existing/Unknown,,PERSISTENT_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T23:26:01,COFORGE,Coforge,2024-25,Existing/Unknown,,COFORGE_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T23:26:01,LTTS,L&T Technology Services,2024-25,Existing/Unknown,,LTTS_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T23:26:02,TATAELXSI,Tata Elxsi,2024-25,Existing/Unknown,,TATAELXSI_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T23:26:02,OFSS,Oracle Financial Services Software,2024-25,Existing/Unknown,,OFSS_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T23:26:02,KPITTECH,KPIT Technologies,2024-25,Existing/Unknown,,KPITTECH_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T23:26:03,CYIENT,Cyient,2024-25,Existing/Unknown,,CYIENT_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T23:26:03,BSOFT,Birlasoft,2024-25,Existing/Unknown,,BSOFT_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T23:26:03,ZENSARTECH,Zensar Technologies,2024-25,Existing/Unknown,,ZENSARTECH_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T23:26:03,TATATECH,Tata Technologies,2024-25,Existing/Unknown,,TATATECH_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T23:26:03,HAPPSTMNDS,Happiest Minds Technologies,2024-25,Existing/Unknown,,HAPPSTMNDS_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T23:26:03,SONATSOFTW,Sonata Software,2024-25,Existing/Unknown,,SONATSOFTW_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T23:26:03,HEXAWARE,Hexaware Technologies,2024-25,NSE,,HEXAWARE_BR_24-25.pdf,SOURCE_NOT_CONFIGURED,pending,URL not configured.
+2026-08-26T23:26:03,HEXAWARE,Hexaware Technologies,2024-25,BSE,,HEXAWARE_BR_24-25.pdf,SOURCE_NOT_CONFIGURED,pending,URL not configured.
+2026-08-26T23:26:03,HEXAWARE,Hexaware Technologies,2024-25,Hexaware Official,,HEXAWARE_BR_24-25.pdf,SOURCE_NOT_CONFIGURED,pending,URL not configured.
+2026-08-26T23:26:03,HEXAWARE,Hexaware Technologies,2024-25,ALL_SOURCES,,HEXAWARE_BR_24-25.pdf,ALL_SOURCES_EXHAUSTED,pending,No source URL configured. Source discovery required.
+2026-08-26T23:27:51,TCS,Tata Consultancy Services,2024-25,Existing/Unknown,,TCS_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T23:27:52,INFY,Infosys,2024-25,Existing/Unknown,,INFY_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T23:27:52,WIPRO,Wipro,2024-25,Existing/Unknown,,WIPRO_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T23:27:52,HCLTECH,HCL Technologies,2024-25,Existing/Unknown,,HCLTECH_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T23:27:52,TECHM,Tech Mahindra,2024-25,Existing/Unknown,,TECHM_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T23:27:56,LTIM,LTIMindtree,2024-25,NSE BRSR,,LTIM_BR_24-25.pdf,SOURCE_FAILED,failed,No LTIMindtree FY2024-25 NSE attachment discovered
+2026-08-26T23:28:03,LTIM,LTIMindtree,2024-25,NSE Annual Report,https://nsearchives.nseindia.com/annual_reports/AR_26433_LTIM_2024_2025_A_07052025121730.pdf,LTIM_BR_24-25.pdf,DOWNLOADED_NEW,success,company + BRSR + FY2024-25 validated
+2026-08-26T23:28:32,MPHASIS,Mphasis,2024-25,Existing/Unknown,,MPHASIS_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T23:28:32,PERSISTENT,Persistent Systems,2024-25,Existing/Unknown,,PERSISTENT_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T23:28:33,COFORGE,Coforge,2024-25,Existing/Unknown,,COFORGE_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T23:28:34,LTTS,L&T Technology Services,2024-25,Existing/Unknown,,LTTS_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T23:28:34,TATAELXSI,Tata Elxsi,2024-25,Existing/Unknown,,TATAELXSI_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T23:28:34,OFSS,Oracle Financial Services Software,2024-25,Existing/Unknown,,OFSS_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T23:28:34,KPITTECH,KPIT Technologies,2024-25,Existing/Unknown,,KPITTECH_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T23:28:35,CYIENT,Cyient,2024-25,Existing/Unknown,,CYIENT_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T23:28:35,BSOFT,Birlasoft,2024-25,Existing/Unknown,,BSOFT_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T23:28:35,ZENSARTECH,Zensar Technologies,2024-25,Existing/Unknown,,ZENSARTECH_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T23:28:35,TATATECH,Tata Technologies,2024-25,Existing/Unknown,,TATATECH_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T23:28:35,HAPPSTMNDS,Happiest Minds Technologies,2024-25,Existing/Unknown,,HAPPSTMNDS_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T23:28:35,SONATSOFTW,Sonata Software,2024-25,Existing/Unknown,,SONATSOFTW_BR_24-25.pdf,SKIPPED_EXISTING_VALID,success,company + BRSR + FY2024-25 validated
+2026-08-26T23:28:35,HEXAWARE,Hexaware Technologies,2024-25,NSE,,HEXAWARE_BR_24-25.pdf,SOURCE_NOT_CONFIGURED,pending,URL not configured.
+2026-08-26T23:28:35,HEXAWARE,Hexaware Technologies,2024-25,BSE,,HEXAWARE_BR_24-25.pdf,SOURCE_NOT_CONFIGURED,pending,URL not configured.
+2026-08-26T23:28:35,HEXAWARE,Hexaware Technologies,2024-25,Hexaware Official,,HEXAWARE_BR_24-25.pdf,SOURCE_NOT_CONFIGURED,pending,URL not configured.
+2026-08-26T23:28:35,HEXAWARE,Hexaware Technologies,2024-25,ALL_SOURCES,,HEXAWARE_BR_24-25.pdf,ALL_SOURCES_EXHAUSTED,pending,No source URL configured. Source discovery required.

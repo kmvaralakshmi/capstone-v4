@@ -1,0 +1,88 @@
+Company_Code,Company_Name,Pillar,Metric_Name,Metric_Value,Normalized_Score,Pillar_Weight,Contribution_To_Overall,Direction
+BSOFT,Birlasoft,Environmental,Total Energy Consumption,40.0,99.46764946764947,0.3333333333333333,8.288970788970788,lower
+BSOFT,Birlasoft,Environmental,Renewable Energy Percentage,40.0,32.88590604026845,0.3333333333333333,2.740492170022371,higher
+BSOFT,Birlasoft,Environmental,Total Water Consumption,8.0,99.99982589201613,0.3333333333333333,8.333318824334677,lower
+BSOFT,Birlasoft,Environmental,Total Waste Generated,2024.0,0.0,0.3333333333333333,0.0,lower
+BSOFT,Birlasoft,Social,Female Employee Percentage,0.2,0.40040040040040037,0.3333333333333333,0.0667334000667334,higher
+BSOFT,Birlasoft,Social,Employee Turnover Rate,90.0,0.0,0.3333333333333333,0.0,lower
+COFORGE,Coforge,Environmental,Total Waste Generated,5.0,99.88324692286382,0.3333333333333333,16.647207820477302,lower
+COFORGE,Coforge,Environmental,Waste Recycled Percentage,100.0,100.0,0.3333333333333333,16.666666666666664,higher
+COFORGE,Coforge,Social,Female Employee Percentage,0.11,0.1751751751751752,0.3333333333333333,0.029195862529195864,higher
+COFORGE,Coforge,Social,Employee Turnover Rate,90.0,0.0,0.3333333333333333,0.0,lower
+CYIENT,Cyient,Environmental,Renewable Energy Percentage,60.0,55.257270693512304,0.3333333333333333,18.419090231170767,higher
+HAPPSTMNDS,Happiest Minds Technologies,Environmental,Total Energy Consumption,1.0,100.0,0.3333333333333333,8.333333333333332,lower
+HAPPSTMNDS,Happiest Minds Technologies,Environmental,Renewable Energy Percentage,12.13,1.7114093959731556,0.3333333333333333,0.14261744966442963,higher
+HAPPSTMNDS,Happiest Minds Technologies,Environmental,Total Water Consumption,2030.0,99.9294166233428,0.3333333333333333,8.327451385278566,lower
+HAPPSTMNDS,Happiest Minds Technologies,Environmental,Total Waste Generated,5.0,99.88324692286382,0.3333333333333333,8.323603910238651,lower
+HAPPSTMNDS,Happiest Minds Technologies,Social,Employee Turnover Rate,90.0,0.0,0.3333333333333333,0.0,lower
+HCLTECH,HCL Technologies,Environmental,Total Energy Consumption,2030.0,72.3041223041223,0.3333333333333333,12.05068705068705,lower
+HCLTECH,HCL Technologies,Environmental,Renewable Energy Percentage,50.0,44.071588366890374,0.3333333333333333,7.345264727815062,higher
+HCLTECH,HCL Technologies,Social,Female Employee Percentage,40.0,100.0,0.3333333333333333,16.666666666666664,higher
+HCLTECH,HCL Technologies,Social,Employee Turnover Rate,90.0,0.0,0.3333333333333333,0.0,lower
+HEXAWARE,Hexaware Technologies,Environmental,Total Energy Consumption,59.0,99.20829920829921,0.3333333333333333,16.534716534716534,lower
+HEXAWARE,Hexaware Technologies,Environmental,Renewable Energy Percentage,83.0,80.98434004474274,0.3333333333333333,13.497390007457122,higher
+HEXAWARE,Hexaware Technologies,Social,Employee Turnover Rate,11.0,88.76404494382022,0.3333333333333333,29.588014981273407,lower
+INFY,Infosys,Environmental,Total Energy Consumption,77.7,98.95304395304396,0.3333333333333333,16.492173992173992,lower
+INFY,Infosys,Environmental,Water Recycled Percentage,100.0,100.0,0.3333333333333333,16.666666666666664,higher
+INFY,Infosys,Social,Female Employee Percentage,39.0,97.49749749749749,0.3333333333333333,32.49916583249916,higher
+INFY,Infosys,Governance,Independent Directors Percentage,0.98,0.0,0.3333333333333333,0.0,higher
+KPITTECH,KPIT Technologies,Environmental,Total Waste Generated,5.0,99.88324692286382,0.3333333333333333,33.294415640954604,lower
+KPITTECH,KPIT Technologies,Social,Employee Turnover Rate,90.0,0.0,0.3333333333333333,0.0,lower
+LTIM,LTIMindtree,Environmental,Total Energy Consumption,25.0,99.67239967239968,0.3333333333333333,11.074711074711075,lower
+LTIM,LTIMindtree,Environmental,Total Water Consumption,25.0,99.999233924871,0.3333333333333333,11.111025991652333,lower
+LTIM,LTIMindtree,Environmental,Waste Recycled Percentage,7.0,0.0,0.3333333333333333,0.0,higher
+LTIM,LTIMindtree,Social,Female Employee Percentage,14.4,35.93593593593594,0.3333333333333333,5.989322655989323,higher
+LTIM,LTIMindtree,Social,Employee Turnover Rate,14.4,84.94382022471909,0.3333333333333333,14.157303370786515,lower
+LTIM,LTIMindtree,Governance,Independent Directors Percentage,7.0,6.07957988285195,0.3333333333333333,2.0265266276173164,higher
+LTTS,L&T Technology Services,Environmental,Total Energy Consumption,25.0,99.67239967239968,0.3333333333333333,8.306033306033306,lower
+LTTS,L&T Technology Services,Environmental,Renewable Energy Percentage,10.6,0.0,0.3333333333333333,0.0,higher
+LTTS,L&T Technology Services,Environmental,Water Recycled Percentage,10.6,0.0,0.3333333333333333,0.0,higher
+LTTS,L&T Technology Services,Environmental,Waste Recycled Percentage,10.6,3.870967741935483,0.3333333333333333,0.32258064516129026,higher
+OFSS,Oracle Financial Services Software,Environmental,Total Energy Consumption,7327.0,0.0,0.3333333333333333,0.0,lower
+OFSS,Oracle Financial Services Software,Environmental,Total Water Consumption,32149.0,98.88062495016159,0.3333333333333333,10.98673610557351,lower
+OFSS,Oracle Financial Services Software,Environmental,Total Waste Generated,2.64,100.0,0.3333333333333333,11.11111111111111,lower
+OFSS,Oracle Financial Services Software,Social,Female Employee Percentage,26.42,66.01601601601602,0.3333333333333333,11.00266933600267,higher
+OFSS,Oracle Financial Services Software,Social,Employee Turnover Rate,90.0,0.0,0.3333333333333333,0.0,lower
+OFSS,Oracle Financial Services Software,Governance,Independent Directors Percentage,30.0,29.307210664512223,0.3333333333333333,9.769070221504073,higher
+PERSISTENT,Persistent Systems,Environmental,Total Energy Consumption,1.0,100.0,0.3333333333333333,6.666666666666666,lower
+PERSISTENT,Persistent Systems,Environmental,Renewable Energy Percentage,100.0,100.0,0.3333333333333333,6.666666666666666,higher
+PERSISTENT,Persistent Systems,Environmental,Total Water Consumption,100.0,99.99662230511309,0.3333333333333333,6.666441487007539,lower
+PERSISTENT,Persistent Systems,Environmental,Total Waste Generated,2024.0,0.0,0.3333333333333333,0.0,lower
+PERSISTENT,Persistent Systems,Environmental,Waste Recycled Percentage,100.0,100.0,0.3333333333333333,6.666666666666666,higher
+PERSISTENT,Persistent Systems,Social,Female Employee Percentage,35.0,87.48748748748748,0.3333333333333333,14.581247914581247,higher
+PERSISTENT,Persistent Systems,Social,Employee Turnover Rate,90.0,0.0,0.3333333333333333,0.0,lower
+SONATSOFTW,Sonata Software,Environmental,Total Energy Consumption,2025.0,72.37237237237237,0.3333333333333333,6.031031031031031,lower
+SONATSOFTW,Sonata Software,Environmental,Total Water Consumption,3.0,100.0,0.3333333333333333,8.333333333333332,lower
+SONATSOFTW,Sonata Software,Environmental,Total Waste Generated,51.0,97.60755135156529,0.3333333333333333,8.133962612630441,lower
+SONATSOFTW,Sonata Software,Environmental,Waste Recycled Percentage,51.0,47.31182795698925,0.3333333333333333,3.942652329749104,higher
+SONATSOFTW,Sonata Software,Social,Female Employee Percentage,1.1,2.6526526526526526,0.3333333333333333,0.44210877544210875,higher
+SONATSOFTW,Sonata Software,Social,Employee Turnover Rate,40.0,56.17977528089887,0.3333333333333333,9.363295880149812,lower
+SONATSOFTW,Sonata Software,Governance,Independent Directors Percentage,100.0,100.0,0.3333333333333333,33.33333333333333,higher
+TATAELXSI,Tata Elxsi,Environmental,Total Energy Consumption,1.0,100.0,0.3333333333333333,16.666666666666664,lower
+TATAELXSI,Tata Elxsi,Environmental,Renewable Energy Percentage,51.15,45.35794183445189,0.3333333333333333,7.559656972408648,higher
+TATAELXSI,Tata Elxsi,Social,Female Employee Percentage,0.04,0.0,0.3333333333333333,0.0,higher
+TATAELXSI,Tata Elxsi,Social,Employee Turnover Rate,90.0,0.0,0.3333333333333333,0.0,lower
+TATATECH,Tata Technologies,Environmental,Total Energy Consumption,1.0,100.0,0.3333333333333333,11.11111111111111,lower
+TATATECH,Tata Technologies,Environmental,Total Water Consumption,6.0,99.99989553520969,0.3333333333333333,11.111099503912188,lower
+TATATECH,Tata Technologies,Environmental,Total Waste Generated,6.0,99.8337752800095,0.3333333333333333,11.092641697778832,lower
+TATATECH,Tata Technologies,Social,Employee Turnover Rate,31.4,65.84269662921348,0.3333333333333333,21.947565543071157,lower
+TCS,Tata Consultancy Services,Environmental,Total Energy Consumption,2630.0,64.11411411411412,0.3333333333333333,4.2742742742742745,lower
+TCS,Tata Consultancy Services,Environmental,Renewable Energy Percentage,79.0,76.51006711409397,0.3333333333333333,5.100671140939598,higher
+TCS,Tata Consultancy Services,Environmental,Total Water Consumption,2871784.0,0.0,0.3333333333333333,0.0,lower
+TCS,Tata Consultancy Services,Environmental,Total Waste Generated,48.1,97.75101911584281,0.3333333333333333,6.516734607722854,lower
+TCS,Tata Consultancy Services,Environmental,Waste Recycled Percentage,56.0,52.68817204301075,0.3333333333333333,3.5125448028673834,higher
+TCS,Tata Consultancy Services,Social,Female Employee Percentage,0.06,0.050050050050050046,0.3333333333333333,0.008341675008341674,higher
+TCS,Tata Consultancy Services,Social,Employee Turnover Rate,1.0,100.0,0.3333333333333333,16.666666666666664,lower
+TECHM,Tech Mahindra,Environmental,Total Energy Consumption,1.0,100.0,0.3333333333333333,11.11111111111111,lower
+TECHM,Tech Mahindra,Environmental,Total Water Consumption,876.33,99.96958925489095,0.3333333333333333,11.107732139432326,lower
+TECHM,Tech Mahindra,Environmental,Total Waste Generated,2024.0,0.0,0.3333333333333333,0.0,lower
+TECHM,Tech Mahindra,Social,Employee Turnover Rate,90.0,0.0,0.3333333333333333,0.0,lower
+WIPRO,Wipro,Environmental,Total Energy Consumption,1.0,100.0,0.3333333333333333,16.666666666666664,lower
+WIPRO,Wipro,Environmental,Total Water Consumption,2030.0,99.9294166233428,0.3333333333333333,16.654902770557133,lower
+WIPRO,Wipro,Social,Female Employee Percentage,37.0,92.49249249249249,0.3333333333333333,15.415415415415413,higher
+WIPRO,Wipro,Social,Employee Turnover Rate,19.97,78.68539325842697,0.3333333333333333,13.114232209737828,lower
+ZENSARTECH,Zensar Technologies,Environmental,Total Energy Consumption,30.0,99.6041496041496,0.3333333333333333,11.0671277337944,lower
+ZENSARTECH,Zensar Technologies,Environmental,Renewable Energy Percentage,90.0,88.81431767337808,0.3333333333333333,9.868257519264231,higher
+ZENSARTECH,Zensar Technologies,Environmental,Total Waste Generated,100.0,95.1834408517038,0.3333333333333333,10.575937872411533,lower
+ZENSARTECH,Zensar Technologies,Social,Female Employee Percentage,35.0,87.48748748748748,0.3333333333333333,14.581247914581247,higher
+ZENSARTECH,Zensar Technologies,Social,Employee Turnover Rate,9.9,89.99999999999999,0.3333333333333333,14.999999999999996,lower

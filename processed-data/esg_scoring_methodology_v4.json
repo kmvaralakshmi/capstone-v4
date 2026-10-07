@@ -1,0 +1,66 @@
+{
+  "pillar_weights": {
+    "Environmental": 0.3333333333333333,
+    "Social": 0.3333333333333333,
+    "Governance": 0.3333333333333333
+  },
+  "metric_rules": {
+    "Total Energy Consumption": [
+      "Environmental",
+      "lower"
+    ],
+    "Renewable Energy Percentage": [
+      "Environmental",
+      "higher"
+    ],
+    "Total Water Consumption": [
+      "Environmental",
+      "lower"
+    ],
+    "Water Recycled Percentage": [
+      "Environmental",
+      "higher"
+    ],
+    "Total Waste Generated": [
+      "Environmental",
+      "lower"
+    ],
+    "Waste Recycled Percentage": [
+      "Environmental",
+      "higher"
+    ],
+    "Total Employees": [
+      "Social",
+      "context"
+    ],
+    "Female Employees Percentage": [
+      "Social",
+      "higher"
+    ],
+    "Female Employee Percentage": [
+      "Social",
+      "higher"
+    ],
+    "Employee Turnover Rate": [
+      "Social",
+      "lower"
+    ],
+    "Training Hours Per Employee": [
+      "Social",
+      "higher"
+    ],
+    "Independent Directors Percentage": [
+      "Governance",
+      "higher"
+    ],
+    "Board Independence Percentage": [
+      "Governance",
+      "higher"
+    ],
+    "CSR Amount Spent": [
+      "Governance",
+      "higher"
+    ]
+  },
+  "note": "Research score; not an official SEBI rating."
+}

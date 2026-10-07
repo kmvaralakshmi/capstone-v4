@@ -1,0 +1,51 @@
+Company_Code,Rule_ID,Severity,Description,Evidence,Analysis_Date
+TCS,CV-001,High,High renewable claim but low environmental score,"renewable=79.0%, env_score=2.00",2026-10-04
+INFY,NONE,None,No contradiction detected,Cross-validation checks passed for available data,2026-10-04
+WIPRO,NONE,None,No contradiction detected,Cross-validation checks passed for available data,2026-10-04
+HCLTECH,CV-001,Medium,Moderately high renewable claim with weak environmental score,"renewable=50.0%, env_score=2.00",2026-10-04
+TECHM,NONE,None,No contradiction detected,Cross-validation checks passed for available data,2026-10-04
+LTIM,NONE,None,No contradiction detected,Cross-validation checks passed for available data,2026-10-04
+MPHASIS,NONE,None,No contradiction detected,Cross-validation checks passed for available data,2026-10-04
+PERSISTENT,NONE,None,No contradiction detected,Cross-validation checks passed for available data,2026-10-04
+COFORGE,NONE,None,No contradiction detected,Cross-validation checks passed for available data,2026-10-04
+LTTS,NONE,None,No contradiction detected,Cross-validation checks passed for available data,2026-10-04
+TATAELXSI,CV-001,Medium,Moderately high renewable claim with weak environmental score,"renewable=51.1%, env_score=2.00",2026-10-04
+OFSS,NONE,None,No contradiction detected,Cross-validation checks passed for available data,2026-10-04
+KPITTECH,NONE,None,No contradiction detected,Cross-validation checks passed for available data,2026-10-04
+CYIENT,NONE,None,No contradiction detected,Cross-validation checks passed for available data,2026-10-04
+BSOFT,NONE,None,No contradiction detected,Cross-validation checks passed for available data,2026-10-04
+ZENSARTECH,NONE,None,No contradiction detected,Cross-validation checks passed for available data,2026-10-04
+TATATECH,NONE,None,No contradiction detected,Cross-validation checks passed for available data,2026-10-04
+HAPPSTMNDS,NONE,None,No contradiction detected,Cross-validation checks passed for available data,2026-10-04
+SONATSOFTW,NONE,None,No contradiction detected,Cross-validation checks passed for available data,2026-10-04
+HEXAWARE,NONE,None,No contradiction detected,Cross-validation checks passed for available data,2026-10-04
+MINDTREE,NONE,None,No contradiction detected,Cross-validation checks passed for available data,2026-10-04
+NEWGEN,NONE,None,No contradiction detected,Cross-validation checks passed for available data,2026-10-04
+TANLA,NONE,None,No contradiction detected,Cross-validation checks passed for available data,2026-10-04
+INTELLECT,NONE,None,No contradiction detected,Cross-validation checks passed for available data,2026-10-04
+ROUTE,NONE,None,No contradiction detected,Cross-validation checks passed for available data,2026-10-04
+RATEGAIN,NONE,None,No contradiction detected,Cross-validation checks passed for available data,2026-10-04
+ECLERX,CV-001,Medium,Moderately high renewable claim with weak environmental score,"renewable=64.0%, env_score=2.00",2026-10-04
+DATAMATICS,NONE,None,No contradiction detected,Cross-validation checks passed for available data,2026-10-04
+MASTEK,NONE,None,No contradiction detected,Cross-validation checks passed for available data,2026-10-04
+SONACOMS,NONE,None,No contradiction detected,Cross-validation checks passed for available data,2026-10-04
+HGS,NONE,None,No contradiction detected,Cross-validation checks passed for available data,2026-10-04
+NIITLTD,NONE,None,No contradiction detected,Cross-validation checks passed for available data,2026-10-04
+E2E,NONE,None,No contradiction detected,Cross-validation checks passed for available data,2026-10-04
+AFFLE,CV-002,Medium,Moderate governance claim with weak transparency,"independent_directors=55.6%, transparency=5.00/10",2026-10-04
+MPSLTD,NONE,None,No contradiction detected,Cross-validation checks passed for available data,2026-10-04
+SUBEXLTD,NONE,None,No contradiction detected,Cross-validation checks passed for available data,2026-10-04
+SIS,NONE,None,No contradiction detected,Cross-validation checks passed for available data,2026-10-04
+ZOMATO,NONE,None,No contradiction detected,Cross-validation checks passed for available data,2026-10-04
+PAYTM,NONE,None,No contradiction detected,Cross-validation checks passed for available data,2026-10-04
+POLICYBZR,NONE,None,No contradiction detected,Cross-validation checks passed for available data,2026-10-04
+DELHIVERY,NONE,None,No contradiction detected,Cross-validation checks passed for available data,2026-10-04
+NAZARA,NONE,None,No contradiction detected,Cross-validation checks passed for available data,2026-10-04
+TATACOMM,NONE,None,No contradiction detected,Cross-validation checks passed for available data,2026-10-04
+INDUSTOWER,NONE,None,No contradiction detected,Cross-validation checks passed for available data,2026-10-04
+BHARTIARTL,NONE,None,No contradiction detected,Cross-validation checks passed for available data,2026-10-04
+TEJASNET,NONE,None,No contradiction detected,Cross-validation checks passed for available data,2026-10-04
+REDINGTON,CV-001,High,High renewable claim but low environmental score,"renewable=90.0%, env_score=2.00",2026-10-04
+HCL-INFO,NONE,None,No contradiction detected,Cross-validation checks passed for available data,2026-10-04
+MAZDOCK,NONE,None,No contradiction detected,Cross-validation checks passed for available data,2026-10-04
+TITAN,NONE,None,No contradiction detected,Cross-validation checks passed for available data,2026-10-04

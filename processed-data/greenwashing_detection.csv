@@ -1,0 +1,901 @@
+Company_Code,Company_Name,Metric_Category,Metric_Name,Claimed_Value,Metric_Unit,Claim_Verified,Verification_Details,Discrepancy_Detected,Discrepancy_Level,Trust_Score,Risk_Score,Actual_Environmental_Score,Analysis_Date
+TCS,Tata Consultancy Services,Environmental,Total Energy Consumption,2630.0,GWh,Reported,Environmental metric: 2630.0,False,None,6.0,1,2.0,2026-10-04
+TCS,Tata Consultancy Services,Environmental,Renewable Energy Percentage,79.0,%,Suspicious,Claims 79.0% renewable but low env score (2.0/10),True,High,2.0,8,2.0,2026-10-04
+TCS,Tata Consultancy Services,Environmental,Total Water Consumption,2871784.0,KL,Reported,Environmental metric: 2871784.0,False,None,6.0,1,2.0,2026-10-04
+TCS,Tata Consultancy Services,Environmental,Water Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TCS,Tata Consultancy Services,Environmental,Total Waste Generated,48.1,MT,Reported,Environmental metric: 48.1,False,None,6.0,1,2.0,2026-10-04
+TCS,Tata Consultancy Services,Environmental,Waste Recycled Percentage,56.0,%,Reported,Environmental metric: 56.0,False,None,6.0,1,2.0,2026-10-04
+TCS,Tata Consultancy Services,Social,Total Employees,3.0,Count,Reported,Social metric: 3.0,False,None,6.0,1,2.0,2026-10-04
+TCS,Tata Consultancy Services,Social,Female Employee Percentage,0.06,%,Reported,Social metric: 0.06,False,None,6.0,1,2.0,2026-10-04
+TCS,Tata Consultancy Services,Social,Employee Turnover Rate,1.0,%,Reported,Social metric: 1.0,False,None,6.0,1,2.0,2026-10-04
+TCS,Tata Consultancy Services,Social,Training Hours per Employee,,Hours,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TCS,Tata Consultancy Services,Social,Health and Safety Incidents,2025.0,Count,Reported,Social metric: 2025.0,False,None,6.0,1,2.0,2026-10-04
+TCS,Tata Consultancy Services,Social,CSR Expenditure,,Crores INR,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TCS,Tata Consultancy Services,Governance,Board Size,8.0,Count,Reported,Governance metric: 8.0,False,None,6.0,1,2.0,2026-10-04
+TCS,Tata Consultancy Services,Governance,Independent Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TCS,Tata Consultancy Services,Governance,Female Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TCS,Tata Consultancy Services,Governance,Board Meeting Frequency,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TCS,Tata Consultancy Services,Governance,Audit Committee Size,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TCS,Tata Consultancy Services,Governance,Ethics Policy Violations,10.0,Count,Reported,Governance metric: 10.0,False,None,6.0,1,2.0,2026-10-04
+INFY,Infosys,Environmental,Total Energy Consumption,77.7,GWh,Reported,Environmental metric: 77.7,False,None,6.0,1,2.0,2026-10-04
+INFY,Infosys,Environmental,Renewable Energy Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+INFY,Infosys,Environmental,Total Water Consumption,,KL,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+INFY,Infosys,Environmental,Water Recycled Percentage,100.0,%,Reported,Environmental metric: 100.0,False,None,6.0,1,2.0,2026-10-04
+INFY,Infosys,Environmental,Total Waste Generated,,MT,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+INFY,Infosys,Environmental,Waste Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+INFY,Infosys,Social,Total Employees,320000.0,Count,Reported,Social metric: 320000.0,False,None,6.0,1,2.0,2026-10-04
+INFY,Infosys,Social,Female Employee Percentage,39.0,%,Reported,Social metric: 39.0,False,None,6.0,1,2.0,2026-10-04
+INFY,Infosys,Social,Employee Turnover Rate,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+INFY,Infosys,Social,Training Hours per Employee,2066.0,Hours,Reported,Social metric: 2066.0,False,None,6.0,1,2.0,2026-10-04
+INFY,Infosys,Social,Health and Safety Incidents,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+INFY,Infosys,Social,CSR Expenditure,,Crores INR,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+INFY,Infosys,Governance,Board Size,19.0,Count,Reported,Governance metric: 19.0,False,None,6.0,1,2.0,2026-10-04
+INFY,Infosys,Governance,Independent Directors Percentage,0.98,%,Reported,Governance metric: 0.98,False,None,6.0,1,2.0,2026-10-04
+INFY,Infosys,Governance,Female Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+INFY,Infosys,Governance,Board Meeting Frequency,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+INFY,Infosys,Governance,Audit Committee Size,3.0,Count,Reported,Governance metric: 3.0,False,None,6.0,1,2.0,2026-10-04
+INFY,Infosys,Governance,Ethics Policy Violations,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+WIPRO,Wipro,Environmental,Total Energy Consumption,1.0,GWh,Reported,Environmental metric: 1.0,False,None,6.0,1,2.0,2026-10-04
+WIPRO,Wipro,Environmental,Renewable Energy Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+WIPRO,Wipro,Environmental,Total Water Consumption,2030.0,KL,Reported,Environmental metric: 2030.0,False,None,6.0,1,2.0,2026-10-04
+WIPRO,Wipro,Environmental,Water Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+WIPRO,Wipro,Environmental,Total Waste Generated,,MT,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+WIPRO,Wipro,Environmental,Waste Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+WIPRO,Wipro,Social,Total Employees,10109.0,Count,Reported,Social metric: 10109.0,False,None,6.0,1,2.0,2026-10-04
+WIPRO,Wipro,Social,Female Employee Percentage,37.0,%,Reported,Social metric: 37.0,False,None,6.0,1,2.0,2026-10-04
+WIPRO,Wipro,Social,Employee Turnover Rate,19.97,%,Reported,Social metric: 19.97,False,None,6.0,1,2.0,2026-10-04
+WIPRO,Wipro,Social,Training Hours per Employee,,Hours,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+WIPRO,Wipro,Social,Health and Safety Incidents,2024.0,Count,Reported,Social metric: 2024.0,False,None,6.0,1,2.0,2026-10-04
+WIPRO,Wipro,Social,CSR Expenditure,10.0,Crores INR,Reported,Social metric: 10.0,False,None,6.0,1,2.0,2026-10-04
+WIPRO,Wipro,Governance,Board Size,9.0,Count,Reported,Governance metric: 9.0,False,None,6.0,1,2.0,2026-10-04
+WIPRO,Wipro,Governance,Independent Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+WIPRO,Wipro,Governance,Female Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+WIPRO,Wipro,Governance,Board Meeting Frequency,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+WIPRO,Wipro,Governance,Audit Committee Size,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+WIPRO,Wipro,Governance,Ethics Policy Violations,26.0,Count,Reported,Governance metric: 26.0,False,None,6.0,1,2.0,2026-10-04
+HCLTECH,HCL Technologies,Environmental,Total Energy Consumption,2030.0,GWh,Reported,Environmental metric: 2030.0,False,None,6.0,1,2.0,2026-10-04
+HCLTECH,HCL Technologies,Environmental,Renewable Energy Percentage,50.0,%,Suspicious,Claims 50.0% renewable but poor env score (2.0/10),True,Medium,4.0,5,2.0,2026-10-04
+HCLTECH,HCL Technologies,Environmental,Total Water Consumption,,KL,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HCLTECH,HCL Technologies,Environmental,Water Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HCLTECH,HCL Technologies,Environmental,Total Waste Generated,,MT,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HCLTECH,HCL Technologies,Environmental,Waste Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HCLTECH,HCL Technologies,Social,Total Employees,234496.0,Count,Reported,Social metric: 234496.0,False,None,6.0,1,2.0,2026-10-04
+HCLTECH,HCL Technologies,Social,Female Employee Percentage,40.0,%,Reported,Social metric: 40.0,False,None,6.0,1,2.0,2026-10-04
+HCLTECH,HCL Technologies,Social,Employee Turnover Rate,90.0,%,Reported,Social metric: 90.0,False,None,6.0,1,2.0,2026-10-04
+HCLTECH,HCL Technologies,Social,Training Hours per Employee,,Hours,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HCLTECH,HCL Technologies,Social,Health and Safety Incidents,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HCLTECH,HCL Technologies,Social,CSR Expenditure,,Crores INR,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HCLTECH,HCL Technologies,Governance,Board Size,10.0,Count,Reported,Governance metric: 10.0,False,None,6.0,1,2.0,2026-10-04
+HCLTECH,HCL Technologies,Governance,Independent Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HCLTECH,HCL Technologies,Governance,Female Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HCLTECH,HCL Technologies,Governance,Board Meeting Frequency,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HCLTECH,HCL Technologies,Governance,Audit Committee Size,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HCLTECH,HCL Technologies,Governance,Ethics Policy Violations,25.0,Count,Reported,Governance metric: 25.0,False,None,6.0,1,2.0,2026-10-04
+TECHM,Tech Mahindra,Environmental,Total Energy Consumption,1.0,GWh,Reported,Environmental metric: 1.0,False,None,6.0,1,2.0,2026-10-04
+TECHM,Tech Mahindra,Environmental,Renewable Energy Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TECHM,Tech Mahindra,Environmental,Total Water Consumption,876.33,KL,Reported,Environmental metric: 876.33,False,None,6.0,1,2.0,2026-10-04
+TECHM,Tech Mahindra,Environmental,Water Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TECHM,Tech Mahindra,Environmental,Total Waste Generated,2024.0,MT,Reported,Environmental metric: 2024.0,False,None,6.0,1,2.0,2026-10-04
+TECHM,Tech Mahindra,Environmental,Waste Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TECHM,Tech Mahindra,Social,Total Employees,7827.0,Count,Reported,Social metric: 7827.0,False,None,6.0,1,2.0,2026-10-04
+TECHM,Tech Mahindra,Social,Female Employee Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TECHM,Tech Mahindra,Social,Employee Turnover Rate,90.0,%,Reported,Social metric: 90.0,False,None,6.0,1,2.0,2026-10-04
+TECHM,Tech Mahindra,Social,Training Hours per Employee,,Hours,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TECHM,Tech Mahindra,Social,Health and Safety Incidents,2024.0,Count,Reported,Social metric: 2024.0,False,None,6.0,1,2.0,2026-10-04
+TECHM,Tech Mahindra,Social,CSR Expenditure,,Crores INR,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TECHM,Tech Mahindra,Governance,Board Size,10.0,Count,Reported,Governance metric: 10.0,False,None,6.0,1,2.0,2026-10-04
+TECHM,Tech Mahindra,Governance,Independent Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TECHM,Tech Mahindra,Governance,Female Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TECHM,Tech Mahindra,Governance,Board Meeting Frequency,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TECHM,Tech Mahindra,Governance,Audit Committee Size,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TECHM,Tech Mahindra,Governance,Ethics Policy Violations,25.0,Count,Reported,Governance metric: 25.0,False,None,6.0,1,2.0,2026-10-04
+LTIM,LTIMindtree,Environmental,Total Energy Consumption,25.0,GWh,Reported,Environmental metric: 25.0,False,None,6.0,1,2.0,2026-10-04
+LTIM,LTIMindtree,Environmental,Renewable Energy Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+LTIM,LTIMindtree,Environmental,Total Water Consumption,25.0,KL,Reported,Environmental metric: 25.0,False,None,6.0,1,2.0,2026-10-04
+LTIM,LTIMindtree,Environmental,Water Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+LTIM,LTIMindtree,Environmental,Total Waste Generated,,MT,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+LTIM,LTIMindtree,Environmental,Waste Recycled Percentage,7.0,%,Reported,Environmental metric: 7.0,False,None,6.0,1,2.0,2026-10-04
+LTIM,LTIMindtree,Social,Total Employees,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+LTIM,LTIMindtree,Social,Female Employee Percentage,14.4,%,Reported,Social metric: 14.4,False,None,6.0,1,2.0,2026-10-04
+LTIM,LTIMindtree,Social,Employee Turnover Rate,14.4,%,Reported,Social metric: 14.4,False,None,6.0,1,2.0,2026-10-04
+LTIM,LTIMindtree,Social,Training Hours per Employee,4.0,Hours,Reported,Social metric: 4.0,False,None,6.0,1,2.0,2026-10-04
+LTIM,LTIMindtree,Social,Health and Safety Incidents,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+LTIM,LTIMindtree,Social,CSR Expenditure,,Crores INR,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+LTIM,LTIMindtree,Governance,Board Size,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+LTIM,LTIMindtree,Governance,Independent Directors Percentage,7.0,%,Reported,Governance metric: 7.0,False,None,6.0,1,2.0,2026-10-04
+LTIM,LTIMindtree,Governance,Female Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+LTIM,LTIMindtree,Governance,Board Meeting Frequency,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+LTIM,LTIMindtree,Governance,Audit Committee Size,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+LTIM,LTIMindtree,Governance,Ethics Policy Violations,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MPHASIS,Mphasis,Environmental,Total Energy Consumption,,GWh,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MPHASIS,Mphasis,Environmental,Renewable Energy Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MPHASIS,Mphasis,Environmental,Total Water Consumption,,KL,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MPHASIS,Mphasis,Environmental,Water Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MPHASIS,Mphasis,Environmental,Total Waste Generated,,MT,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MPHASIS,Mphasis,Environmental,Waste Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MPHASIS,Mphasis,Social,Total Employees,14.0,Count,Reported,Social metric: 14.0,False,None,6.0,1,2.0,2026-10-04
+MPHASIS,Mphasis,Social,Female Employee Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MPHASIS,Mphasis,Social,Employee Turnover Rate,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MPHASIS,Mphasis,Social,Training Hours per Employee,,Hours,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MPHASIS,Mphasis,Social,Health and Safety Incidents,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MPHASIS,Mphasis,Social,CSR Expenditure,,Crores INR,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MPHASIS,Mphasis,Governance,Board Size,31.0,Count,Reported,Governance metric: 31.0,False,None,6.0,1,2.0,2026-10-04
+MPHASIS,Mphasis,Governance,Independent Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MPHASIS,Mphasis,Governance,Female Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MPHASIS,Mphasis,Governance,Board Meeting Frequency,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MPHASIS,Mphasis,Governance,Audit Committee Size,24.0,Count,Reported,Governance metric: 24.0,False,None,6.0,1,2.0,2026-10-04
+MPHASIS,Mphasis,Governance,Ethics Policy Violations,1.0,Count,Reported,Governance metric: 1.0,False,None,6.0,1,2.0,2026-10-04
+PERSISTENT,Persistent Systems,Environmental,Total Energy Consumption,1.0,GWh,Reported,Environmental metric: 1.0,False,None,6.0,1,,2026-10-04
+PERSISTENT,Persistent Systems,Environmental,Renewable Energy Percentage,100.0,%,Partially Verified,Renewable claim 100.0% with moderate env score (nan/10),False,None,6.0,1,,2026-10-04
+PERSISTENT,Persistent Systems,Environmental,Total Water Consumption,100.0,KL,Reported,Environmental metric: 100.0,False,None,6.0,1,,2026-10-04
+PERSISTENT,Persistent Systems,Environmental,Water Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+PERSISTENT,Persistent Systems,Environmental,Total Waste Generated,2024.0,MT,Reported,Environmental metric: 2024.0,False,None,6.0,1,,2026-10-04
+PERSISTENT,Persistent Systems,Environmental,Waste Recycled Percentage,100.0,%,Reported,Environmental metric: 100.0,False,None,6.0,1,,2026-10-04
+PERSISTENT,Persistent Systems,Social,Total Employees,2389.0,Count,Reported,Social metric: 2389.0,False,None,6.0,1,,2026-10-04
+PERSISTENT,Persistent Systems,Social,Female Employee Percentage,35.0,%,Reported,Social metric: 35.0,False,None,6.0,1,,2026-10-04
+PERSISTENT,Persistent Systems,Social,Employee Turnover Rate,90.0,%,Reported,Social metric: 90.0,False,None,6.0,1,,2026-10-04
+PERSISTENT,Persistent Systems,Social,Training Hours per Employee,,Hours,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+PERSISTENT,Persistent Systems,Social,Health and Safety Incidents,2024.0,Count,Reported,Social metric: 2024.0,False,None,6.0,1,,2026-10-04
+PERSISTENT,Persistent Systems,Social,CSR Expenditure,,Crores INR,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+PERSISTENT,Persistent Systems,Governance,Board Size,9.0,Count,Reported,Governance metric: 9.0,False,None,6.0,1,,2026-10-04
+PERSISTENT,Persistent Systems,Governance,Independent Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+PERSISTENT,Persistent Systems,Governance,Female Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+PERSISTENT,Persistent Systems,Governance,Board Meeting Frequency,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+PERSISTENT,Persistent Systems,Governance,Audit Committee Size,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+PERSISTENT,Persistent Systems,Governance,Ethics Policy Violations,0.0,Count,Reported,Governance metric: 0.0,False,None,6.0,1,,2026-10-04
+COFORGE,Coforge,Environmental,Total Energy Consumption,,GWh,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+COFORGE,Coforge,Environmental,Renewable Energy Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+COFORGE,Coforge,Environmental,Total Water Consumption,,KL,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+COFORGE,Coforge,Environmental,Water Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+COFORGE,Coforge,Environmental,Total Waste Generated,5.0,MT,Reported,Environmental metric: 5.0,False,None,6.0,1,,2026-10-04
+COFORGE,Coforge,Environmental,Waste Recycled Percentage,100.0,%,Reported,Environmental metric: 100.0,False,None,6.0,1,,2026-10-04
+COFORGE,Coforge,Social,Total Employees,1279.0,Count,Reported,Social metric: 1279.0,False,None,6.0,1,,2026-10-04
+COFORGE,Coforge,Social,Female Employee Percentage,0.11,%,Reported,Social metric: 0.11,False,None,6.0,1,,2026-10-04
+COFORGE,Coforge,Social,Employee Turnover Rate,90.0,%,Reported,Social metric: 90.0,False,None,6.0,1,,2026-10-04
+COFORGE,Coforge,Social,Training Hours per Employee,3.0,Hours,Reported,Social metric: 3.0,False,None,6.0,1,,2026-10-04
+COFORGE,Coforge,Social,Health and Safety Incidents,2024.0,Count,Reported,Social metric: 2024.0,False,None,6.0,1,,2026-10-04
+COFORGE,Coforge,Social,CSR Expenditure,,Crores INR,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+COFORGE,Coforge,Governance,Board Size,6.0,Count,Reported,Governance metric: 6.0,False,None,6.0,1,,2026-10-04
+COFORGE,Coforge,Governance,Independent Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+COFORGE,Coforge,Governance,Female Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+COFORGE,Coforge,Governance,Board Meeting Frequency,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+COFORGE,Coforge,Governance,Audit Committee Size,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+COFORGE,Coforge,Governance,Ethics Policy Violations,10.0,Count,Reported,Governance metric: 10.0,False,None,6.0,1,,2026-10-04
+LTTS,L&T Technology Services,Environmental,Total Energy Consumption,25.0,GWh,Reported,Environmental metric: 25.0,False,None,6.0,1,2.0,2026-10-04
+LTTS,L&T Technology Services,Environmental,Renewable Energy Percentage,10.6,%,Verified,Low renewable claim (10.6%) consistent with env score (2.0/10),False,None,6.0,1,2.0,2026-10-04
+LTTS,L&T Technology Services,Environmental,Total Water Consumption,,KL,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+LTTS,L&T Technology Services,Environmental,Water Recycled Percentage,10.6,%,Reported,Environmental metric: 10.6,False,None,6.0,1,2.0,2026-10-04
+LTTS,L&T Technology Services,Environmental,Total Waste Generated,,MT,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+LTTS,L&T Technology Services,Environmental,Waste Recycled Percentage,10.6,%,Reported,Environmental metric: 10.6,False,None,6.0,1,2.0,2026-10-04
+LTTS,L&T Technology Services,Social,Total Employees,100.0,Count,Reported,Social metric: 100.0,False,None,6.0,1,2.0,2026-10-04
+LTTS,L&T Technology Services,Social,Female Employee Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+LTTS,L&T Technology Services,Social,Employee Turnover Rate,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+LTTS,L&T Technology Services,Social,Training Hours per Employee,278.2,Hours,Reported,Social metric: 278.2,False,None,6.0,1,2.0,2026-10-04
+LTTS,L&T Technology Services,Social,Health and Safety Incidents,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+LTTS,L&T Technology Services,Social,CSR Expenditure,,Crores INR,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+LTTS,L&T Technology Services,Governance,Board Size,2024.0,Count,Reported,Governance metric: 2024.0,False,None,6.0,1,2.0,2026-10-04
+LTTS,L&T Technology Services,Governance,Independent Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+LTTS,L&T Technology Services,Governance,Female Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+LTTS,L&T Technology Services,Governance,Board Meeting Frequency,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+LTTS,L&T Technology Services,Governance,Audit Committee Size,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+LTTS,L&T Technology Services,Governance,Ethics Policy Violations,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TATAELXSI,Tata Elxsi,Environmental,Total Energy Consumption,1.0,GWh,Reported,Environmental metric: 1.0,False,None,6.0,1,2.0,2026-10-04
+TATAELXSI,Tata Elxsi,Environmental,Renewable Energy Percentage,51.15,%,Suspicious,Claims 51.15% renewable but poor env score (2.0/10),True,Medium,4.0,5,2.0,2026-10-04
+TATAELXSI,Tata Elxsi,Environmental,Total Water Consumption,,KL,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TATAELXSI,Tata Elxsi,Environmental,Water Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TATAELXSI,Tata Elxsi,Environmental,Total Waste Generated,,MT,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TATAELXSI,Tata Elxsi,Environmental,Waste Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TATAELXSI,Tata Elxsi,Social,Total Employees,12414.0,Count,Reported,Social metric: 12414.0,False,None,6.0,1,2.0,2026-10-04
+TATAELXSI,Tata Elxsi,Social,Female Employee Percentage,0.04,%,Reported,Social metric: 0.04,False,None,6.0,1,2.0,2026-10-04
+TATAELXSI,Tata Elxsi,Social,Employee Turnover Rate,90.0,%,Reported,Social metric: 90.0,False,None,6.0,1,2.0,2026-10-04
+TATAELXSI,Tata Elxsi,Social,Training Hours per Employee,,Hours,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TATAELXSI,Tata Elxsi,Social,Health and Safety Incidents,2023.0,Count,Reported,Social metric: 2023.0,False,None,6.0,1,2.0,2026-10-04
+TATAELXSI,Tata Elxsi,Social,CSR Expenditure,,Crores INR,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TATAELXSI,Tata Elxsi,Governance,Board Size,6.0,Count,Reported,Governance metric: 6.0,False,None,6.0,1,2.0,2026-10-04
+TATAELXSI,Tata Elxsi,Governance,Independent Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TATAELXSI,Tata Elxsi,Governance,Female Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TATAELXSI,Tata Elxsi,Governance,Board Meeting Frequency,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TATAELXSI,Tata Elxsi,Governance,Audit Committee Size,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TATAELXSI,Tata Elxsi,Governance,Ethics Policy Violations,1.0,Count,Reported,Governance metric: 1.0,False,None,6.0,1,2.0,2026-10-04
+OFSS,Oracle Financial Services Software,Environmental,Total Energy Consumption,7327.0,GWh,Reported,Environmental metric: 7327.0,False,None,6.0,1,2.0,2026-10-04
+OFSS,Oracle Financial Services Software,Environmental,Renewable Energy Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+OFSS,Oracle Financial Services Software,Environmental,Total Water Consumption,32149.0,KL,Reported,Environmental metric: 32149.0,False,None,6.0,1,2.0,2026-10-04
+OFSS,Oracle Financial Services Software,Environmental,Water Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+OFSS,Oracle Financial Services Software,Environmental,Total Waste Generated,2.64,MT,Reported,Environmental metric: 2.64,False,None,6.0,1,2.0,2026-10-04
+OFSS,Oracle Financial Services Software,Environmental,Waste Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+OFSS,Oracle Financial Services Software,Social,Total Employees,3.0,Count,Reported,Social metric: 3.0,False,None,6.0,1,2.0,2026-10-04
+OFSS,Oracle Financial Services Software,Social,Female Employee Percentage,26.42,%,Reported,Social metric: 26.42,False,None,6.0,1,2.0,2026-10-04
+OFSS,Oracle Financial Services Software,Social,Employee Turnover Rate,90.0,%,Reported,Social metric: 90.0,False,None,6.0,1,2.0,2026-10-04
+OFSS,Oracle Financial Services Software,Social,Training Hours per Employee,,Hours,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+OFSS,Oracle Financial Services Software,Social,Health and Safety Incidents,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+OFSS,Oracle Financial Services Software,Social,CSR Expenditure,6.0,Crores INR,Reported,Social metric: 6.0,False,None,6.0,1,2.0,2026-10-04
+OFSS,Oracle Financial Services Software,Governance,Board Size,10.0,Count,Reported,Governance metric: 10.0,False,None,6.0,1,2.0,2026-10-04
+OFSS,Oracle Financial Services Software,Governance,Independent Directors Percentage,30.0,%,Reported,Governance metric: 30.0,False,None,6.0,1,2.0,2026-10-04
+OFSS,Oracle Financial Services Software,Governance,Female Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+OFSS,Oracle Financial Services Software,Governance,Board Meeting Frequency,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+OFSS,Oracle Financial Services Software,Governance,Audit Committee Size,11.0,Count,Reported,Governance metric: 11.0,False,None,6.0,1,2.0,2026-10-04
+OFSS,Oracle Financial Services Software,Governance,Ethics Policy Violations,-176732.0,Count,Reported,Governance metric: -176732.0,False,None,6.0,1,2.0,2026-10-04
+KPITTECH,KPIT Technologies,Environmental,Total Energy Consumption,,GWh,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+KPITTECH,KPIT Technologies,Environmental,Renewable Energy Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+KPITTECH,KPIT Technologies,Environmental,Total Water Consumption,,KL,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+KPITTECH,KPIT Technologies,Environmental,Water Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+KPITTECH,KPIT Technologies,Environmental,Total Waste Generated,5.0,MT,Reported,Environmental metric: 5.0,False,None,6.0,1,,2026-10-04
+KPITTECH,KPIT Technologies,Environmental,Waste Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+KPITTECH,KPIT Technologies,Social,Total Employees,10188.0,Count,Reported,Social metric: 10188.0,False,None,6.0,1,,2026-10-04
+KPITTECH,KPIT Technologies,Social,Female Employee Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+KPITTECH,KPIT Technologies,Social,Employee Turnover Rate,90.0,%,Reported,Social metric: 90.0,False,None,6.0,1,,2026-10-04
+KPITTECH,KPIT Technologies,Social,Training Hours per Employee,,Hours,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+KPITTECH,KPIT Technologies,Social,Health and Safety Incidents,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+KPITTECH,KPIT Technologies,Social,CSR Expenditure,7.0,Crores INR,Reported,Social metric: 7.0,False,None,6.0,1,,2026-10-04
+KPITTECH,KPIT Technologies,Governance,Board Size,2.0,Count,Reported,Governance metric: 2.0,False,None,6.0,1,,2026-10-04
+KPITTECH,KPIT Technologies,Governance,Independent Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+KPITTECH,KPIT Technologies,Governance,Female Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+KPITTECH,KPIT Technologies,Governance,Board Meeting Frequency,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+KPITTECH,KPIT Technologies,Governance,Audit Committee Size,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+KPITTECH,KPIT Technologies,Governance,Ethics Policy Violations,25.0,Count,Reported,Governance metric: 25.0,False,None,6.0,1,,2026-10-04
+CYIENT,Cyient,Environmental,Total Energy Consumption,,GWh,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+CYIENT,Cyient,Environmental,Renewable Energy Percentage,60.0,%,Suspicious,Claims 60.0% renewable but poor env score (nan/10),True,Medium,4.0,5,,2026-10-04
+CYIENT,Cyient,Environmental,Total Water Consumption,,KL,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+CYIENT,Cyient,Environmental,Water Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+CYIENT,Cyient,Environmental,Total Waste Generated,,MT,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+CYIENT,Cyient,Environmental,Waste Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+CYIENT,Cyient,Social,Total Employees,48.0,Count,Reported,Social metric: 48.0,False,None,6.0,1,,2026-10-04
+CYIENT,Cyient,Social,Female Employee Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+CYIENT,Cyient,Social,Employee Turnover Rate,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+CYIENT,Cyient,Social,Training Hours per Employee,,Hours,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+CYIENT,Cyient,Social,Health and Safety Incidents,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+CYIENT,Cyient,Social,CSR Expenditure,,Crores INR,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+CYIENT,Cyient,Governance,Board Size,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+CYIENT,Cyient,Governance,Independent Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+CYIENT,Cyient,Governance,Female Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+CYIENT,Cyient,Governance,Board Meeting Frequency,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+CYIENT,Cyient,Governance,Audit Committee Size,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+CYIENT,Cyient,Governance,Ethics Policy Violations,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+BSOFT,Birlasoft,Environmental,Total Energy Consumption,40.0,GWh,Reported,Environmental metric: 40.0,False,None,6.0,1,,2026-10-04
+BSOFT,Birlasoft,Environmental,Renewable Energy Percentage,40.0,%,Verified,Low renewable claim (40.0%) consistent with env score (nan/10),False,None,6.0,1,,2026-10-04
+BSOFT,Birlasoft,Environmental,Total Water Consumption,8.0,KL,Reported,Environmental metric: 8.0,False,None,6.0,1,,2026-10-04
+BSOFT,Birlasoft,Environmental,Water Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+BSOFT,Birlasoft,Environmental,Total Waste Generated,2024.0,MT,Reported,Environmental metric: 2024.0,False,None,6.0,1,,2026-10-04
+BSOFT,Birlasoft,Environmental,Waste Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+BSOFT,Birlasoft,Social,Total Employees,10882.0,Count,Reported,Social metric: 10882.0,False,None,6.0,1,,2026-10-04
+BSOFT,Birlasoft,Social,Female Employee Percentage,0.2,%,Reported,Social metric: 0.2,False,None,6.0,1,,2026-10-04
+BSOFT,Birlasoft,Social,Employee Turnover Rate,90.0,%,Reported,Social metric: 90.0,False,None,6.0,1,,2026-10-04
+BSOFT,Birlasoft,Social,Training Hours per Employee,,Hours,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+BSOFT,Birlasoft,Social,Health and Safety Incidents,2024.0,Count,Reported,Social metric: 2024.0,False,None,6.0,1,,2026-10-04
+BSOFT,Birlasoft,Social,CSR Expenditure,40.0,Crores INR,Reported,Social metric: 40.0,False,None,6.0,1,,2026-10-04
+BSOFT,Birlasoft,Governance,Board Size,7.0,Count,Reported,Governance metric: 7.0,False,None,6.0,1,,2026-10-04
+BSOFT,Birlasoft,Governance,Independent Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+BSOFT,Birlasoft,Governance,Female Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+BSOFT,Birlasoft,Governance,Board Meeting Frequency,6.0,Count,Reported,Governance metric: 6.0,False,None,6.0,1,,2026-10-04
+BSOFT,Birlasoft,Governance,Audit Committee Size,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+BSOFT,Birlasoft,Governance,Ethics Policy Violations,16.0,Count,Reported,Governance metric: 16.0,False,None,6.0,1,,2026-10-04
+ZENSARTECH,Zensar Technologies,Environmental,Total Energy Consumption,30.0,GWh,Reported,Environmental metric: 30.0,False,None,6.0,1,,2026-10-04
+ZENSARTECH,Zensar Technologies,Environmental,Renewable Energy Percentage,90.0,%,Partially Verified,Renewable claim 90.0% with moderate env score (nan/10),False,None,6.0,1,,2026-10-04
+ZENSARTECH,Zensar Technologies,Environmental,Total Water Consumption,,KL,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+ZENSARTECH,Zensar Technologies,Environmental,Water Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+ZENSARTECH,Zensar Technologies,Environmental,Total Waste Generated,100.0,MT,Reported,Environmental metric: 100.0,False,None,6.0,1,,2026-10-04
+ZENSARTECH,Zensar Technologies,Environmental,Waste Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+ZENSARTECH,Zensar Technologies,Social,Total Employees,727.0,Count,Reported,Social metric: 727.0,False,None,6.0,1,,2026-10-04
+ZENSARTECH,Zensar Technologies,Social,Female Employee Percentage,35.0,%,Reported,Social metric: 35.0,False,None,6.0,1,,2026-10-04
+ZENSARTECH,Zensar Technologies,Social,Employee Turnover Rate,9.9,%,Reported,Social metric: 9.9,False,None,6.0,1,,2026-10-04
+ZENSARTECH,Zensar Technologies,Social,Training Hours per Employee,30.0,Hours,Reported,Social metric: 30.0,False,None,6.0,1,,2026-10-04
+ZENSARTECH,Zensar Technologies,Social,Health and Safety Incidents,2024.0,Count,Reported,Social metric: 2024.0,False,None,6.0,1,,2026-10-04
+ZENSARTECH,Zensar Technologies,Social,CSR Expenditure,4.0,Crores INR,Reported,Social metric: 4.0,False,None,6.0,1,,2026-10-04
+ZENSARTECH,Zensar Technologies,Governance,Board Size,9.0,Count,Reported,Governance metric: 9.0,False,None,6.0,1,,2026-10-04
+ZENSARTECH,Zensar Technologies,Governance,Independent Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+ZENSARTECH,Zensar Technologies,Governance,Female Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+ZENSARTECH,Zensar Technologies,Governance,Board Meeting Frequency,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+ZENSARTECH,Zensar Technologies,Governance,Audit Committee Size,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+ZENSARTECH,Zensar Technologies,Governance,Ethics Policy Violations,23.0,Count,Reported,Governance metric: 23.0,False,None,6.0,1,,2026-10-04
+TATATECH,Tata Technologies,Environmental,Total Energy Consumption,1.0,GWh,Reported,Environmental metric: 1.0,False,None,6.0,1,,2026-10-04
+TATATECH,Tata Technologies,Environmental,Renewable Energy Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TATATECH,Tata Technologies,Environmental,Total Water Consumption,6.0,KL,Reported,Environmental metric: 6.0,False,None,6.0,1,,2026-10-04
+TATATECH,Tata Technologies,Environmental,Water Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TATATECH,Tata Technologies,Environmental,Total Waste Generated,6.0,MT,Reported,Environmental metric: 6.0,False,None,6.0,1,,2026-10-04
+TATATECH,Tata Technologies,Environmental,Waste Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TATATECH,Tata Technologies,Social,Total Employees,717.0,Count,Reported,Social metric: 717.0,False,None,6.0,1,,2026-10-04
+TATATECH,Tata Technologies,Social,Female Employee Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TATATECH,Tata Technologies,Social,Employee Turnover Rate,31.4,%,Reported,Social metric: 31.4,False,None,6.0,1,,2026-10-04
+TATATECH,Tata Technologies,Social,Training Hours per Employee,,Hours,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TATATECH,Tata Technologies,Social,Health and Safety Incidents,3.0,Count,Reported,Social metric: 3.0,False,None,6.0,1,,2026-10-04
+TATATECH,Tata Technologies,Social,CSR Expenditure,,Crores INR,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TATATECH,Tata Technologies,Governance,Board Size,7.0,Count,Reported,Governance metric: 7.0,False,None,6.0,1,,2026-10-04
+TATATECH,Tata Technologies,Governance,Independent Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TATATECH,Tata Technologies,Governance,Female Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TATATECH,Tata Technologies,Governance,Board Meeting Frequency,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TATATECH,Tata Technologies,Governance,Audit Committee Size,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TATATECH,Tata Technologies,Governance,Ethics Policy Violations,5.0,Count,Reported,Governance metric: 5.0,False,None,6.0,1,,2026-10-04
+HAPPSTMNDS,Happiest Minds Technologies,Environmental,Total Energy Consumption,1.0,GWh,Reported,Environmental metric: 1.0,False,None,6.0,1,2.0,2026-10-04
+HAPPSTMNDS,Happiest Minds Technologies,Environmental,Renewable Energy Percentage,12.13,%,Verified,Low renewable claim (12.13%) consistent with env score (2.0/10),False,None,6.0,1,2.0,2026-10-04
+HAPPSTMNDS,Happiest Minds Technologies,Environmental,Total Water Consumption,2030.0,KL,Reported,Environmental metric: 2030.0,False,None,6.0,1,2.0,2026-10-04
+HAPPSTMNDS,Happiest Minds Technologies,Environmental,Water Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HAPPSTMNDS,Happiest Minds Technologies,Environmental,Total Waste Generated,5.0,MT,Reported,Environmental metric: 5.0,False,None,6.0,1,2.0,2026-10-04
+HAPPSTMNDS,Happiest Minds Technologies,Environmental,Waste Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HAPPSTMNDS,Happiest Minds Technologies,Social,Total Employees,212.0,Count,Reported,Social metric: 212.0,False,None,6.0,1,2.0,2026-10-04
+HAPPSTMNDS,Happiest Minds Technologies,Social,Female Employee Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HAPPSTMNDS,Happiest Minds Technologies,Social,Employee Turnover Rate,90.0,%,Reported,Social metric: 90.0,False,None,6.0,1,2.0,2026-10-04
+HAPPSTMNDS,Happiest Minds Technologies,Social,Training Hours per Employee,,Hours,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HAPPSTMNDS,Happiest Minds Technologies,Social,Health and Safety Incidents,2025.0,Count,Reported,Social metric: 2025.0,False,None,6.0,1,2.0,2026-10-04
+HAPPSTMNDS,Happiest Minds Technologies,Social,CSR Expenditure,,Crores INR,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HAPPSTMNDS,Happiest Minds Technologies,Governance,Board Size,8.0,Count,Reported,Governance metric: 8.0,False,None,6.0,1,2.0,2026-10-04
+HAPPSTMNDS,Happiest Minds Technologies,Governance,Independent Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HAPPSTMNDS,Happiest Minds Technologies,Governance,Female Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HAPPSTMNDS,Happiest Minds Technologies,Governance,Board Meeting Frequency,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HAPPSTMNDS,Happiest Minds Technologies,Governance,Audit Committee Size,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HAPPSTMNDS,Happiest Minds Technologies,Governance,Ethics Policy Violations,25.0,Count,Reported,Governance metric: 25.0,False,None,6.0,1,2.0,2026-10-04
+SONATSOFTW,Sonata Software,Environmental,Total Energy Consumption,2025.0,GWh,Reported,Environmental metric: 2025.0,False,None,6.0,1,2.0,2026-10-04
+SONATSOFTW,Sonata Software,Environmental,Renewable Energy Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+SONATSOFTW,Sonata Software,Environmental,Total Water Consumption,3.0,KL,Reported,Environmental metric: 3.0,False,None,6.0,1,2.0,2026-10-04
+SONATSOFTW,Sonata Software,Environmental,Water Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+SONATSOFTW,Sonata Software,Environmental,Total Waste Generated,51.0,MT,Reported,Environmental metric: 51.0,False,None,6.0,1,2.0,2026-10-04
+SONATSOFTW,Sonata Software,Environmental,Waste Recycled Percentage,51.0,%,Reported,Environmental metric: 51.0,False,None,6.0,1,2.0,2026-10-04
+SONATSOFTW,Sonata Software,Social,Total Employees,20.0,Count,Reported,Social metric: 20.0,False,None,6.0,1,2.0,2026-10-04
+SONATSOFTW,Sonata Software,Social,Female Employee Percentage,1.1,%,Reported,Social metric: 1.1,False,None,6.0,1,2.0,2026-10-04
+SONATSOFTW,Sonata Software,Social,Employee Turnover Rate,40.0,%,Reported,Social metric: 40.0,False,None,6.0,1,2.0,2026-10-04
+SONATSOFTW,Sonata Software,Social,Training Hours per Employee,,Hours,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+SONATSOFTW,Sonata Software,Social,Health and Safety Incidents,10.0,Count,Reported,Social metric: 10.0,False,None,6.0,1,2.0,2026-10-04
+SONATSOFTW,Sonata Software,Social,CSR Expenditure,1.0,Crores INR,Reported,Social metric: 1.0,False,None,6.0,1,2.0,2026-10-04
+SONATSOFTW,Sonata Software,Governance,Board Size,20.0,Count,Reported,Governance metric: 20.0,False,None,6.0,1,2.0,2026-10-04
+SONATSOFTW,Sonata Software,Governance,Independent Directors Percentage,100.0,%,Reported,Governance metric: 100.0,False,None,6.0,1,2.0,2026-10-04
+SONATSOFTW,Sonata Software,Governance,Female Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+SONATSOFTW,Sonata Software,Governance,Board Meeting Frequency,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+SONATSOFTW,Sonata Software,Governance,Audit Committee Size,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+SONATSOFTW,Sonata Software,Governance,Ethics Policy Violations,22.0,Count,Reported,Governance metric: 22.0,False,None,6.0,1,2.0,2026-10-04
+HEXAWARE,Hexaware Technologies,Environmental,Total Energy Consumption,59.0,GWh,Reported,Environmental metric: 59.0,False,None,6.0,1,,2026-10-04
+HEXAWARE,Hexaware Technologies,Environmental,Renewable Energy Percentage,83.0,%,Partially Verified,Renewable claim 83.0% with moderate env score (nan/10),False,None,6.0,1,,2026-10-04
+HEXAWARE,Hexaware Technologies,Environmental,Total Water Consumption,,KL,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HEXAWARE,Hexaware Technologies,Environmental,Water Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HEXAWARE,Hexaware Technologies,Environmental,Total Waste Generated,,MT,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HEXAWARE,Hexaware Technologies,Environmental,Waste Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HEXAWARE,Hexaware Technologies,Social,Total Employees,187.0,Count,Reported,Social metric: 187.0,False,None,6.0,1,,2026-10-04
+HEXAWARE,Hexaware Technologies,Social,Female Employee Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HEXAWARE,Hexaware Technologies,Social,Employee Turnover Rate,11.0,%,Reported,Social metric: 11.0,False,None,6.0,1,,2026-10-04
+HEXAWARE,Hexaware Technologies,Social,Training Hours per Employee,21222.0,Hours,Reported,Social metric: 21222.0,False,None,6.0,1,,2026-10-04
+HEXAWARE,Hexaware Technologies,Social,Health and Safety Incidents,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HEXAWARE,Hexaware Technologies,Social,CSR Expenditure,34.3,Crores INR,Reported,Social metric: 34.3,False,None,6.0,1,,2026-10-04
+HEXAWARE,Hexaware Technologies,Governance,Board Size,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HEXAWARE,Hexaware Technologies,Governance,Independent Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HEXAWARE,Hexaware Technologies,Governance,Female Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HEXAWARE,Hexaware Technologies,Governance,Board Meeting Frequency,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HEXAWARE,Hexaware Technologies,Governance,Audit Committee Size,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HEXAWARE,Hexaware Technologies,Governance,Ethics Policy Violations,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MINDTREE,Mindtree (legacy symbol),Environmental,Total Energy Consumption,,GWh,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MINDTREE,Mindtree (legacy symbol),Environmental,Renewable Energy Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MINDTREE,Mindtree (legacy symbol),Environmental,Total Water Consumption,,KL,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MINDTREE,Mindtree (legacy symbol),Environmental,Water Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MINDTREE,Mindtree (legacy symbol),Environmental,Total Waste Generated,,MT,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MINDTREE,Mindtree (legacy symbol),Environmental,Waste Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MINDTREE,Mindtree (legacy symbol),Social,Total Employees,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MINDTREE,Mindtree (legacy symbol),Social,Female Employee Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MINDTREE,Mindtree (legacy symbol),Social,Employee Turnover Rate,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MINDTREE,Mindtree (legacy symbol),Social,Training Hours per Employee,,Hours,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MINDTREE,Mindtree (legacy symbol),Social,Health and Safety Incidents,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MINDTREE,Mindtree (legacy symbol),Social,CSR Expenditure,,Crores INR,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MINDTREE,Mindtree (legacy symbol),Governance,Board Size,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MINDTREE,Mindtree (legacy symbol),Governance,Independent Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MINDTREE,Mindtree (legacy symbol),Governance,Female Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MINDTREE,Mindtree (legacy symbol),Governance,Board Meeting Frequency,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MINDTREE,Mindtree (legacy symbol),Governance,Audit Committee Size,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MINDTREE,Mindtree (legacy symbol),Governance,Ethics Policy Violations,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+NEWGEN,Newgen Software Technologies,Environmental,Total Energy Consumption,1.0,GWh,Reported,Environmental metric: 1.0,False,None,6.0,1,,2026-10-04
+NEWGEN,Newgen Software Technologies,Environmental,Renewable Energy Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+NEWGEN,Newgen Software Technologies,Environmental,Total Water Consumption,38197.47,KL,Reported,Environmental metric: 38197.47,False,None,6.0,1,,2026-10-04
+NEWGEN,Newgen Software Technologies,Environmental,Water Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+NEWGEN,Newgen Software Technologies,Environmental,Total Waste Generated,2024.0,MT,Reported,Environmental metric: 2024.0,False,None,6.0,1,,2026-10-04
+NEWGEN,Newgen Software Technologies,Environmental,Waste Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+NEWGEN,Newgen Software Technologies,Social,Total Employees,417.0,Count,Reported,Social metric: 417.0,False,None,6.0,1,,2026-10-04
+NEWGEN,Newgen Software Technologies,Social,Female Employee Percentage,25.5,%,Reported,Social metric: 25.5,False,None,6.0,1,,2026-10-04
+NEWGEN,Newgen Software Technologies,Social,Employee Turnover Rate,90.0,%,Reported,Social metric: 90.0,False,None,6.0,1,,2026-10-04
+NEWGEN,Newgen Software Technologies,Social,Training Hours per Employee,,Hours,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+NEWGEN,Newgen Software Technologies,Social,Health and Safety Incidents,2024.0,Count,Reported,Social metric: 2024.0,False,None,6.0,1,,2026-10-04
+NEWGEN,Newgen Software Technologies,Social,CSR Expenditure,,Crores INR,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+NEWGEN,Newgen Software Technologies,Governance,Board Size,7.0,Count,Reported,Governance metric: 7.0,False,None,6.0,1,,2026-10-04
+NEWGEN,Newgen Software Technologies,Governance,Independent Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+NEWGEN,Newgen Software Technologies,Governance,Female Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+NEWGEN,Newgen Software Technologies,Governance,Board Meeting Frequency,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+NEWGEN,Newgen Software Technologies,Governance,Audit Committee Size,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+NEWGEN,Newgen Software Technologies,Governance,Ethics Policy Violations,25.0,Count,Reported,Governance metric: 25.0,False,None,6.0,1,,2026-10-04
+TANLA,Tanla Platforms,Environmental,Total Energy Consumption,1.0,GWh,Reported,Environmental metric: 1.0,False,None,6.0,1,,2026-10-04
+TANLA,Tanla Platforms,Environmental,Renewable Energy Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TANLA,Tanla Platforms,Environmental,Total Water Consumption,,KL,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TANLA,Tanla Platforms,Environmental,Water Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TANLA,Tanla Platforms,Environmental,Total Waste Generated,3.0,MT,Reported,Environmental metric: 3.0,False,None,6.0,1,,2026-10-04
+TANLA,Tanla Platforms,Environmental,Waste Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TANLA,Tanla Platforms,Social,Total Employees,40.0,Count,Reported,Social metric: 40.0,False,None,6.0,1,,2026-10-04
+TANLA,Tanla Platforms,Social,Female Employee Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TANLA,Tanla Platforms,Social,Employee Turnover Rate,90.0,%,Reported,Social metric: 90.0,False,None,6.0,1,,2026-10-04
+TANLA,Tanla Platforms,Social,Training Hours per Employee,,Hours,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TANLA,Tanla Platforms,Social,Health and Safety Incidents,3.0,Count,Reported,Social metric: 3.0,False,None,6.0,1,,2026-10-04
+TANLA,Tanla Platforms,Social,CSR Expenditure,,Crores INR,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TANLA,Tanla Platforms,Governance,Board Size,7.0,Count,Reported,Governance metric: 7.0,False,None,6.0,1,,2026-10-04
+TANLA,Tanla Platforms,Governance,Independent Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TANLA,Tanla Platforms,Governance,Female Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TANLA,Tanla Platforms,Governance,Board Meeting Frequency,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TANLA,Tanla Platforms,Governance,Audit Committee Size,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TANLA,Tanla Platforms,Governance,Ethics Policy Violations,25.0,Count,Reported,Governance metric: 25.0,False,None,6.0,1,,2026-10-04
+INTELLECT,Intellect Design Arena,Environmental,Total Energy Consumption,6553483.2,GWh,Reported,Environmental metric: 6553483.2,False,None,6.0,1,2.0,2026-10-04
+INTELLECT,Intellect Design Arena,Environmental,Renewable Energy Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+INTELLECT,Intellect Design Arena,Environmental,Total Water Consumption,9781.35,KL,Reported,Environmental metric: 9781.35,False,None,6.0,1,2.0,2026-10-04
+INTELLECT,Intellect Design Arena,Environmental,Water Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+INTELLECT,Intellect Design Arena,Environmental,Total Waste Generated,5.0,MT,Reported,Environmental metric: 5.0,False,None,6.0,1,2.0,2026-10-04
+INTELLECT,Intellect Design Arena,Environmental,Waste Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+INTELLECT,Intellect Design Arena,Social,Total Employees,3.0,Count,Reported,Social metric: 3.0,False,None,6.0,1,2.0,2026-10-04
+INTELLECT,Intellect Design Arena,Social,Female Employee Percentage,0.1,%,Reported,Social metric: 0.1,False,None,6.0,1,2.0,2026-10-04
+INTELLECT,Intellect Design Arena,Social,Employee Turnover Rate,0.21,%,Reported,Social metric: 0.21,False,None,6.0,1,2.0,2026-10-04
+INTELLECT,Intellect Design Arena,Social,Training Hours per Employee,257.0,Hours,Reported,Social metric: 257.0,False,None,6.0,1,2.0,2026-10-04
+INTELLECT,Intellect Design Arena,Social,Health and Safety Incidents,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+INTELLECT,Intellect Design Arena,Social,CSR Expenditure,9.0,Crores INR,Reported,Social metric: 9.0,False,None,6.0,1,2.0,2026-10-04
+INTELLECT,Intellect Design Arena,Governance,Board Size,6.0,Count,Reported,Governance metric: 6.0,False,None,6.0,1,2.0,2026-10-04
+INTELLECT,Intellect Design Arena,Governance,Independent Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+INTELLECT,Intellect Design Arena,Governance,Female Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+INTELLECT,Intellect Design Arena,Governance,Board Meeting Frequency,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+INTELLECT,Intellect Design Arena,Governance,Audit Committee Size,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+INTELLECT,Intellect Design Arena,Governance,Ethics Policy Violations,2024.0,Count,Reported,Governance metric: 2024.0,False,None,6.0,1,2.0,2026-10-04
+ROUTE,Route Mobile,Environmental,Total Energy Consumption,1.0,GWh,Reported,Environmental metric: 1.0,False,None,6.0,1,2.0,2026-10-04
+ROUTE,Route Mobile,Environmental,Renewable Energy Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+ROUTE,Route Mobile,Environmental,Total Water Consumption,52.8,KL,Reported,Environmental metric: 52.8,False,None,6.0,1,2.0,2026-10-04
+ROUTE,Route Mobile,Environmental,Water Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+ROUTE,Route Mobile,Environmental,Total Waste Generated,2024.0,MT,Reported,Environmental metric: 2024.0,False,None,6.0,1,2.0,2026-10-04
+ROUTE,Route Mobile,Environmental,Waste Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+ROUTE,Route Mobile,Social,Total Employees,15.0,Count,Reported,Social metric: 15.0,False,None,6.0,1,2.0,2026-10-04
+ROUTE,Route Mobile,Social,Female Employee Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+ROUTE,Route Mobile,Social,Employee Turnover Rate,90.0,%,Reported,Social metric: 90.0,False,None,6.0,1,2.0,2026-10-04
+ROUTE,Route Mobile,Social,Training Hours per Employee,,Hours,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+ROUTE,Route Mobile,Social,Health and Safety Incidents,2024.0,Count,Reported,Social metric: 2024.0,False,None,6.0,1,2.0,2026-10-04
+ROUTE,Route Mobile,Social,CSR Expenditure,,Crores INR,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+ROUTE,Route Mobile,Governance,Board Size,6.0,Count,Reported,Governance metric: 6.0,False,None,6.0,1,2.0,2026-10-04
+ROUTE,Route Mobile,Governance,Independent Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+ROUTE,Route Mobile,Governance,Female Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+ROUTE,Route Mobile,Governance,Board Meeting Frequency,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+ROUTE,Route Mobile,Governance,Audit Committee Size,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+ROUTE,Route Mobile,Governance,Ethics Policy Violations,25.0,Count,Reported,Governance metric: 25.0,False,None,6.0,1,2.0,2026-10-04
+RATEGAIN,RateGain Travel Technologies,Environmental,Total Energy Consumption,,GWh,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+RATEGAIN,RateGain Travel Technologies,Environmental,Renewable Energy Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+RATEGAIN,RateGain Travel Technologies,Environmental,Total Water Consumption,,KL,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+RATEGAIN,RateGain Travel Technologies,Environmental,Water Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+RATEGAIN,RateGain Travel Technologies,Environmental,Total Waste Generated,,MT,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+RATEGAIN,RateGain Travel Technologies,Environmental,Waste Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+RATEGAIN,RateGain Travel Technologies,Social,Total Employees,115.0,Count,Reported,Social metric: 115.0,False,None,6.0,1,,2026-10-04
+RATEGAIN,RateGain Travel Technologies,Social,Female Employee Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+RATEGAIN,RateGain Travel Technologies,Social,Employee Turnover Rate,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+RATEGAIN,RateGain Travel Technologies,Social,Training Hours per Employee,,Hours,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+RATEGAIN,RateGain Travel Technologies,Social,Health and Safety Incidents,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+RATEGAIN,RateGain Travel Technologies,Social,CSR Expenditure,,Crores INR,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+RATEGAIN,RateGain Travel Technologies,Governance,Board Size,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+RATEGAIN,RateGain Travel Technologies,Governance,Independent Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+RATEGAIN,RateGain Travel Technologies,Governance,Female Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+RATEGAIN,RateGain Travel Technologies,Governance,Board Meeting Frequency,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+RATEGAIN,RateGain Travel Technologies,Governance,Audit Committee Size,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+RATEGAIN,RateGain Travel Technologies,Governance,Ethics Policy Violations,117.0,Count,Reported,Governance metric: 117.0,False,None,6.0,1,,2026-10-04
+ECLERX,eClerx Services,Environmental,Total Energy Consumption,22301.0,GWh,Reported,Environmental metric: 22301.0,False,None,6.0,1,2.0,2026-10-04
+ECLERX,eClerx Services,Environmental,Renewable Energy Percentage,64.0,%,Suspicious,Claims 64.0% renewable but poor env score (2.0/10),True,Medium,4.0,5,2.0,2026-10-04
+ECLERX,eClerx Services,Environmental,Total Water Consumption,2.0,KL,Reported,Environmental metric: 2.0,False,None,6.0,1,2.0,2026-10-04
+ECLERX,eClerx Services,Environmental,Water Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+ECLERX,eClerx Services,Environmental,Total Waste Generated,2024.0,MT,Reported,Environmental metric: 2024.0,False,None,6.0,1,2.0,2026-10-04
+ECLERX,eClerx Services,Environmental,Waste Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+ECLERX,eClerx Services,Social,Total Employees,16628.0,Count,Reported,Social metric: 16628.0,False,None,6.0,1,2.0,2026-10-04
+ECLERX,eClerx Services,Social,Female Employee Percentage,0.0,%,Reported,Social metric: 0.0,False,None,6.0,1,2.0,2026-10-04
+ECLERX,eClerx Services,Social,Employee Turnover Rate,90.0,%,Reported,Social metric: 90.0,False,None,6.0,1,2.0,2026-10-04
+ECLERX,eClerx Services,Social,Training Hours per Employee,,Hours,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+ECLERX,eClerx Services,Social,Health and Safety Incidents,2024.0,Count,Reported,Social metric: 2024.0,False,None,6.0,1,2.0,2026-10-04
+ECLERX,eClerx Services,Social,CSR Expenditure,,Crores INR,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+ECLERX,eClerx Services,Governance,Board Size,9.0,Count,Reported,Governance metric: 9.0,False,None,6.0,1,2.0,2026-10-04
+ECLERX,eClerx Services,Governance,Independent Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+ECLERX,eClerx Services,Governance,Female Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+ECLERX,eClerx Services,Governance,Board Meeting Frequency,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+ECLERX,eClerx Services,Governance,Audit Committee Size,11.0,Count,Reported,Governance metric: 11.0,False,None,6.0,1,2.0,2026-10-04
+ECLERX,eClerx Services,Governance,Ethics Policy Violations,1.0,Count,Reported,Governance metric: 1.0,False,None,6.0,1,2.0,2026-10-04
+DATAMATICS,Datamatics Global Services,Environmental,Total Energy Consumption,,GWh,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+DATAMATICS,Datamatics Global Services,Environmental,Renewable Energy Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+DATAMATICS,Datamatics Global Services,Environmental,Total Water Consumption,,KL,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+DATAMATICS,Datamatics Global Services,Environmental,Water Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+DATAMATICS,Datamatics Global Services,Environmental,Total Waste Generated,,MT,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+DATAMATICS,Datamatics Global Services,Environmental,Waste Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+DATAMATICS,Datamatics Global Services,Social,Total Employees,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+DATAMATICS,Datamatics Global Services,Social,Female Employee Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+DATAMATICS,Datamatics Global Services,Social,Employee Turnover Rate,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+DATAMATICS,Datamatics Global Services,Social,Training Hours per Employee,,Hours,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+DATAMATICS,Datamatics Global Services,Social,Health and Safety Incidents,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+DATAMATICS,Datamatics Global Services,Social,CSR Expenditure,,Crores INR,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+DATAMATICS,Datamatics Global Services,Governance,Board Size,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+DATAMATICS,Datamatics Global Services,Governance,Independent Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+DATAMATICS,Datamatics Global Services,Governance,Female Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+DATAMATICS,Datamatics Global Services,Governance,Board Meeting Frequency,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+DATAMATICS,Datamatics Global Services,Governance,Audit Committee Size,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+DATAMATICS,Datamatics Global Services,Governance,Ethics Policy Violations,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MASTEK,Mastek,Environmental,Total Energy Consumption,,GWh,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MASTEK,Mastek,Environmental,Renewable Energy Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MASTEK,Mastek,Environmental,Total Water Consumption,,KL,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MASTEK,Mastek,Environmental,Water Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MASTEK,Mastek,Environmental,Total Waste Generated,,MT,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MASTEK,Mastek,Environmental,Waste Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MASTEK,Mastek,Social,Total Employees,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MASTEK,Mastek,Social,Female Employee Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MASTEK,Mastek,Social,Employee Turnover Rate,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MASTEK,Mastek,Social,Training Hours per Employee,,Hours,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MASTEK,Mastek,Social,Health and Safety Incidents,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MASTEK,Mastek,Social,CSR Expenditure,,Crores INR,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MASTEK,Mastek,Governance,Board Size,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MASTEK,Mastek,Governance,Independent Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MASTEK,Mastek,Governance,Female Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MASTEK,Mastek,Governance,Board Meeting Frequency,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MASTEK,Mastek,Governance,Audit Committee Size,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MASTEK,Mastek,Governance,Ethics Policy Violations,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+SONACOMS,Sona BLW Precision Forgings,Environmental,Total Energy Consumption,,GWh,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+SONACOMS,Sona BLW Precision Forgings,Environmental,Renewable Energy Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+SONACOMS,Sona BLW Precision Forgings,Environmental,Total Water Consumption,,KL,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+SONACOMS,Sona BLW Precision Forgings,Environmental,Water Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+SONACOMS,Sona BLW Precision Forgings,Environmental,Total Waste Generated,,MT,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+SONACOMS,Sona BLW Precision Forgings,Environmental,Waste Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+SONACOMS,Sona BLW Precision Forgings,Social,Total Employees,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+SONACOMS,Sona BLW Precision Forgings,Social,Female Employee Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+SONACOMS,Sona BLW Precision Forgings,Social,Employee Turnover Rate,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+SONACOMS,Sona BLW Precision Forgings,Social,Training Hours per Employee,,Hours,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+SONACOMS,Sona BLW Precision Forgings,Social,Health and Safety Incidents,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+SONACOMS,Sona BLW Precision Forgings,Social,CSR Expenditure,,Crores INR,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+SONACOMS,Sona BLW Precision Forgings,Governance,Board Size,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+SONACOMS,Sona BLW Precision Forgings,Governance,Independent Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+SONACOMS,Sona BLW Precision Forgings,Governance,Female Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+SONACOMS,Sona BLW Precision Forgings,Governance,Board Meeting Frequency,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+SONACOMS,Sona BLW Precision Forgings,Governance,Audit Committee Size,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+SONACOMS,Sona BLW Precision Forgings,Governance,Ethics Policy Violations,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HGS,Hinduja Global Solutions,Environmental,Total Energy Consumption,,GWh,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HGS,Hinduja Global Solutions,Environmental,Renewable Energy Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HGS,Hinduja Global Solutions,Environmental,Total Water Consumption,,KL,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HGS,Hinduja Global Solutions,Environmental,Water Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HGS,Hinduja Global Solutions,Environmental,Total Waste Generated,,MT,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HGS,Hinduja Global Solutions,Environmental,Waste Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HGS,Hinduja Global Solutions,Social,Total Employees,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HGS,Hinduja Global Solutions,Social,Female Employee Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HGS,Hinduja Global Solutions,Social,Employee Turnover Rate,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HGS,Hinduja Global Solutions,Social,Training Hours per Employee,,Hours,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HGS,Hinduja Global Solutions,Social,Health and Safety Incidents,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HGS,Hinduja Global Solutions,Social,CSR Expenditure,,Crores INR,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HGS,Hinduja Global Solutions,Governance,Board Size,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HGS,Hinduja Global Solutions,Governance,Independent Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HGS,Hinduja Global Solutions,Governance,Female Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HGS,Hinduja Global Solutions,Governance,Board Meeting Frequency,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HGS,Hinduja Global Solutions,Governance,Audit Committee Size,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HGS,Hinduja Global Solutions,Governance,Ethics Policy Violations,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+NIITLTD,NIIT,Environmental,Total Energy Consumption,,GWh,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+NIITLTD,NIIT,Environmental,Renewable Energy Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+NIITLTD,NIIT,Environmental,Total Water Consumption,,KL,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+NIITLTD,NIIT,Environmental,Water Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+NIITLTD,NIIT,Environmental,Total Waste Generated,,MT,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+NIITLTD,NIIT,Environmental,Waste Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+NIITLTD,NIIT,Social,Total Employees,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+NIITLTD,NIIT,Social,Female Employee Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+NIITLTD,NIIT,Social,Employee Turnover Rate,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+NIITLTD,NIIT,Social,Training Hours per Employee,,Hours,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+NIITLTD,NIIT,Social,Health and Safety Incidents,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+NIITLTD,NIIT,Social,CSR Expenditure,,Crores INR,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+NIITLTD,NIIT,Governance,Board Size,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+NIITLTD,NIIT,Governance,Independent Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+NIITLTD,NIIT,Governance,Female Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+NIITLTD,NIIT,Governance,Board Meeting Frequency,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+NIITLTD,NIIT,Governance,Audit Committee Size,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+NIITLTD,NIIT,Governance,Ethics Policy Violations,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+E2E,E2E Networks,Environmental,Total Energy Consumption,,GWh,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+E2E,E2E Networks,Environmental,Renewable Energy Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+E2E,E2E Networks,Environmental,Total Water Consumption,,KL,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+E2E,E2E Networks,Environmental,Water Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+E2E,E2E Networks,Environmental,Total Waste Generated,,MT,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+E2E,E2E Networks,Environmental,Waste Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+E2E,E2E Networks,Social,Total Employees,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+E2E,E2E Networks,Social,Female Employee Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+E2E,E2E Networks,Social,Employee Turnover Rate,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+E2E,E2E Networks,Social,Training Hours per Employee,,Hours,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+E2E,E2E Networks,Social,Health and Safety Incidents,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+E2E,E2E Networks,Social,CSR Expenditure,,Crores INR,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+E2E,E2E Networks,Governance,Board Size,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+E2E,E2E Networks,Governance,Independent Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+E2E,E2E Networks,Governance,Female Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+E2E,E2E Networks,Governance,Board Meeting Frequency,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+E2E,E2E Networks,Governance,Audit Committee Size,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+E2E,E2E Networks,Governance,Ethics Policy Violations,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+AFFLE,Affle India,Environmental,Total Energy Consumption,1.0,GWh,Reported,Environmental metric: 1.0,False,None,6.0,1,2.0,2026-10-04
+AFFLE,Affle India,Environmental,Renewable Energy Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+AFFLE,Affle India,Environmental,Total Water Consumption,,KL,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+AFFLE,Affle India,Environmental,Water Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+AFFLE,Affle India,Environmental,Total Waste Generated,2023.0,MT,Reported,Environmental metric: 2023.0,False,None,6.0,1,2.0,2026-10-04
+AFFLE,Affle India,Environmental,Waste Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+AFFLE,Affle India,Social,Total Employees,2.0,Count,Reported,Social metric: 2.0,False,None,6.0,1,2.0,2026-10-04
+AFFLE,Affle India,Social,Female Employee Percentage,0.43,%,Reported,Social metric: 0.43,False,None,6.0,1,2.0,2026-10-04
+AFFLE,Affle India,Social,Employee Turnover Rate,90.0,%,Reported,Social metric: 90.0,False,None,6.0,1,2.0,2026-10-04
+AFFLE,Affle India,Social,Training Hours per Employee,,Hours,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+AFFLE,Affle India,Social,Health and Safety Incidents,2024.0,Count,Reported,Social metric: 2024.0,False,None,6.0,1,2.0,2026-10-04
+AFFLE,Affle India,Social,CSR Expenditure,,Crores INR,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+AFFLE,Affle India,Governance,Board Size,8.0,Count,Reported,Governance metric: 8.0,False,None,6.0,1,2.0,2026-10-04
+AFFLE,Affle India,Governance,Independent Directors Percentage,55.6,%,Reported,Governance metric: 55.6,False,None,6.0,1,2.0,2026-10-04
+AFFLE,Affle India,Governance,Female Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+AFFLE,Affle India,Governance,Board Meeting Frequency,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+AFFLE,Affle India,Governance,Audit Committee Size,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+AFFLE,Affle India,Governance,Ethics Policy Violations,25.0,Count,Reported,Governance metric: 25.0,False,None,6.0,1,2.0,2026-10-04
+MPSLTD,MPS,Environmental,Total Energy Consumption,,GWh,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MPSLTD,MPS,Environmental,Renewable Energy Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MPSLTD,MPS,Environmental,Total Water Consumption,,KL,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MPSLTD,MPS,Environmental,Water Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MPSLTD,MPS,Environmental,Total Waste Generated,,MT,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MPSLTD,MPS,Environmental,Waste Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MPSLTD,MPS,Social,Total Employees,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MPSLTD,MPS,Social,Female Employee Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MPSLTD,MPS,Social,Employee Turnover Rate,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MPSLTD,MPS,Social,Training Hours per Employee,,Hours,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MPSLTD,MPS,Social,Health and Safety Incidents,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MPSLTD,MPS,Social,CSR Expenditure,,Crores INR,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MPSLTD,MPS,Governance,Board Size,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MPSLTD,MPS,Governance,Independent Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MPSLTD,MPS,Governance,Female Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MPSLTD,MPS,Governance,Board Meeting Frequency,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MPSLTD,MPS,Governance,Audit Committee Size,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MPSLTD,MPS,Governance,Ethics Policy Violations,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+SUBEXLTD,Subex,Environmental,Total Energy Consumption,1.0,GWh,Reported,Environmental metric: 1.0,False,None,6.0,1,,2026-10-04
+SUBEXLTD,Subex,Environmental,Renewable Energy Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+SUBEXLTD,Subex,Environmental,Total Water Consumption,6500.0,KL,Reported,Environmental metric: 6500.0,False,None,6.0,1,,2026-10-04
+SUBEXLTD,Subex,Environmental,Water Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+SUBEXLTD,Subex,Environmental,Total Waste Generated,-2025.0,MT,Reported,Environmental metric: -2025.0,False,None,6.0,1,,2026-10-04
+SUBEXLTD,Subex,Environmental,Waste Recycled Percentage,93.0,%,Reported,Environmental metric: 93.0,False,None,6.0,1,,2026-10-04
+SUBEXLTD,Subex,Social,Total Employees,639.0,Count,Reported,Social metric: 639.0,False,None,6.0,1,,2026-10-04
+SUBEXLTD,Subex,Social,Female Employee Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+SUBEXLTD,Subex,Social,Employee Turnover Rate,90.0,%,Reported,Social metric: 90.0,False,None,6.0,1,,2026-10-04
+SUBEXLTD,Subex,Social,Training Hours per Employee,,Hours,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+SUBEXLTD,Subex,Social,Health and Safety Incidents,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+SUBEXLTD,Subex,Social,CSR Expenditure,,Crores INR,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+SUBEXLTD,Subex,Governance,Board Size,6.0,Count,Reported,Governance metric: 6.0,False,None,6.0,1,,2026-10-04
+SUBEXLTD,Subex,Governance,Independent Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+SUBEXLTD,Subex,Governance,Female Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+SUBEXLTD,Subex,Governance,Board Meeting Frequency,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+SUBEXLTD,Subex,Governance,Audit Committee Size,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+SUBEXLTD,Subex,Governance,Ethics Policy Violations,25.0,Count,Reported,Governance metric: 25.0,False,None,6.0,1,,2026-10-04
+SIS,Security and Intelligence Services,Environmental,Total Energy Consumption,1.0,GWh,Reported,Environmental metric: 1.0,False,None,6.0,1,,2026-10-04
+SIS,Security and Intelligence Services,Environmental,Renewable Energy Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+SIS,Security and Intelligence Services,Environmental,Total Water Consumption,,KL,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+SIS,Security and Intelligence Services,Environmental,Water Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+SIS,Security and Intelligence Services,Environmental,Total Waste Generated,4.0,MT,Reported,Environmental metric: 4.0,False,None,6.0,1,,2026-10-04
+SIS,Security and Intelligence Services,Environmental,Waste Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+SIS,Security and Intelligence Services,Social,Total Employees,122.0,Count,Reported,Social metric: 122.0,False,None,6.0,1,,2026-10-04
+SIS,Security and Intelligence Services,Social,Female Employee Percentage,0.07,%,Reported,Social metric: 0.07,False,None,6.0,1,,2026-10-04
+SIS,Security and Intelligence Services,Social,Employee Turnover Rate,90.0,%,Reported,Social metric: 90.0,False,None,6.0,1,,2026-10-04
+SIS,Security and Intelligence Services,Social,Training Hours per Employee,,Hours,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+SIS,Security and Intelligence Services,Social,Health and Safety Incidents,2024.0,Count,Reported,Social metric: 2024.0,False,None,6.0,1,,2026-10-04
+SIS,Security and Intelligence Services,Social,CSR Expenditure,21.0,Crores INR,Reported,Social metric: 21.0,False,None,6.0,1,,2026-10-04
+SIS,Security and Intelligence Services,Governance,Board Size,11.0,Count,Reported,Governance metric: 11.0,False,None,6.0,1,,2026-10-04
+SIS,Security and Intelligence Services,Governance,Independent Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+SIS,Security and Intelligence Services,Governance,Female Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+SIS,Security and Intelligence Services,Governance,Board Meeting Frequency,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+SIS,Security and Intelligence Services,Governance,Audit Committee Size,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+SIS,Security and Intelligence Services,Governance,Ethics Policy Violations,31.0,Count,Reported,Governance metric: 31.0,False,None,6.0,1,,2026-10-04
+ZOMATO,Eternal (formerly Zomato),Environmental,Total Energy Consumption,,GWh,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+ZOMATO,Eternal (formerly Zomato),Environmental,Renewable Energy Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+ZOMATO,Eternal (formerly Zomato),Environmental,Total Water Consumption,,KL,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+ZOMATO,Eternal (formerly Zomato),Environmental,Water Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+ZOMATO,Eternal (formerly Zomato),Environmental,Total Waste Generated,,MT,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+ZOMATO,Eternal (formerly Zomato),Environmental,Waste Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+ZOMATO,Eternal (formerly Zomato),Social,Total Employees,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+ZOMATO,Eternal (formerly Zomato),Social,Female Employee Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+ZOMATO,Eternal (formerly Zomato),Social,Employee Turnover Rate,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+ZOMATO,Eternal (formerly Zomato),Social,Training Hours per Employee,,Hours,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+ZOMATO,Eternal (formerly Zomato),Social,Health and Safety Incidents,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+ZOMATO,Eternal (formerly Zomato),Social,CSR Expenditure,,Crores INR,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+ZOMATO,Eternal (formerly Zomato),Governance,Board Size,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+ZOMATO,Eternal (formerly Zomato),Governance,Independent Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+ZOMATO,Eternal (formerly Zomato),Governance,Female Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+ZOMATO,Eternal (formerly Zomato),Governance,Board Meeting Frequency,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+ZOMATO,Eternal (formerly Zomato),Governance,Audit Committee Size,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+ZOMATO,Eternal (formerly Zomato),Governance,Ethics Policy Violations,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+PAYTM,One 97 Communications,Environmental,Total Energy Consumption,,GWh,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+PAYTM,One 97 Communications,Environmental,Renewable Energy Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+PAYTM,One 97 Communications,Environmental,Total Water Consumption,,KL,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+PAYTM,One 97 Communications,Environmental,Water Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+PAYTM,One 97 Communications,Environmental,Total Waste Generated,157.73,MT,Reported,Environmental metric: 157.73,False,None,6.0,1,,2026-10-04
+PAYTM,One 97 Communications,Environmental,Waste Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+PAYTM,One 97 Communications,Social,Total Employees,14656.0,Count,Reported,Social metric: 14656.0,False,None,6.0,1,,2026-10-04
+PAYTM,One 97 Communications,Social,Female Employee Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+PAYTM,One 97 Communications,Social,Employee Turnover Rate,90.0,%,Reported,Social metric: 90.0,False,None,6.0,1,,2026-10-04
+PAYTM,One 97 Communications,Social,Training Hours per Employee,,Hours,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+PAYTM,One 97 Communications,Social,Health and Safety Incidents,2023.0,Count,Reported,Social metric: 2023.0,False,None,6.0,1,,2026-10-04
+PAYTM,One 97 Communications,Social,CSR Expenditure,,Crores INR,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+PAYTM,One 97 Communications,Governance,Board Size,7.0,Count,Reported,Governance metric: 7.0,False,None,6.0,1,,2026-10-04
+PAYTM,One 97 Communications,Governance,Independent Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+PAYTM,One 97 Communications,Governance,Female Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+PAYTM,One 97 Communications,Governance,Board Meeting Frequency,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+PAYTM,One 97 Communications,Governance,Audit Committee Size,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+PAYTM,One 97 Communications,Governance,Ethics Policy Violations,1032.0,Count,Reported,Governance metric: 1032.0,False,None,6.0,1,,2026-10-04
+POLICYBZR,PB Fintech,Environmental,Total Energy Consumption,,GWh,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+POLICYBZR,PB Fintech,Environmental,Renewable Energy Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+POLICYBZR,PB Fintech,Environmental,Total Water Consumption,,KL,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+POLICYBZR,PB Fintech,Environmental,Water Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+POLICYBZR,PB Fintech,Environmental,Total Waste Generated,,MT,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+POLICYBZR,PB Fintech,Environmental,Waste Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+POLICYBZR,PB Fintech,Social,Total Employees,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+POLICYBZR,PB Fintech,Social,Female Employee Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+POLICYBZR,PB Fintech,Social,Employee Turnover Rate,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+POLICYBZR,PB Fintech,Social,Training Hours per Employee,,Hours,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+POLICYBZR,PB Fintech,Social,Health and Safety Incidents,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+POLICYBZR,PB Fintech,Social,CSR Expenditure,,Crores INR,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+POLICYBZR,PB Fintech,Governance,Board Size,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+POLICYBZR,PB Fintech,Governance,Independent Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+POLICYBZR,PB Fintech,Governance,Female Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+POLICYBZR,PB Fintech,Governance,Board Meeting Frequency,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+POLICYBZR,PB Fintech,Governance,Audit Committee Size,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+POLICYBZR,PB Fintech,Governance,Ethics Policy Violations,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+DELHIVERY,Delhivery,Environmental,Total Energy Consumption,,GWh,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+DELHIVERY,Delhivery,Environmental,Renewable Energy Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+DELHIVERY,Delhivery,Environmental,Total Water Consumption,,KL,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+DELHIVERY,Delhivery,Environmental,Water Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+DELHIVERY,Delhivery,Environmental,Total Waste Generated,,MT,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+DELHIVERY,Delhivery,Environmental,Waste Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+DELHIVERY,Delhivery,Social,Total Employees,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+DELHIVERY,Delhivery,Social,Female Employee Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+DELHIVERY,Delhivery,Social,Employee Turnover Rate,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+DELHIVERY,Delhivery,Social,Training Hours per Employee,,Hours,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+DELHIVERY,Delhivery,Social,Health and Safety Incidents,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+DELHIVERY,Delhivery,Social,CSR Expenditure,,Crores INR,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+DELHIVERY,Delhivery,Governance,Board Size,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+DELHIVERY,Delhivery,Governance,Independent Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+DELHIVERY,Delhivery,Governance,Female Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+DELHIVERY,Delhivery,Governance,Board Meeting Frequency,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+DELHIVERY,Delhivery,Governance,Audit Committee Size,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+DELHIVERY,Delhivery,Governance,Ethics Policy Violations,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+NAZARA,Nazara Technologies,Environmental,Total Energy Consumption,,GWh,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+NAZARA,Nazara Technologies,Environmental,Renewable Energy Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+NAZARA,Nazara Technologies,Environmental,Total Water Consumption,,KL,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+NAZARA,Nazara Technologies,Environmental,Water Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+NAZARA,Nazara Technologies,Environmental,Total Waste Generated,,MT,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+NAZARA,Nazara Technologies,Environmental,Waste Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+NAZARA,Nazara Technologies,Social,Total Employees,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+NAZARA,Nazara Technologies,Social,Female Employee Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+NAZARA,Nazara Technologies,Social,Employee Turnover Rate,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+NAZARA,Nazara Technologies,Social,Training Hours per Employee,,Hours,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+NAZARA,Nazara Technologies,Social,Health and Safety Incidents,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+NAZARA,Nazara Technologies,Social,CSR Expenditure,,Crores INR,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+NAZARA,Nazara Technologies,Governance,Board Size,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+NAZARA,Nazara Technologies,Governance,Independent Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+NAZARA,Nazara Technologies,Governance,Female Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+NAZARA,Nazara Technologies,Governance,Board Meeting Frequency,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+NAZARA,Nazara Technologies,Governance,Audit Committee Size,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+NAZARA,Nazara Technologies,Governance,Ethics Policy Violations,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TATACOMM,Tata Communications,Environmental,Total Energy Consumption,,GWh,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TATACOMM,Tata Communications,Environmental,Renewable Energy Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TATACOMM,Tata Communications,Environmental,Total Water Consumption,20.0,KL,Reported,Environmental metric: 20.0,False,None,6.0,1,2.0,2026-10-04
+TATACOMM,Tata Communications,Environmental,Water Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TATACOMM,Tata Communications,Environmental,Total Waste Generated,21.0,MT,Reported,Environmental metric: 21.0,False,None,6.0,1,2.0,2026-10-04
+TATACOMM,Tata Communications,Environmental,Waste Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TATACOMM,Tata Communications,Social,Total Employees,3926.0,Count,Reported,Social metric: 3926.0,False,None,6.0,1,2.0,2026-10-04
+TATACOMM,Tata Communications,Social,Female Employee Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TATACOMM,Tata Communications,Social,Employee Turnover Rate,90.0,%,Reported,Social metric: 90.0,False,None,6.0,1,2.0,2026-10-04
+TATACOMM,Tata Communications,Social,Training Hours per Employee,,Hours,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TATACOMM,Tata Communications,Social,Health and Safety Incidents,2024.0,Count,Reported,Social metric: 2024.0,False,None,6.0,1,2.0,2026-10-04
+TATACOMM,Tata Communications,Social,CSR Expenditure,135.0,Crores INR,Reported,Social metric: 135.0,False,None,6.0,1,2.0,2026-10-04
+TATACOMM,Tata Communications,Governance,Board Size,6.0,Count,Reported,Governance metric: 6.0,False,None,6.0,1,2.0,2026-10-04
+TATACOMM,Tata Communications,Governance,Independent Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TATACOMM,Tata Communications,Governance,Female Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TATACOMM,Tata Communications,Governance,Board Meeting Frequency,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TATACOMM,Tata Communications,Governance,Audit Committee Size,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TATACOMM,Tata Communications,Governance,Ethics Policy Violations,0.0,Count,Reported,Governance metric: 0.0,False,None,6.0,1,2.0,2026-10-04
+INDUSTOWER,Indus Towers,Environmental,Total Energy Consumption,,GWh,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+INDUSTOWER,Indus Towers,Environmental,Renewable Energy Percentage,64.5,%,Suspicious,Claims 64.5% renewable but poor env score (nan/10),True,Medium,4.0,5,,2026-10-04
+INDUSTOWER,Indus Towers,Environmental,Total Water Consumption,,KL,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+INDUSTOWER,Indus Towers,Environmental,Water Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+INDUSTOWER,Indus Towers,Environmental,Total Waste Generated,,MT,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+INDUSTOWER,Indus Towers,Environmental,Waste Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+INDUSTOWER,Indus Towers,Social,Total Employees,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+INDUSTOWER,Indus Towers,Social,Female Employee Percentage,103.1,%,Reported,Social metric: 103.1,False,None,6.0,1,,2026-10-04
+INDUSTOWER,Indus Towers,Social,Employee Turnover Rate,82.99,%,Reported,Social metric: 82.99,False,None,6.0,1,,2026-10-04
+INDUSTOWER,Indus Towers,Social,Training Hours per Employee,,Hours,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+INDUSTOWER,Indus Towers,Social,Health and Safety Incidents,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+INDUSTOWER,Indus Towers,Social,CSR Expenditure,1.0,Crores INR,Reported,Social metric: 1.0,False,None,6.0,1,,2026-10-04
+INDUSTOWER,Indus Towers,Governance,Board Size,25.0,Count,Reported,Governance metric: 25.0,False,None,6.0,1,,2026-10-04
+INDUSTOWER,Indus Towers,Governance,Independent Directors Percentage,1.0,%,Reported,Governance metric: 1.0,False,None,6.0,1,,2026-10-04
+INDUSTOWER,Indus Towers,Governance,Female Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+INDUSTOWER,Indus Towers,Governance,Board Meeting Frequency,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+INDUSTOWER,Indus Towers,Governance,Audit Committee Size,1.0,Count,Reported,Governance metric: 1.0,False,None,6.0,1,,2026-10-04
+INDUSTOWER,Indus Towers,Governance,Ethics Policy Violations,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+BHARTIARTL,Bharti Airtel,Environmental,Total Energy Consumption,1.0,GWh,Reported,Environmental metric: 1.0,False,None,6.0,1,,2026-10-04
+BHARTIARTL,Bharti Airtel,Environmental,Renewable Energy Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+BHARTIARTL,Bharti Airtel,Environmental,Total Water Consumption,56.0,KL,Reported,Environmental metric: 56.0,False,None,6.0,1,,2026-10-04
+BHARTIARTL,Bharti Airtel,Environmental,Water Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+BHARTIARTL,Bharti Airtel,Environmental,Total Waste Generated,2024.0,MT,Reported,Environmental metric: 2024.0,False,None,6.0,1,,2026-10-04
+BHARTIARTL,Bharti Airtel,Environmental,Waste Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+BHARTIARTL,Bharti Airtel,Social,Total Employees,661.0,Count,Reported,Social metric: 661.0,False,None,6.0,1,,2026-10-04
+BHARTIARTL,Bharti Airtel,Social,Female Employee Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+BHARTIARTL,Bharti Airtel,Social,Employee Turnover Rate,90.0,%,Reported,Social metric: 90.0,False,None,6.0,1,,2026-10-04
+BHARTIARTL,Bharti Airtel,Social,Training Hours per Employee,,Hours,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+BHARTIARTL,Bharti Airtel,Social,Health and Safety Incidents,2024.0,Count,Reported,Social metric: 2024.0,False,None,6.0,1,,2026-10-04
+BHARTIARTL,Bharti Airtel,Social,CSR Expenditure,62.0,Crores INR,Reported,Social metric: 62.0,False,None,6.0,1,,2026-10-04
+BHARTIARTL,Bharti Airtel,Governance,Board Size,10.0,Count,Reported,Governance metric: 10.0,False,None,6.0,1,,2026-10-04
+BHARTIARTL,Bharti Airtel,Governance,Independent Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+BHARTIARTL,Bharti Airtel,Governance,Female Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+BHARTIARTL,Bharti Airtel,Governance,Board Meeting Frequency,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+BHARTIARTL,Bharti Airtel,Governance,Audit Committee Size,2.0,Count,Reported,Governance metric: 2.0,False,None,6.0,1,,2026-10-04
+BHARTIARTL,Bharti Airtel,Governance,Ethics Policy Violations,25.0,Count,Reported,Governance metric: 25.0,False,None,6.0,1,,2026-10-04
+TEJASNET,Tejas Networks,Environmental,Total Energy Consumption,45906178.0,GWh,Reported,Environmental metric: 45906178.0,False,None,6.0,1,,2026-10-04
+TEJASNET,Tejas Networks,Environmental,Renewable Energy Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TEJASNET,Tejas Networks,Environmental,Total Water Consumption,29189.0,KL,Reported,Environmental metric: 29189.0,False,None,6.0,1,,2026-10-04
+TEJASNET,Tejas Networks,Environmental,Water Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TEJASNET,Tejas Networks,Environmental,Total Waste Generated,19.52,MT,Reported,Environmental metric: 19.52,False,None,6.0,1,,2026-10-04
+TEJASNET,Tejas Networks,Environmental,Waste Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TEJASNET,Tejas Networks,Social,Total Employees,3.0,Count,Reported,Social metric: 3.0,False,None,6.0,1,,2026-10-04
+TEJASNET,Tejas Networks,Social,Female Employee Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TEJASNET,Tejas Networks,Social,Employee Turnover Rate,90.0,%,Reported,Social metric: 90.0,False,None,6.0,1,,2026-10-04
+TEJASNET,Tejas Networks,Social,Training Hours per Employee,2024.0,Hours,Reported,Social metric: 2024.0,False,None,6.0,1,,2026-10-04
+TEJASNET,Tejas Networks,Social,Health and Safety Incidents,2024.0,Count,Reported,Social metric: 2024.0,False,None,6.0,1,,2026-10-04
+TEJASNET,Tejas Networks,Social,CSR Expenditure,100.0,Crores INR,Reported,Social metric: 100.0,False,None,6.0,1,,2026-10-04
+TEJASNET,Tejas Networks,Governance,Board Size,6.0,Count,Reported,Governance metric: 6.0,False,None,6.0,1,,2026-10-04
+TEJASNET,Tejas Networks,Governance,Independent Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TEJASNET,Tejas Networks,Governance,Female Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TEJASNET,Tejas Networks,Governance,Board Meeting Frequency,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TEJASNET,Tejas Networks,Governance,Audit Committee Size,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TEJASNET,Tejas Networks,Governance,Ethics Policy Violations,2013.0,Count,Reported,Governance metric: 2013.0,False,None,6.0,1,,2026-10-04
+REDINGTON,Redington,Environmental,Total Energy Consumption,1.0,GWh,Reported,Environmental metric: 1.0,False,None,6.0,1,2.0,2026-10-04
+REDINGTON,Redington,Environmental,Renewable Energy Percentage,90.0,%,Suspicious,Claims 90.0% renewable but low env score (2.0/10),True,High,2.0,8,2.0,2026-10-04
+REDINGTON,Redington,Environmental,Total Water Consumption,0.03,KL,Reported,Environmental metric: 0.03,False,None,6.0,1,2.0,2026-10-04
+REDINGTON,Redington,Environmental,Water Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+REDINGTON,Redington,Environmental,Total Waste Generated,2025.0,MT,Reported,Environmental metric: 2025.0,False,None,6.0,1,2.0,2026-10-04
+REDINGTON,Redington,Environmental,Waste Recycled Percentage,100.0,%,Reported,Environmental metric: 100.0,False,None,6.0,1,2.0,2026-10-04
+REDINGTON,Redington,Social,Total Employees,301.0,Count,Reported,Social metric: 301.0,False,None,6.0,1,2.0,2026-10-04
+REDINGTON,Redington,Social,Female Employee Percentage,0.09,%,Reported,Social metric: 0.09,False,None,6.0,1,2.0,2026-10-04
+REDINGTON,Redington,Social,Employee Turnover Rate,90.0,%,Reported,Social metric: 90.0,False,None,6.0,1,2.0,2026-10-04
+REDINGTON,Redington,Social,Training Hours per Employee,8.0,Hours,Reported,Social metric: 8.0,False,None,6.0,1,2.0,2026-10-04
+REDINGTON,Redington,Social,Health and Safety Incidents,2024.0,Count,Reported,Social metric: 2024.0,False,None,6.0,1,2.0,2026-10-04
+REDINGTON,Redington,Social,CSR Expenditure,,Crores INR,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+REDINGTON,Redington,Governance,Board Size,8.0,Count,Reported,Governance metric: 8.0,False,None,6.0,1,2.0,2026-10-04
+REDINGTON,Redington,Governance,Independent Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+REDINGTON,Redington,Governance,Female Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+REDINGTON,Redington,Governance,Board Meeting Frequency,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+REDINGTON,Redington,Governance,Audit Committee Size,17.0,Count,Reported,Governance metric: 17.0,False,None,6.0,1,2.0,2026-10-04
+REDINGTON,Redington,Governance,Ethics Policy Violations,25.0,Count,Reported,Governance metric: 25.0,False,None,6.0,1,2.0,2026-10-04
+HCL-INFO,HCL Infosystems,Environmental,Total Energy Consumption,,GWh,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HCL-INFO,HCL Infosystems,Environmental,Renewable Energy Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HCL-INFO,HCL Infosystems,Environmental,Total Water Consumption,,KL,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HCL-INFO,HCL Infosystems,Environmental,Water Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HCL-INFO,HCL Infosystems,Environmental,Total Waste Generated,,MT,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HCL-INFO,HCL Infosystems,Environmental,Waste Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HCL-INFO,HCL Infosystems,Social,Total Employees,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HCL-INFO,HCL Infosystems,Social,Female Employee Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HCL-INFO,HCL Infosystems,Social,Employee Turnover Rate,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HCL-INFO,HCL Infosystems,Social,Training Hours per Employee,,Hours,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HCL-INFO,HCL Infosystems,Social,Health and Safety Incidents,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HCL-INFO,HCL Infosystems,Social,CSR Expenditure,,Crores INR,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HCL-INFO,HCL Infosystems,Governance,Board Size,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HCL-INFO,HCL Infosystems,Governance,Independent Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HCL-INFO,HCL Infosystems,Governance,Female Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HCL-INFO,HCL Infosystems,Governance,Board Meeting Frequency,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HCL-INFO,HCL Infosystems,Governance,Audit Committee Size,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+HCL-INFO,HCL Infosystems,Governance,Ethics Policy Violations,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MAZDOCK,Mazagon Dock Shipbuilders,Environmental,Total Energy Consumption,,GWh,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MAZDOCK,Mazagon Dock Shipbuilders,Environmental,Renewable Energy Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MAZDOCK,Mazagon Dock Shipbuilders,Environmental,Total Water Consumption,,KL,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MAZDOCK,Mazagon Dock Shipbuilders,Environmental,Water Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MAZDOCK,Mazagon Dock Shipbuilders,Environmental,Total Waste Generated,,MT,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MAZDOCK,Mazagon Dock Shipbuilders,Environmental,Waste Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MAZDOCK,Mazagon Dock Shipbuilders,Social,Total Employees,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MAZDOCK,Mazagon Dock Shipbuilders,Social,Female Employee Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MAZDOCK,Mazagon Dock Shipbuilders,Social,Employee Turnover Rate,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MAZDOCK,Mazagon Dock Shipbuilders,Social,Training Hours per Employee,,Hours,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MAZDOCK,Mazagon Dock Shipbuilders,Social,Health and Safety Incidents,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MAZDOCK,Mazagon Dock Shipbuilders,Social,CSR Expenditure,,Crores INR,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MAZDOCK,Mazagon Dock Shipbuilders,Governance,Board Size,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MAZDOCK,Mazagon Dock Shipbuilders,Governance,Independent Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MAZDOCK,Mazagon Dock Shipbuilders,Governance,Female Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MAZDOCK,Mazagon Dock Shipbuilders,Governance,Board Meeting Frequency,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MAZDOCK,Mazagon Dock Shipbuilders,Governance,Audit Committee Size,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+MAZDOCK,Mazagon Dock Shipbuilders,Governance,Ethics Policy Violations,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TITAN,Titan Company,Environmental,Total Energy Consumption,,GWh,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TITAN,Titan Company,Environmental,Renewable Energy Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TITAN,Titan Company,Environmental,Total Water Consumption,,KL,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TITAN,Titan Company,Environmental,Water Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TITAN,Titan Company,Environmental,Total Waste Generated,,MT,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TITAN,Titan Company,Environmental,Waste Recycled Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TITAN,Titan Company,Social,Total Employees,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TITAN,Titan Company,Social,Female Employee Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TITAN,Titan Company,Social,Employee Turnover Rate,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TITAN,Titan Company,Social,Training Hours per Employee,,Hours,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TITAN,Titan Company,Social,Health and Safety Incidents,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TITAN,Titan Company,Social,CSR Expenditure,,Crores INR,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TITAN,Titan Company,Governance,Board Size,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TITAN,Titan Company,Governance,Independent Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TITAN,Titan Company,Governance,Female Directors Percentage,,%,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TITAN,Titan Company,Governance,Board Meeting Frequency,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TITAN,Titan Company,Governance,Audit Committee Size,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04
+TITAN,Titan Company,Governance,Ethics Policy Violations,,Count,Not Disclosed,Metric not reported - transparency concern,False,None,3.0,2,,2026-10-04

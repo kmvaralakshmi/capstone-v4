@@ -1,0 +1,8 @@
+Phase 3 Master Implementation
+Version: 3.0.0
+Prepared: 2026-08-27
+Base: supplied V1/V1.1 capstone-implementation ZIP
+Target cohort: 20 technology companies
+Target reporting period: FY 2024-25
+Canonical BRSR PDFs present in package: 19
+Pending company: HEXAWARE

@@ -1,0 +1,51 @@
+Company_Code,Company_Name,BRSR_Total_Metrics,BRSR_Extracted_Metrics,BRSR_Completeness_Pct,Missing_Extraction_Failed_Count,Missing_Not_Disclosed_Count,Missing_Not_Available_Sources,Review_Flag_Count,BRSR_Records_Used_For_Scoring,Sentiment_Records_Used,Environmental_Records_Used,Stock_Records_Used,Quality_Score,Quality_Gate_Status,Analysis_Date
+TCS,Tata Consultancy Services,18,11,61.11,7,7,0,9,9,22,7,13,5.17,Pass,2026-10-04
+INFY,Infosys,18,8,44.44,10,10,0,11,7,23,7,13,3.61,Low-Quality Warning,2026-10-04
+WIPRO,Wipro,18,9,50.0,9,9,0,9,9,20,8,13,4.5,Low-Quality Warning,2026-10-04
+HCLTECH,HCL Technologies,18,7,38.89,11,11,0,11,7,18,8,13,3.28,Low-Quality Warning,2026-10-04
+TECHM,Tech Mahindra,18,8,44.44,10,10,0,10,8,13,8,13,3.89,Low-Quality Warning,2026-10-04
+LTIM,LTIMindtree,18,7,38.89,11,11,1,11,7,18,1,0,2.48,Low-Quality Warning,2026-10-04
+MPHASIS,Mphasis,18,4,22.22,14,14,1,15,3,7,1,0,0.37,Low-Quality Warning,2026-10-04
+PERSISTENT,Persistent Systems,18,11,61.11,7,7,1,7,11,8,1,0,4.92,Low-Quality Warning,2026-10-04
+COFORGE,Coforge,18,9,50.0,9,9,1,10,8,10,1,0,3.42,Low-Quality Warning,2026-10-04
+LTTS,L&T Technology Services,18,7,38.89,11,11,1,12,6,1,1,0,2.2,Low-Quality Warning,2026-10-04
+TATAELXSI,Tata Elxsi,18,8,44.44,10,10,1,11,7,8,1,0,2.81,Low-Quality Warning,2026-10-04
+OFSS,Oracle Financial Services Software,18,11,61.11,7,7,1,9,9,4,1,0,4.37,Low-Quality Warning,2026-10-04
+KPITTECH,KPIT Technologies,18,6,33.33,12,12,1,12,6,4,1,0,1.87,Low-Quality Warning,2026-10-04
+CYIENT,Cyient,18,2,11.11,16,16,1,17,1,15,1,0,0.0,Low-Quality Warning,2026-10-04
+BSOFT,Birlasoft,18,12,66.67,6,6,1,7,11,14,1,0,5.26,Pass,2026-10-04
+ZENSARTECH,Zensar Technologies,18,11,61.11,7,7,1,7,11,5,1,0,4.92,Low-Quality Warning,2026-10-04
+TATATECH,Tata Technologies,18,8,44.44,10,10,1,10,8,12,1,0,3.09,Low-Quality Warning,2026-10-04
+HAPPSTMNDS,Happiest Minds Technologies,18,9,50.0,9,9,1,9,9,4,1,0,3.7,Low-Quality Warning,2026-10-04
+SONATSOFTW,Sonata Software,18,12,66.67,6,6,1,8,10,7,1,0,4.98,Low-Quality Warning,2026-10-04
+HEXAWARE,Hexaware Technologies,18,6,33.33,12,12,1,13,5,8,1,0,1.59,Low-Quality Warning,2026-10-04
+MINDTREE,Mindtree (legacy symbol),18,0,0.0,18,18,1,18,0,7,1,0,0.0,Low-Quality Warning,2026-10-04
+NEWGEN,Newgen Software Technologies,18,9,50.0,9,9,1,9,9,3,1,0,3.7,Low-Quality Warning,2026-10-04
+TANLA,Tanla Platforms,18,7,38.89,11,11,1,12,6,9,1,0,2.2,Low-Quality Warning,2026-10-04
+INTELLECT,Intellect Design Arena,18,10,55.56,8,8,1,10,8,4,1,0,3.76,Low-Quality Warning,2026-10-04
+ROUTE,Route Mobile,18,8,44.44,10,10,1,11,7,28,1,0,2.81,Low-Quality Warning,2026-10-04
+RATEGAIN,RateGain Travel Technologies,18,2,11.11,16,16,1,16,2,2,1,0,0.0,Low-Quality Warning,2026-10-04
+ECLERX,eClerx Services,18,11,61.11,7,7,1,8,10,3,1,0,4.64,Low-Quality Warning,2026-10-04
+DATAMATICS,Datamatics Global Services,18,0,0.0,18,18,1,18,0,2,1,0,0.0,Low-Quality Warning,2026-10-04
+MASTEK,Mastek,18,0,0.0,18,18,1,18,0,5,1,0,0.0,Low-Quality Warning,2026-10-04
+SONACOMS,Sona BLW Precision Forgings,18,0,0.0,18,18,1,18,0,7,1,0,0.0,Low-Quality Warning,2026-10-04
+HGS,Hinduja Global Solutions,18,0,0.0,18,18,1,18,0,1,1,0,0.0,Low-Quality Warning,2026-10-04
+NIITLTD,NIIT,18,0,0.0,18,18,1,18,0,3,1,0,0.0,Low-Quality Warning,2026-10-04
+E2E,E2E Networks,18,0,0.0,18,18,1,18,0,2,1,0,0.0,Low-Quality Warning,2026-10-04
+AFFLE,Affle India,18,9,50.0,9,9,1,11,7,1,1,0,3.14,Low-Quality Warning,2026-10-04
+MPSLTD,MPS,18,0,0.0,18,18,1,18,0,65,1,0,0.0,Low-Quality Warning,2026-10-04
+SUBEXLTD,Subex,18,8,44.44,10,10,1,10,8,1,1,0,3.09,Low-Quality Warning,2026-10-04
+SIS,Security and Intelligence Services,18,9,50.0,9,9,1,10,8,177,1,0,3.42,Low-Quality Warning,2026-10-04
+ZOMATO,Eternal (formerly Zomato),18,0,0.0,18,18,1,18,0,16,1,0,0.0,Low-Quality Warning,2026-10-04
+PAYTM,One 97 Communications,18,6,33.33,12,12,1,12,6,20,1,0,1.87,Low-Quality Warning,2026-10-04
+POLICYBZR,PB Fintech,18,0,0.0,18,18,1,18,0,9,1,0,0.0,Low-Quality Warning,2026-10-04
+DELHIVERY,Delhivery,18,0,0.0,18,18,1,18,0,7,1,0,0.0,Low-Quality Warning,2026-10-04
+NAZARA,Nazara Technologies,18,0,0.0,18,18,1,18,0,10,1,0,0.0,Low-Quality Warning,2026-10-04
+TATACOMM,Tata Communications,18,8,44.44,10,10,1,10,8,6,1,0,3.09,Low-Quality Warning,2026-10-04
+INDUSTOWER,Indus Towers,18,7,38.89,11,11,1,12,6,6,1,0,2.2,Low-Quality Warning,2026-10-04
+BHARTIARTL,Bharti Airtel,18,10,55.56,8,8,0,8,10,33,1,13,5.11,Pass,2026-10-04
+TEJASNET,Tejas Networks,18,10,55.56,8,8,1,10,8,7,1,0,3.76,Low-Quality Warning,2026-10-04
+REDINGTON,Redington,18,13,72.22,5,5,1,6,12,2,1,0,5.87,Pass,2026-10-04
+HCL-INFO,HCL Infosystems,18,0,0.0,18,18,1,18,0,1,1,0,0.0,Low-Quality Warning,2026-10-04
+MAZDOCK,Mazagon Dock Shipbuilders,18,0,0.0,18,18,1,18,0,9,1,0,0.0,Low-Quality Warning,2026-10-04
+TITAN,Titan Company,18,0,0.0,18,18,0,18,0,10,1,13,0.0,Low-Quality Warning,2026-10-04

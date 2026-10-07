@@ -1,0 +1,21 @@
+PHASE 3 BRSR EXTRACTION GUIDE
+==============================
+
+Target cohort: 20 technology companies
+Target reporting period: FY 2024-25
+Primary company ESG source: validated BRSR / annual report containing BRSR disclosures
+
+Agent 1 extracts 18 configured metrics per company and records:
+- Metric_Value
+- Unit
+- Page_Number
+- Extraction_Method
+- Confidence_Score
+- Validation_Status
+- Needs_Manual_Review
+- Notes
+
+Missing or review-flagged values are retained rather than silently replaced.
+
+If a company has no validated PDF, Agent 1 creates placeholder rows so the
+20-company cohort remains visible in downstream quality reports.

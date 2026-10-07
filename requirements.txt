@@ -1,0 +1,42 @@
+# ============================================================
+# PHASE 3 - PYTHON 3.13 COMPATIBLE REQUIREMENTS
+# ============================================================
+
+# PDF processing
+PyPDF2>=3.0.1
+pdfplumber>=0.11.7
+pypdf>=5.9.0
+
+# Data processing
+numpy>=2.1.0
+pandas>=2.2.3
+
+# Scientific computing
+scipy>=1.14.1
+
+# Machine learning
+scikit-learn>=1.5.2
+
+# HTTP / web data
+requests>=2.32.3
+beautifulsoup4>=4.12.3
+lxml>=5.3.0
+
+# News / sentiment analysis
+vaderSentiment>=3.3.2
+textblob>=0.18.0
+
+# Financial market data
+yfinance>=0.2.54
+
+# Utilities
+python-dateutil>=2.9.0
+# Phase 3 web application
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+
+# Autonomous AI agent layer
+openai>=1.0.0
+python-dotenv>=1.0.1
+# V4 explainability / scoring (optional predictive-model extension)
+shap>=0.46.0

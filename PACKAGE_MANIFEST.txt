@@ -1,0 +1,102 @@
+Phase 3 package manifest
+
+CHANGELOG.md	4412
+PHASE3_VERSION.txt	261
+README.md	4938
+agents/__init__.py	45
+agents/agent1_brsr_extractor.py	20139
+agents/agent2_environmental_risk.py	9735
+agents/agent3_news_sentiment.py	11465
+agents/agent4_stock_correlation.py	9020
+agents/agent5_greenwashing_detector.py	12789
+agents/agent6_master_scorer.py	43268
+agents/agent7_explainable_ai.py	17459
+backend/__init__.py	0
+backend/app.py	9081
+brsr-pdfs/BSOFT_BR_24-25.pdf	504006
+brsr-pdfs/COFORGE_BR_24-25.pdf	881252
+brsr-pdfs/CYIENT_BR_24-25.pdf	16426663
+brsr-pdfs/HAPPSTMNDS_BR_24-25.pdf	1721729
+brsr-pdfs/HCLTECH_BR_24-25.pdf	5002632
+brsr-pdfs/HEXAWARE_BR_24-25.pdf	9481938
+brsr-pdfs/INFY_BR_24-25.pdf	7563360
+brsr-pdfs/KPITTECH_BR_24-25.pdf	5444917
+brsr-pdfs/LTIM_BR_24-25.pdf	16982179
+brsr-pdfs/LTTS_BR_24-25.pdf	20972462
+brsr-pdfs/MPHASIS_BR_24-25.invalid.pdf	15113081
+brsr-pdfs/OFSS_BR_24-25.pdf	410465
+brsr-pdfs/PERSISTENT_BR_24-25.pdf	3274778
+brsr-pdfs/SONATSOFTW_BR_24-25.pdf	9364676
+brsr-pdfs/TATAELXSI_BR_24-25.pdf	1330587
+brsr-pdfs/TATATECH_BR_24-25.pdf	716017
+brsr-pdfs/TCS_BR_24-25.pdf	2373604
+brsr-pdfs/TECHM_BR_24-25.pdf	1505213
+brsr-pdfs/WIPRO_BR_24-25.pdf	534409
+brsr-pdfs/ZENSARTECH_BR_24-25.pdf	718009
+brsr-pdfs/brsr_download_log.csv	15602
+brsr-pdfs/brsr_download_log_legacy.csv	38011
+brsr-pdfs/brsr_source_registry.csv	3078
+config/README.md	540
+config/target_companies_50.csv	2960
+demo-output/.gitkeep	0
+demo.py	2333
+documentation/PHASE3_CHANGE_LOG.md	2631
+documentation/PHASE3_COMPLETE_IMPLEMENTATION.md	1550
+documentation/PHASE3_IMPLEMENTATION.md	2832
+documentation/PHASE3_STATUS_2026-09-01.md	1450
+frontend/app.js	4158
+frontend/index.html	2053
+frontend/styles.css	2432
+helper-scripts/download_brsr_reports.ps1	6250
+helper-scripts/download_brsr_reports.py	31165
+helper-scripts/validate_phase3.py	1834
+legacy-v1-outputs/README.md	348
+legacy-v1-outputs/demo-output/brsr_extracted_metrics.csv	16296
+legacy-v1-outputs/demo-output/company_location_environmental_risk.csv	4593
+legacy-v1-outputs/demo-output/cross_validation_report.csv	618
+legacy-v1-outputs/demo-output/data_quality_report.csv	723
+legacy-v1-outputs/demo-output/esg_master_scores.csv	2535
+legacy-v1-outputs/demo-output/esg_news_rejected_articles.csv	117312
+legacy-v1-outputs/demo-output/esg_news_sentiment.csv	30039
+legacy-v1-outputs/demo-output/external_benchmark_report.csv	837
+legacy-v1-outputs/demo-output/greenwashing_detection.csv	12593
+legacy-v1-outputs/demo-output/multi_agent_explanations.csv	5174
+legacy-v1-outputs/demo-output/run_metadata.json	44244
+legacy-v1-outputs/demo-output/stock_esg_correlation.csv	9891
+legacy-v1-outputs/processed-data/brsr_extracted_metrics.csv	16296
+legacy-v1-outputs/processed-data/company_location_environmental_risk.csv	4593
+legacy-v1-outputs/processed-data/cross_validation_report.csv	618
+legacy-v1-outputs/processed-data/data_quality_report.csv	723
+legacy-v1-outputs/processed-data/esg_master_scores.csv	2535
+legacy-v1-outputs/processed-data/esg_news_rejected_articles.csv	117312
+legacy-v1-outputs/processed-data/esg_news_sentiment.csv	30039
+legacy-v1-outputs/processed-data/external_benchmark_report.csv	837
+legacy-v1-outputs/processed-data/greenwashing_detection.csv	12593
+legacy-v1-outputs/processed-data/multi_agent_explanations.csv	5174
+legacy-v1-outputs/processed-data/run_metadata.json	44244
+legacy-v1-outputs/processed-data/stock_esg_correlation.csv	9891
+processed-data/.gitkeep	0
+processed-data/BRSR_EXTRACTION_GUIDE.txt	633
+raw-datasets/Air Quality Data in India (2015 - 2024)/city_day.csv	1763937
+raw-datasets/Air Quality Data in India (2015 - 2024)/city_hour.csv	46251082
+raw-datasets/Air Quality Data in India (2015 - 2024)/station_day.csv	3929083
+raw-datasets/Air Quality Data in India (2015 - 2024)/station_hour.csv	840429
+raw-datasets/Air Quality Data in India (2015 - 2024)/stations.csv	201
+raw-datasets/Real-Time Air Quality Index (AQI) India 2023#U20132025/AQI.csv	351821
+raw-datasets/Stock Market Sensex & Nifty All-time Dataset/NIFTY_50.csv	1287359
+raw-datasets/Stock Market Sensex & Nifty All-time Dataset/NIFTY_50_COMPANIES.csv	94989759
+raw-datasets/Stock Market Sensex & Nifty All-time Dataset/SENSEX.csv	2034226
+raw-datasets/Stock Market Sensex & Nifty All-time Dataset/SENSEX_COMPANIES.csv	55757483
+raw-datasets/Zenodo ESG News Dataset_Indian Stock Market News Dataset.csv	13067994
+requirements.txt	648
+run_phase3.bat	61
+run_phase3_without_download.bat	77
+scripts/run_pipeline.py	631
+setup_windows.bat	233
+start_backend.bat	93
+utils/__init__.py	59
+utils/brsr_manifest.py	15416
+utils/config.py	16434
+utils/data_validator.py	6939
+utils/lineage_tracker.py	4535
+utils/pdf_extractor.py	6696

@@ -1,0 +1,13 @@
+CAPSTONE V4
+
+This archive contains the previous complete capstone implementation plus the V4 research-grounded upgrades.
+
+Run:
+  python run_v4_pipeline.py
+
+Optional LLM supervisor:
+  set OPENAI_API_KEY in .env
+  python run_v4_pipeline.py --supervisor
+
+The deterministic V4 scoring/XAI/greenwashing pipeline was executed during package validation.
+The LLM supervisor was syntax-checked but not executed because no API key was supplied.
