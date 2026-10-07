@@ -91,11 +91,12 @@ class AutonomousAgent:
             for tool in self.tools_list
         }
 
-        self.model = (
-            model
-            or os.getenv("OPENAI_MODEL")
-            or "gpt-5.6-luna"
-        )
+        self.model = model or os.getenv("OPENAI_MODEL")
+        if not self.model:
+            raise RuntimeError(
+                "OPENAI_MODEL is not set. "
+                "Add the OpenAI model name to your .env file."
+            )
 
         self.max_steps = 12
 

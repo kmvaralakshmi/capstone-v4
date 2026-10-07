@@ -24,8 +24,8 @@ LOG = ROOT / "brsr-pdfs" / "brsr_download_log.csv"
 
 app = FastAPI(
     title="Explainable Multi-Agent ESG Risk Analysis System",
-    version="3.0.0",
-    description="Phase 3 web interface for the multi-agent ESG pipeline."
+    version="7.0.0",
+    description="Phase 7 web interface for the multi-agent ESG pipeline."
 )
 app.add_middleware(
     CORSMiddleware,
@@ -131,8 +131,8 @@ def pipeline_worker(skip_download: bool = False):
 def health():
     return {
         "status": "ok",
-        "phase": "Phase 3",
-        "version": "3.0.0",
+        "phase": "Phase 7",
+        "version": "7.0.0",
         "processed_data_exists": PROCESSED.exists(),
         "frontend_exists": FRONTEND.exists(),
     }
@@ -157,6 +157,27 @@ def summary():
 @app.get("/api/companies")
 def companies():
     return {"companies": company_summary()}
+
+
+@app.get("/api/research")
+def research():
+    """Return Section C validation and cross-source research outputs."""
+    validation = read_csv("nse_top_200_validation.csv")
+    signals = read_csv("cross_source_validation_signals.csv")
+    review_count = sum(
+        1 for row in signals if row.get("Review_Status") == "Review-Required"
+    )
+    return {
+        "nse_validation": validation,
+        "cross_source_signals": signals,
+        "validation_available": bool(validation),
+        "signals_available": bool(signals),
+        "review_required_count": review_count,
+        "disclaimer": (
+            "Research outputs are descriptive associations and review signals. "
+            "They do not prove causality, label greenwashing as fact, or alter ESG scores."
+        ),
+    }
 
 
 @app.get("/api/company/{code}")
@@ -185,6 +206,7 @@ def output_file(filename: str):
         "esg_master_scores.csv", "multi_agent_explanations.csv",
         "cross_validation_report.csv", "data_quality_report.csv",
         "external_benchmark_report.csv", "run_metadata.json",
+        "nse_top_200_validation.csv", "cross_source_validation_signals.csv",
     }
     if filename not in allowed:
         raise HTTPException(status_code=403, detail="Output not exposed.")

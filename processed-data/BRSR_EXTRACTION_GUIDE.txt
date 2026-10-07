@@ -14,8 +14,30 @@ Agent 1 extracts 18 configured metrics per company and records:
 - Validation_Status
 - Needs_Manual_Review
 - Notes
+- Run_ID
+- Source
+- Evidence_Source
+- Source_URL
+- Retrieved_At
+- Section
+- Fallback_Used
+- Discrepancy_Status
+
+Each run also records standardized stage timing fields:
+- Stage
+- Stage_Status
+- Start_Time
+- End_Time
+- Duration_Seconds
+- Error
 
 Missing or review-flagged values are retained rather than silently replaced.
+
+When a local XML, CSV, JSON, or Excel file matching `<COMPANY_CODE>...`
+exists in `xbrl-data/`, recognized XBRL metrics are preferred as the primary
+structured values.
+The PDF remains the evidence/verification source when available. Values are
+flagged as `match`, `discrepancy`, or `not_comparable` during source fusion.
 
 If a company has no validated PDF, Agent 1 creates placeholder rows so the
 20-company cohort remains visible in downstream quality reports.

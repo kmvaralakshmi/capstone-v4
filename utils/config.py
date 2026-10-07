@@ -11,8 +11,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 RAW_DATA_DIR = BASE_DIR / "raw-datasets"
 PROCESSED_DATA_DIR = BASE_DIR / "processed-data"
 BRSR_PDF_DIR = BASE_DIR / "brsr-pdfs"
+XBRL_DIR = BASE_DIR / "xbrl-data"
 PROCESSED_DATA_DIR.mkdir(parents=True, exist_ok=True)
 BRSR_PDF_DIR.mkdir(parents=True, exist_ok=True)
+XBRL_DIR.mkdir(parents=True, exist_ok=True)
 
 TARGET_FINANCIAL_YEAR = "2024-25"
 TARGET_COMPANY_COUNT = 50
@@ -389,7 +391,13 @@ OUTPUT_FILES = {
         "esg_master_scores.csv",
 
     "explanations":
-        "multi_agent_explanations.csv"
+        "multi_agent_explanations.csv",
+
+    "nse_validation":
+        "nse_top_200_validation.csv",
+
+    "cross_source_signals":
+        "cross_source_validation_signals.csv"
 }
 
 

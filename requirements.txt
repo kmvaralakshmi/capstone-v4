@@ -10,6 +10,7 @@ pypdf>=5.9.0
 # Data processing
 numpy>=2.1.0
 pandas>=2.2.3
+openpyxl>=3.1.5
 
 # Scientific computing
 scipy>=1.14.1
