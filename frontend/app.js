@@ -34,6 +34,7 @@ async function load() {
   $("top").textContent = data.best_company?.name || "—";
   renderRows();
   loadDownloads();
+  loadResearch();
 }
 async function showCompany(code) {
   const d = await api(`/api/company/${encodeURIComponent(code)}`);
@@ -56,6 +57,20 @@ async function loadDownloads(){
     $("downloads").innerHTML = `<p><b>${d.valid}</b> latest valid/skipped records • <b>${d.pending}</b> pending</p>` +
       (d.rows?.length ? `<div class="table-wrap"><table><thead><tr><th>Company</th><th>Status</th><th>Reason</th></tr></thead><tbody>${d.rows.map(r=>`<tr><td>${esc(r.company_code)}</td><td>${esc(r.status)}</td><td>${esc(r.reason)}</td></tr>`).join("")}</tbody></table></div>` : `<p>No downloader log yet.</p>`);
   } catch(e){ $("downloads").textContent = "Downloader status unavailable."; }
+}
+async function loadResearch(){
+  try {
+    const d = await api("/api/research");
+    const validation = d.nse_validation || [];
+    const signals = d.cross_source_signals || [];
+    const signalRows = signals.filter(r => r.Review_Status === "Review-Required");
+    $("research").innerHTML = `
+      <article class="research-card"><b>NSE Top 200 validation</b><strong>${validation.length ? `${validation.length} companies` : "Not generated"}</strong><small>Uses an externally supplied ranking table.</small></article>
+      <article class="research-card"><b>Cross-source review signals</b><strong>${d.review_required_count ?? signalRows.length}</strong><small>Companies requiring further review.</small></article>
+      <article class="research-card wide"><b>Interpretation guardrails</b><p>${esc(d.disclaimer)}</p><p><a href="/api/outputs/cross_source_validation_signals.csv">Download cross-source signals</a></p></article>`;
+  } catch(e) {
+    $("research").innerHTML = `<div class="empty">Research outputs are not generated yet. Run the validation workflow first.</div>`;
+  }
 }
 async function poll(){
   try{

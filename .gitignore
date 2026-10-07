@@ -6,6 +6,10 @@ __pycache__/
 brsr-pdfs/*.pdf
 brsr-pdfs/*.tmp
 brsr-pdfs/*.invalid.pdf
+xbrl-data/*
+xbrl-data/.gitkeep
+data/cache/*
+!data/cache/.gitkeep
 raw-datasets/
 legacy-v1-outputs/
 

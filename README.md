@@ -64,6 +64,46 @@ python -m pip install -r requirements.txt
 
 ## Phase 3 execution
 
+### Dynamic company filing discovery
+
+The project can resolve a configured company by name, code, or NSE symbol and
+query NSE announcements for BRSR-related PDF/XBRL attachments:
+
+```bat
+python helper-scripts\discover_company_filings.py Infosys
+python helper-scripts\discover_company_filings.py INFY --download
+```
+
+Dynamic acquisition stages use dependency-aware orchestration and cache
+source results under `data/cache/`. Filing discovery runs before location
+context; market and news acquisition run in parallel.
+
+The orchestration contract is implemented in `utils/orchestrator.py`. Each
+source adapter provides a `StageSpec` with a primary fetcher and optional
+fallback. Failed primary stages are reported explicitly; successful fallback
+stages are marked as `fallback` rather than appearing as primary successes.
+
+Phase 5 live adapters are available in `utils/live_sources.py`:
+Yahoo Finance provides market prices, GDELT DOC 2.0 provides ESG-related news,
+and Open-Meteo provides location-based air-quality context. If a live source
+fails, the corresponding local benchmark dataset is used and the result is
+marked as a fallback. Air quality remains contextual and has no ESG-score
+impact.
+
+Evidence-grounded explanations are available through
+`utils/evidence_explainer.py`. The deterministic explanation is always based
+on recorded contributions and provenance; OpenAI wording is accepted only
+when every citation refers to supplied evidence. Missing credentials, invalid
+JSON, or unsupported citations use the deterministic explanation when fallback
+is enabled.
+
+Section C validation helpers are available through
+`utils/research_validation.py`. They compare project rankings with an
+externally supplied NSE Top 200 table, measure ESG associations with observed
+stock returns and ESG-news sentiment, and emit cross-source review signals.
+These reports are descriptive only: they do not prove causality, label a
+company as greenwashing, or alter the ESG score.
+
 ### 1. Check the 20-company configuration
 
 ```bat

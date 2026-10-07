@@ -21,7 +21,12 @@ SPECIALISTS = {
 
 class Supervisor:
     def __init__(self, model=None, max_steps=12):
-        self.model=model or os.getenv("OPENAI_MODEL","gpt-5.6-luna")
+        self.model=model or os.getenv("OPENAI_MODEL")
+        if not self.model:
+            raise RuntimeError(
+                "OPENAI_MODEL is not set. "
+                "Add the OpenAI model name to your .env file."
+            )
         self.max_steps=max_steps
         self.client=OpenAI()
         self.trace=[]
