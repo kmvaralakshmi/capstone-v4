@@ -29,7 +29,8 @@ Autonomous mode requires an OpenAI API key. Do **not** commit the key to GitHub 
 2. Install requirements.
 3. Copy `.env.example` to `.env`.
 4. Put your key in `OPENAI_API_KEY`.
-5. Run the autonomous pipeline.
+5. Set `OPENAI_MODEL` to the OpenAI model enabled for your account.
+6. Run the autonomous pipeline.
 
 Windows:
 
@@ -46,6 +47,13 @@ Run:
 
 ```bat
 python run_autonomous_pipeline.py
+```
+
+To resolve a company and discover its NSE BRSR/XBRL filings:
+
+```bat
+python helper-scripts\discover_company_filings.py INFY
+python helper-scripts\discover_company_filings.py Infosys --download
 ```
 
 You can run one agent while testing:
@@ -72,6 +80,16 @@ python run_autonomous_pipeline.py --agents agent1
 ```
 
 The seven agents are still specialized and communicate through generated files in `processed-data/`. The new autonomous layer decides tool usage within each specialization.
+
+Dynamic acquisition uses the dependency-aware orchestrator in
+`utils/orchestrator.py`; source adapters can provide primary and fallback
+fetchers without hiding failures or cache usage.
+
+Section C research validation is implemented in
+`utils/research_validation.py`. It consumes an externally supplied NSE Top 200
+rank table and existing project outputs to produce ranking comparisons,
+observed ESG/stock and ESG/news associations, and cross-source review signals.
+The analyses are descriptive and do not prove causality or change ESG scores.
 
 ## Evidence of autonomy
 

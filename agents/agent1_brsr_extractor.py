@@ -13,7 +13,14 @@ from typing import Dict, List, Optional, Tuple
 # Need to add parent directory so we can import from utils folder
 sys.path.append(str(Path(__file__).parent.parent))
 
-from utils.config import COMPANIES, ESG_METRICS, BRSR_PDF_DIR, PROCESSED_DATA_DIR, OUTPUT_FILES
+from utils.config import (
+    COMPANIES,
+    ESG_METRICS,
+    BRSR_PDF_DIR,
+    XBRL_DIR,
+    PROCESSED_DATA_DIR,
+    OUTPUT_FILES,
+)
 from utils.pdf_extractor import (
     extract_text_from_pdf,
     extract_tables_from_pdf,
@@ -23,6 +30,8 @@ from utils.pdf_extractor import (
     get_pdf_metadata
 )
 from utils.data_validator import validate_numeric_value, validate_percentage
+from utils.provenance import metric_provenance, new_run_id, StageTimer
+from utils.xbrl_extractor import XBRLMetric, find_xbrl_file, load_xbrl_metrics
 
 
 class BRSRExtractionAgent:
@@ -36,10 +45,12 @@ class BRSRExtractionAgent:
         self.companies = COMPANIES
         self.metrics = ESG_METRICS
         self.brsr_dir = BRSR_PDF_DIR
+        self.xbrl_dir = XBRL_DIR
         self.output_dir = PROCESSED_DATA_DIR
         # Will store all extracted data rows here
         self.extracted_data = []
         self.timing_data = []
+        self.run_id = new_run_id()
 
     def _extract_value_from_text(self, text: str, metric_info: Dict, keyword: Optional[str] = None) -> Optional[float]:
         """Extract a candidate value from text using keyword-aware regex first, then generic parsing."""
@@ -191,6 +202,7 @@ class BRSRExtractionAgent:
     def _confidence_from_method(self, method: str, needs_review: bool) -> float:
         """Estimate confidence score from extraction method and validation result."""
         base = {
+            'xbrl': 0.95,
             'table': 0.90,
             'keyword_context': 0.75,
             'text_window': 0.60,
@@ -201,6 +213,19 @@ class BRSRExtractionAgent:
             base = max(0.20, base - 0.35)
 
         return round(base, 2)
+
+    @staticmethod
+    def _discrepancy_status(
+        xbrl_value: Optional[float],
+        pdf_value: Optional[float],
+    ) -> str:
+        """Compare primary XBRL and PDF evidence values."""
+        if xbrl_value is None or pdf_value is None:
+            return "not_comparable"
+        if xbrl_value == pdf_value:
+            return "match"
+        denominator = max(abs(xbrl_value), abs(pdf_value), 1.0)
+        return "match" if abs(xbrl_value - pdf_value) / denominator <= 0.01 else "discrepancy"
         
     def check_pdf_availability(self) -> Dict[str, bool]:
         """
@@ -253,6 +278,7 @@ class BRSRExtractionAgent:
             page_numbers=candidate_pages if candidate_pages else None,
         )
         if value is not None:
+            pdf_metric_value = value
             metric_value = value
             page_number = page_num
             matched_keyword = keyword
@@ -262,6 +288,7 @@ class BRSRExtractionAgent:
         if metric_value is None:
             value, page_num, keyword = self._extract_from_context_search(search_results, metric_info)
             if value is not None:
+                pdf_metric_value = value
                 metric_value = value
                 page_number = page_num
                 matched_keyword = keyword
@@ -352,6 +379,25 @@ class BRSRExtractionAgent:
             self.companies.items(), start=1
         ):
             company_start = time.perf_counter()
+            company_timer = StageTimer(
+                run_id=self.run_id,
+                stage="Agent 1 - BRSR extraction",
+                source="BRSR PDF",
+            )
+            xbrl_path = find_xbrl_file(self.xbrl_dir, company_code)
+            xbrl_metrics: Dict[str, XBRLMetric] = {}
+            xbrl_error = ""
+            if xbrl_path is not None:
+                metric_names = [
+                    metric["name"]
+                    for metrics in self.metrics.values()
+                    for metric in metrics
+                ]
+                try:
+                    xbrl_metrics = load_xbrl_metrics(xbrl_path, metric_names)
+                except (OSError, ValueError):
+                    xbrl_error = f"Unable to parse XBRL file: {xbrl_path.name}"
+                    print(xbrl_error)
 
             print("\n" + "=" * 70)
             print(
@@ -360,7 +406,7 @@ class BRSRExtractionAgent:
             )
             print("=" * 70)
 
-            if not availability[company_code]:
+            if not availability[company_code] and not xbrl_metrics:
                 print("NO PDF - creating placeholder rows")
                 placeholder_count = 0
 
@@ -389,7 +435,14 @@ class BRSRExtractionAgent:
                             'Notes': (
                                 'BRSR PDF not available; populate from '
                                 'alternate source or upload PDF'
-                            )
+                            ),
+                            **metric_provenance(
+                                run_id=self.run_id,
+                                source='BRSR PDF',
+                                evidence_source='BRSR PDF',
+                                section=metric_info.get('typical_section', ''),
+                                fallback_used=True,
+                            ),
                         })
                         placeholder_count += 1
 
@@ -412,8 +465,80 @@ class BRSRExtractionAgent:
                     "Metrics_Extracted": 0,
                     "Metrics_Not_Found": placeholder_count,
                     "Status": "NO PDF - PLACEHOLDERS",
+                    **company_timer.finish(
+                        status="fallback",
+                    ),
                 })
                 print(f"Company total: {elapsed:.2f} sec")
+                continue
+
+            if not availability[company_code] and xbrl_metrics:
+                print(
+                    f"NO PDF - using XBRL primary source "
+                    f"({len(xbrl_metrics)} metrics)"
+                )
+                metrics_total = sum(len(metrics) for metrics in self.metrics.values())
+                metrics_extracted = 0
+                for category, metrics in self.metrics.items():
+                    for metric_info in metrics:
+                        metric_name = metric_info["name"]
+                        xbrl_metric = xbrl_metrics.get(metric_name)
+                        value = xbrl_metric.value if xbrl_metric else None
+                        validation_status, needs_review, validation_note = (
+                            self._validate_metric_value(metric_name, metric_info, value)
+                        )
+                        method = "xbrl" if xbrl_metric and not needs_review else "not_found"
+                        if method == "xbrl":
+                            metrics_extracted += 1
+                            status = "XBRL-extracted"
+                            notes = f"Concept: {xbrl_metric.concept}; {validation_note}"
+                        else:
+                            status = "Not found"
+                            notes = xbrl_error or "Metric not found in XBRL."
+                        self.extracted_data.append({
+                            "Company_Code": company_code,
+                            "Company_Name": company_info.get("full_name", company_code),
+                            "Metric_Category": category,
+                            "Metric_Name": metric_name,
+                            "Metric_Value": value if method == "xbrl" else None,
+                            "Unit": xbrl_metric.unit if xbrl_metric else metric_info["unit"],
+                            "Page_Number": None,
+                            "Verified": status,
+                            "Extraction_Method": method,
+                            "Confidence_Score": self._confidence_from_method(method, needs_review),
+                            "Validation_Status": validation_status,
+                            "Needs_Manual_Review": needs_review or value is None,
+                            "Extraction_Date": datetime.now().strftime("%Y-%m-%d"),
+                            "Notes": notes,
+                            **metric_provenance(
+                                run_id=self.run_id,
+                                source="XBRL",
+                                evidence_source="XBRL",
+                                source_url=str(xbrl_path),
+                                section=xbrl_metric.section if xbrl_metric else metric_info.get("typical_section", ""),
+                                fallback_used=False,
+                                discrepancy_status="not_comparable",
+                            ),
+                        })
+                elapsed = time.perf_counter() - company_start
+                self.timing_data.append({
+                    "Company_Code": company_code,
+                    "Company_Name": company_info.get("full_name", company_code),
+                    "PDF_Pages": 0,
+                    "PDF_Size_MB": 0,
+                    "Text_Extraction_Seconds": 0,
+                    "Keyword_Indexing_Seconds": 0,
+                    "Candidate_Page_Seconds": 0,
+                    "Table_Extraction_Seconds": 0,
+                    "Metric_Extraction_Seconds": 0,
+                    "Validation_Seconds": 0,
+                    "Company_Total_Seconds": round(elapsed, 3),
+                    "Metrics_Total": metrics_total,
+                    "Metrics_Extracted": metrics_extracted,
+                    "Metrics_Not_Found": metrics_total - metrics_extracted,
+                    "Status": "XBRL PRIMARY - NO PDF",
+                    **company_timer.finish(status="success"),
+                })
                 continue
 
             pdf_path = self.brsr_dir / company_info['brsr_file']
@@ -556,6 +681,7 @@ class BRSRExtractionAgent:
                     search_results = metric_search_results[metric_name]
 
                     metric_value = None
+                    pdf_metric_value = None
                     page_number = None
                     matched_keyword = None
                     extraction_method = 'not_found'
@@ -569,6 +695,7 @@ class BRSRExtractionAgent:
                     )
 
                     if value is not None:
+                        pdf_metric_value = value
                         metric_value = value
                         page_number = page_num
                         matched_keyword = keyword
@@ -597,6 +724,34 @@ class BRSRExtractionAgent:
                             page_number = page_num
                             matched_keyword = keyword
                             extraction_method = 'text_window'
+
+                    xbrl_metric = xbrl_metrics.get(metric_name)
+                    xbrl_value = xbrl_metric.value if xbrl_metric else None
+                    notes_suffix = ""
+                    xbrl_status, xbrl_needs_review, xbrl_note = (
+                        self._validate_metric_value(metric_name, metric_info, xbrl_value)
+                    )
+                    use_xbrl = xbrl_metric is not None and not xbrl_needs_review
+                    if use_xbrl:
+                        metric_value = xbrl_value
+                        page_number = None
+                        matched_keyword = xbrl_metric.concept
+                        extraction_method = "xbrl"
+                        source = "XBRL"
+                        evidence_source = "BRSR PDF" if pdf_metric_value is not None else "XBRL"
+                        fallback_used = False
+                        discrepancy_status = self._discrepancy_status(
+                            xbrl_value, pdf_metric_value
+                        )
+                    else:
+                        source = "BRSR PDF"
+                        evidence_source = "BRSR PDF"
+                        fallback_used = xbrl_path is not None
+                        discrepancy_status = "not_comparable"
+                        if xbrl_metric is not None:
+                            notes_suffix = f" XBRL fallback: {xbrl_note}."
+                        else:
+                            notes_suffix = ""
 
                     validation_start = time.perf_counter()
                     (
@@ -635,6 +790,15 @@ class BRSRExtractionAgent:
                         )
                         company_extracted += 1
 
+                    if use_xbrl:
+                        status = "XBRL-extracted"
+                        notes = (
+                            f"Concept: {xbrl_metric.concept}; "
+                            f"PDF comparison: {discrepancy_status}"
+                        )
+                    elif notes_suffix:
+                        notes += notes_suffix
+
                     self.extracted_data.append({
                         'Company_Code': company_code,
                         'Company_Name': self.companies[
@@ -655,7 +819,16 @@ class BRSRExtractionAgent:
                         'Extraction_Date': datetime.now().strftime(
                             '%Y-%m-%d'
                         ),
-                        'Notes': notes
+                        'Notes': notes,
+                        **metric_provenance(
+                            run_id=self.run_id,
+                            source=source,
+                            evidence_source=evidence_source,
+                            source_url=str(xbrl_path) if xbrl_path is not None else "",
+                            section=metric_info.get('typical_section', ''),
+                            fallback_used=fallback_used,
+                            discrepancy_status=discrepancy_status,
+                        ),
                     })
 
             metric_seconds = time.perf_counter() - metric_stage
@@ -689,6 +862,7 @@ class BRSRExtractionAgent:
                 "Metrics_Extracted": company_extracted,
                 "Metrics_Not_Found": company_not_found,
                 "Status": "COMPLETED",
+                **company_timer.finish(),
             })
 
         overall_seconds = time.perf_counter() - overall_start
@@ -722,6 +896,7 @@ class BRSRExtractionAgent:
         output_path = self.output_dir / filename
 
         columns = [
+            "Run_ID",
             "Company_Code",
             "Company_Name",
             "PDF_Pages",
@@ -737,6 +912,14 @@ class BRSRExtractionAgent:
             "Metrics_Extracted",
             "Metrics_Not_Found",
             "Status",
+            "Stage",
+            "Stage_Status",
+            "Source",
+            "Start_Time",
+            "End_Time",
+            "Duration_Seconds",
+            "Error",
+            "Fallback_Used",
         ]
 
         timing_df = pd.DataFrame(self.timing_data)
